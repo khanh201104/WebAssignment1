@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng ký nhận thông tin - Blakletterpress</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<style>
+		/* Thêm một số CSS bổ sung để Form hiển thị ngay ngắn chuẩn khung */
+		.register-form fieldset {
+			border: 1px solid #ccc;
+			padding: 15px;
+			margin-bottom: 15px;
+			background-color: rgba(255, 255, 255, 0.4);
+		}
+		.register-form legend {
+			font-weight: bold;
+			padding: 0 5px;
+		}
+		.form-group {
+			margin-bottom: 12px;
+		}
+		.form-group label {
+			display: block;
+			margin-bottom: 4px;
+			font-size: 13px;
+		}
+		.form-group input[type="text"],
+		.form-group input[type="email"],
+		.form-group input[type="password"],
+		.form-group input[type="tel"],
+		.form-group input[type="date"],
+		.form-group input[type="number"],
+		.form-group select,
+		.form-group textarea {
+			width: 95%;
+			padding: 5px;
+			border: 1px solid #aaa;
+		}
+		.form-inline label {
+			display: inline-block;
+			margin-right: 15px;
+		}
+		.btn-submit, .btn-reset {
+			padding: 6px 15px;
+			background: #2e7d32;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+			font-weight: bold;
+		}
+		.btn-reset {
+			background: #555;
+		}
+	</style>
+</head>
+<body>
+	<div id="page">
+		<header id="header">
+			<div id="motto">
+				<a href="index.html" class="sitename"><img src="images/blakletterpress.png" height="24" width="142" alt="SiteName"></a>
+				<p><img src="images/header-text.png" height="14" width="218" alt="Text"></p>
+			</div>
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+			</div>
+			<div id="searchbar">
+				<form action="#" method="post" role="search">
+					<input type="text" value="Enter search query" class="txtfield">
+					<input type="submit" value="Search" class="btn">
+				</form>
+			</div>
+		</header>
+
+		<div id="contents">
+			<main id="main">
+				<article class="body">
+					<h1>Đăng ký nhận thông tin</h1>
+					<p style="font-size: 13px; color: #555;">Điền thông tin bên dưới để nhận bản tin định kỳ. Các trường có dấu * là bắt buộc.</p>
+
+					<form action="#" method="post" class="register-form">
+						<!-- Nhóm 1 -->
+						<fieldset>
+							<legend>Thông tin tài khoản</legend>
+							<div class="form-group">
+								<label for="fullname">Họ và tên *</label>
+								<input type="text" id="fullname" name="fullname" placeholder="Nguyễn Văn A" required>
+							</div>
+							<div class="form-group">
+								<label for="email">Email *</label>
+								<input type="email" id="email" name="email" placeholder="ban@example.com" required>
+							</div>
+							<div class="form-group">
+								<label for="password">Mật khẩu * (tối thiểu 8 ký tự)</label>
+								<input type="password" id="password" name="password" minlength="8" required>
+							</div>
+							<div class="form-group">
+								<label for="phone">Số điện thoại * (10 số, bắt đầu bằng 0)</label>
+								<input type="tel" id="phone" name="phone" pattern="[0][0-9]{9}" placeholder="0901234567" required>
+							</div>
+						</fieldset>
+
+						<!-- Nhóm 2 -->
+						<fieldset>
+							<legend>Thông tin cá nhân</legend>
+							<div class="form-group">
+								<label for="dob">Ngày sinh *</label>
+								<input type="date" id="dob" name="dob" required>
+							</div>
+							<div class="form-group">
+								<label for="age">Độ tuổi *</label>
+								<input type="number" id="age" name="age" min="1" max="120" required>
+							</div>
+							<div class="form-group form-inline">
+								<label>Giới tính *</label>
+								<label><input type="radio" name="gender" value="nam" required> Nam</label>
+								<label><input type="radio" name="gender" value="nu"> Nữ</label>
+								<label><input type="radio" name="gender" value="khac"> Khác</label>
+							</div>
+						</fieldset>
+
+						<!-- Nhóm 3 -->
+						<fieldset>
+							<legend>Tuỳ chọn nhận tin</legend>
+							<div class="form-group form-inline">
+								<label>Chủ đề quan tâm</label>
+								<label><input type="checkbox" name="topic" value="tintuc"> Tin tức</label>
+								<label><input type="checkbox" name="topic" value="blog"> Blog</label>
+								<label><input type="checkbox" name="topic" value="sukien"> Sự kiện</label>
+							</div>
+							<div class="form-group">
+								<label for="location">Khu vực</label>
+								<select id="location" name="location">
+									<option value="">-- Chọn khu vực --</option>
+									<option value="hanoi">Hà Nội</option>
+									<option value="hcm">TP. Hồ Chí Minh</option>
+									<option value="danang">Đà Nẵng</option>
+									<option value="khac">Khác</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="message">Lời nhắn</label>
+								<textarea id="message" name="message" rows="4" placeholder="Bạn muốn nhận nội dung gì?"></textarea>
+							</div>
+							<div class="form-group">
+								<label>
+									<input type="checkbox" name="terms" required> Tôi đồng ý với điều khoản sử dụng *
+								</label>
+							</div>
+						</fieldset>
+
+						<div>
+							<input type="submit" value="Đăng ký" class="btn-submit">
+							<input type="reset" value="Nhập lại" class="btn-reset">
+						</div>
+					</form>
+				</article>
+			</main>
+
+			<!-- Giữ nguyên sidebar -->
+			<aside id="sidebar">
+				<nav id="navigation">
+					<div>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="news.html">News</a></li>
+							<li><a href="blog.html">Blog</a></li>
+						</ul>
+					</div>
+				</nav>
+				<section class="section">
+					<div id="connect">
+						<h2>Connect with us:</h2>
+						<a href="#" class="twitter"></a> <a href="#" class="facebook"></a> <a href="#" class="googleplus"></a>
+					</div>
+				</section>
+				<section class="section">
+					<div id="posts">
+						<h2>Placeholder</h2>
+						<ul>
+							<li>
+								<h5>Title Sample One</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+								<a href="news.html" class="more">Read more</a>
+							</li>
+						</ul>
+						<a href="news.html" class="btn2">View More</a>
+					</div>
+				</section>
+			</aside>
+		</div>
+
+		<footer id="footer">
+			<div>
+				<p id="footnote">© Copyright © 2011.Company name all rights reserved</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
