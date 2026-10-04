@@ -1,0 +1,214 @@
+/* =====================================================================
+   Blakletterpress — Trang khuyến mãi thiệp Tết 2026
+   HOẠT ĐỘNG 2 — CSS cho phần DÙNG GenAI (chủ đề: Box model + Position).
+
+   Đã chẩn đoán và khắc phục toàn bộ các lỗi tinh vi về Box Model & Position,
+   đồng thời bảo vệ các đoạn mã giao diện nâng cao theo đúng yêu cầu.
+   ===================================================================== */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: #222;
+	background: #f4f1ea;
+	line-height: 1.5;
+}
+
+a {
+	color: inherit;
+}
+
+.page {
+	/* SỬA LỖI 1: Thay overflow-x: hidden bằng overflow-x: clip 
+	   để vừa chống tràn ngang vừa không làm vỡ position: sticky của header */
+	overflow-x: clip;
+}
+
+/* ===== Header / thanh điều hướng ===== */
+.site-header {
+	background: #2b2b2b;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.header-inner {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 16px 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.brand {
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.main-nav ul {
+	list-style: none;
+	display: flex;
+	gap: 24px;
+}
+
+.main-nav a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.main-nav a:hover {
+	color: #fff;
+}
+
+/* ===== Hero ===== */
+.hero {
+	position: relative;
+	height: 360px;
+	overflow: hidden; /* BẢO VỆ: Cắt phần ảnh overflow do hiệu ứng scale */
+}
+
+.hero-bg {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transform: scale(1.08); /* BẢO VỆ: Hiệu ứng zoom ảnh nền Hero */
+}
+
+.hero-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	max-width: 560px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.hero-overlay h1 {
+	font-size: 34px;
+	margin-bottom: 12px;
+}
+
+.hero-overlay p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.hero-btn {
+	display: inline-block;
+	padding: 12px 28px;
+	background: #c0392b;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+/* ===== Khu sản phẩm ===== */
+.products {
+	max-width: 1000px;
+	margin: -48px auto 48px; /* BẢO VỆ: Đẩy phần sản phẩm đè lên ảnh Hero 48px */
+	padding: 24px 24px 0;
+	position: relative;
+	z-index: 1; /* BẢO VỆ: Đảm bảo lớp hiển thị đè lên Hero */
+	background: #f4f1ea;
+	border-radius: 16px 16px 0 0; /* BẢO VỆ: Góc bo tròn phần đè lên Hero */
+}
+
+.products h2 {
+	margin-bottom: 24px;
+	font-size: 28px;
+}
+
+.card-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+
+.card {
+	flex: 0 0 calc((100% - 48px) / 3);
+	min-height: 320px;
+	position: relative;
+	box-sizing: border-box; /* SỬA LỖI 3: Chuyển từ content-box sang border-box để không vỡ layout/rớt hàng */
+	background: #fff;
+	border: 1px solid #e0d8c8;
+	border-radius: 8px;
+	padding: 16px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.badge {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	background: #c0392b;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 4px 10px;
+	border-radius: 20px;
+	z-index: 3; /* SỬA LỖI 2: Đặt z-index: 3 lớn hơn z-index: 2 của ảnh để nhãn luôn hiển thị trên cùng */
+}
+
+.card img {
+	display: block;
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 4px;
+	position: relative;
+	z-index: 2; /* BẢO VỆ: Giữ nguyên stacking context cho ảnh */
+}
+
+.card-body h3 {
+	margin: 12px 0 8px;
+	font-size: 20px;
+}
+
+.card-body p {
+	margin-bottom: 8px;
+	font-size: 15px;
+	color: #555;
+}
+
+.card-body .price {
+	color: #c0392b;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* ===== Nút lên đầu trang ===== */
+.back-to-top {
+	position: fixed;
+	bottom: 24px;
+	right: 24px;
+	width: 48px;
+	height: 48px;
+	background: #2b2b2b;
+	color: #fff;
+	text-align: center;
+	line-height: 48px;
+	font-size: 22px;
+	text-decoration: none;
+	border-radius: 50%;
+	z-index: 200; /* BẢO VỆ: Đảm bảo nút cố định luôn nổi trên cùng mọi phần tử */
+}
+
+/* ===== Footer ===== */
+.site-footer {
+	padding: 32px 24px;
+	background: #2b2b2b;
+	color: #cfcfcf;
+	text-align: center;
+	font-size: 14px;
+}
