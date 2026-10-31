@@ -66,7 +66,11 @@ Agent tự động thực hiện tuần tự các bước sau mà không cần n
    * *Thân chương (2.000 – 2.500 từ):* Đối thoại tự nhiên, chiến thuật chi tiết, xung đột leo thang.
    * *Kết chương (500 – 800 từ):* Điểm lặng, quyết định dứt khoát, để lại dư âm (hook).
 4. **Bước 4 - Kiểm soát dung lượng:** 3.000 – 4.000 từ.
-5. **Bước 5 - Bộ lọc làm sạch:** Quét sạch từ ngữ tiên hiệp trước khi xuất bản.
+5. **Bước 5 - Bộ lọc làm sạch:** Quét sạch từ ngữ tiên hiệp và chú thích giai đoạn nội bộ trước khi xuất bản.
+
+### 3.5. Quy chuẩn định vị dòng thời gian (Temporal Anchoring)
+* Đầu mỗi chương bắt buộc có dòng định vị thời gian in nghiêng tự nhiên: `*Mùa/Tháng năm XXX lịch Roland – Thời khắc trong ngày, bối cảnh / khoảng cách thời gian kể từ sự kiện trước.*`
+* **TUYỆT ĐỐI KHÔNG ĐƯA CHÚ THÍCH GIAI ĐOẠN NỘI BỘ VÀO VĂN BẢN:** Các nhãn phân kỳ như `(Giai đoạn 2.1: Năm nhất)`, `(Giai đoạn 2.2: Năm 2)` là tài liệu định hướng nội bộ của Master Outline để AI nắm bắt tiến trình cốt truyện, **tuyệt đối không được đưa vào nội dung chương truyện hay hiển thị trên giao diện độc giả**.
 
 ---
 

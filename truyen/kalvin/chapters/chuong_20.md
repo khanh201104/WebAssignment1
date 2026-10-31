@@ -6,7 +6,7 @@
 
 ***
 
-*Cuối mùa đông năm 941 lịch Roland – Sáng sớm hôm sau cuộc phục kích ngõ hẹp, ngày mở cổng bãi săn Rừng Sương Muối (Kỳ khảo hạch thực địa cuối Năm nhất).*
+*Cuối mùa đông năm 941 lịch Roland – Sáng sớm hôm sau cuộc phục kích ngõ hẹp, ngày mở cổng bãi săn Rừng Sương Muối.*
 
 Mùi muối khoáng xộc thẳng vào cuống họng ngay khi bước chân đầu tiên chạm qua ngưỡng cửa sắt.
 

@@ -6,7 +6,7 @@
 
 ***
 
-*Cuối mùa đông năm 941 lịch Roland – Mười phút sau khi diệt ba con Hắc Bào Khuyển, giữa trưa trên mỏm Đầu Thao của Rừng Sương Muối (Kỳ khảo hạch thực địa cuối Năm nhất).*
+*Cuối mùa đông năm 941 lịch Roland – Mười phút sau khi diệt ba con Hắc Bào Khuyển, giữa trưa trên mỏm Đầu Thao của Rừng Sương Muối.*
 
 Gió bấc từ đỉnh núi Răng Rồng đột ngột hạ thấp cao độ, đè bẹp những cụm sương muối trôi lơ lửng xuống sát mặt đất.
 

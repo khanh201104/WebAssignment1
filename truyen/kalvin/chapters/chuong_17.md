@@ -6,7 +6,7 @@
 
 ***
 
-*Mùa thu năm 941 lịch Roland – Chiều tà tại sân tập kỵ sĩ (Ba tuần sau ngày nhập học - Năm nhất).*
+*Mùa thu năm 941 lịch Roland – Chiều tà tại sân tập kỵ sĩ (ba tuần sau ngày nhập học).*
 
 Tháng Mười Một ở kinh thành Leicester bắt đầu bằng những cơn mưa phùn dai dẳng và giá buốt.
 

@@ -6,7 +6,7 @@
 
 ***
 
-*Cuối mùa đông năm 941 lịch Roland – Chiều tà cùng ngày thi thực địa, tại Trạm Kiểm Soát Số Ba của Quân đoàn Cấm Vệ (Kết thúc kỳ khảo hạch Năm nhất).*
+*Cuối mùa đông năm 941 lịch Roland – Chiều tà cùng ngày thi thực địa, tại Trạm Kiểm Soát Số Ba của Quân đoàn Cấm Vệ.*
 
 Mùi sương muối mặn chát dần nhạt đi khi đoàn người bước qua khúc quanh cuối cùng của lòng suối cạn.
 

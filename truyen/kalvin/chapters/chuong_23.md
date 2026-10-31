@@ -6,7 +6,7 @@
 
 ***
 
-*Mùa đông năm 942 lịch Roland – Ba ngày sau kỳ thi thực địa, đêm diễn ra Dạ Tiệc Trăng Tuyết tại Cung Điện Mùa Đông (Giai đoạn 2.2: Năm 2).*
+*Mùa đông năm 942 lịch Roland – Ba ngày sau kỳ thi thực địa, đêm diễn ra Dạ Tiệc Trăng Tuyết tại Cung Điện Mùa Đông.*
 
 Gió bão quét qua các chóp tháp nhọn hoắt của Cung Điện Mùa Đông, mang theo những bông tuyết đầu mùa đông đặc như vảy cá.
 
