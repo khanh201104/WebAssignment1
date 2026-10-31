@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Biên Niên Sử Tro Tàn: Kalvin Palace</title>
+  
+  <!-- Google Fonts: Literata & Inter for high readability -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-sepia font-serif">
+
+  <!-- Reading Progress Bar -->
+  <div id="progress-bar-container">
+    <div id="progress-bar"></div>
+  </div>
+
+  <!-- Mobile-first Top Navigation Header -->
+  <header class="app-header">
+    <div class="header-left">
+      <button id="btn-toggle-menu" class="btn-icon" aria-label="Mục lục chương" title="Mục lục">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+      <div class="novel-info">
+        <h1 class="novel-title" id="header-novel-title">Biên Niên Sử Tro Tàn</h1>
+        <span class="novel-subtitle" id="header-chapter-badge">Chương 1</span>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <button id="btn-toggle-settings" class="btn-icon" aria-label="Cài đặt đọc" title="Tùy chỉnh giao diện">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"></circle>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+        </svg>
+      </button>
+      <button id="btn-open-publish" class="btn-publish" title="Đăng chương mới">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+        </svg>
+        <span class="btn-text">Đăng chương</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Reading Customization Panel (Dropdown/Bottom sheet on mobile) -->
+  <div id="settings-panel" class="settings-panel hidden">
+    <div class="settings-group">
+      <label class="settings-label">Chế độ màu</label>
+      <div class="theme-buttons">
+        <button class="btn-theme light" data-theme="light" title="Chế độ Sáng">Sáng</button>
+        <button class="btn-theme sepia active" data-theme="sepia" title="Giấy Cũ (Dịu mắt)">Giấy Cũ</button>
+        <button class="btn-theme dark" data-theme="dark" title="Chế độ Đêm (OLED)">Đêm</button>
+      </div>
+    </div>
+
+    <div class="settings-group">
+      <label class="settings-label">Kiểu chữ</label>
+      <div class="font-buttons">
+        <button class="btn-font active" data-font="font-serif">Có chân (Serif)</button>
+        <button class="btn-font" data-font="font-sans">Không chân (Sans)</button>
+      </div>
+    </div>
+
+    <div class="settings-group">
+      <div class="settings-slider-header">
+        <label class="settings-label">Cỡ chữ</label>
+        <span id="font-size-val">19px</span>
+      </div>
+      <div class="font-size-controls">
+        <button id="btn-font-decrease" class="btn-size" aria-label="Giảm cỡ chữ">A-</button>
+        <input type="range" id="font-size-slider" min="14" max="28" step="1" value="19">
+        <button id="btn-font-increase" class="btn-size" aria-label="Tăng cỡ chữ">A+</button>
+      </div>
+    </div>
+
+    <div class="settings-group">
+      <div class="settings-slider-header">
+        <label class="settings-label">Giãn dòng</label>
+        <span id="line-height-val">1.8</span>
+      </div>
+      <input type="range" id="line-height-slider" min="1.4" max="2.4" step="0.1" value="1.8">
+    </div>
+  </div>
+
+  <!-- Table of Contents Drawer (Side Drawer / Modal on Mobile) -->
+  <aside id="drawer-menu" class="drawer-menu">
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <div class="drawer-title-wrap">
+          <h2 class="drawer-title">Mục Lục Chương</h2>
+          <span class="drawer-meta" id="drawer-chapter-count">19 chương</span>
+        </div>
+        <button id="btn-close-drawer" class="btn-icon" aria-label="Đóng mục lục">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Quick Search -->
+      <div class="drawer-search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="search-chapter-input" placeholder="Tìm kiếm chương...">
+      </div>
+
+      <!-- Chapter Navigation List by Arc -->
+      <div id="drawer-chapter-list" class="drawer-chapter-list">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Drawer Footer Actions -->
+      <div class="drawer-footer">
+        <button id="btn-drawer-add-chap" class="btn-secondary w-full">
+          ✍️ Đăng thêm chương mới
+        </button>
+        <button id="btn-drawer-export" class="btn-link" title="Sao lưu dữ liệu JSON">
+          💾 Tải dữ liệu sao lưu (.json)
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Reader Container -->
+  <main class="reader-container" id="reader-container">
+    <!-- Chapter Header -->
+    <header class="chapter-header" id="chapter-header">
+      <div class="arc-badge" id="chapter-arc">Arc 1: Tuổi Thơ Nơi Nhà Palace</div>
+      <h2 class="chapter-title" id="chapter-title">Chương 1: Căn Phòng Không Có Lò Sưởi</h2>
+      <div class="chapter-meta">
+        <span id="chapter-word-count">~3.500 từ</span>
+        <span class="meta-dot">•</span>
+        <span id="chapter-read-time">~10 phút đọc</span>
+        <span id="chapter-has-illus-badge" class="illus-badge hidden">🖼️ Có ảnh minh họa</span>
+      </div>
+    </header>
+
+    <!-- Top Illustrations Banner (if any) -->
+    <section id="chapter-top-illustrations" class="illustration-section hidden"></section>
+
+    <!-- Chapter Content Body -->
+    <article class="chapter-content" id="chapter-content">
+      <!-- Paragraphs and inline images injected via JS -->
+      <div class="loading-spinner">Đang tải nội dung chương...</div>
+    </article>
+
+    <!-- Bottom Illustrations Gallery (e.g. Manga pages, storyboard) -->
+    <section id="chapter-bottom-illustrations" class="illustration-gallery-section hidden">
+      <h3 class="gallery-title">🎨 Tranh Minh Họa & Bản Thảo Manga</h3>
+      <div class="gallery-grid" id="bottom-illustrations-grid"></div>
+    </section>
+
+    <!-- Navigation Footer Controls -->
+    <nav class="chapter-nav-bottom" aria-label="Điều hướng chương">
+      <button id="btn-prev-chapter" class="btn-nav" title="Chương trước">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+        <span>Chương trước</span>
+      </button>
+
+      <div class="chapter-select-wrap">
+        <select id="select-chapter-jump" class="select-chapter" aria-label="Chọn chương nhanh">
+          <!-- Populated by JS -->
+        </select>
+      </div>
+
+      <button id="btn-next-chapter" class="btn-nav btn-nav-primary" title="Chương tiếp theo">
+        <span>Chương sau</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Bottom Actions -->
+    <div class="reader-bottom-actions">
+      <button id="btn-scroll-top" class="btn-scroll-top" title="Cuộn lên đầu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+        <span>Lên đầu trang</span>
+      </button>
+    </div>
+  </main>
+
+  <!-- Publish / Add Chapter Modal -->
+  <div id="publish-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title">✍️ Đăng Chương Mới</h2>
+        <button id="btn-close-publish-modal" class="btn-icon" aria-label="Đóng">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <form id="form-publish-chapter" class="publish-form">
+        <div class="form-row">
+          <div class="form-group flex-1">
+            <label for="input-chap-num">Số chương *</label>
+            <input type="number" id="input-chap-num" required min="1" value="20">
+          </div>
+          <div class="form-group flex-2">
+            <label for="input-chap-arc">Tập / Arc *</label>
+            <input type="text" id="input-chap-arc" list="arc-suggestions" required value="Arc 2: Học Viện Hoàng Gia Leicester">
+            <datalist id="arc-suggestions">
+              <option value="Arc 1: Tuổi Thơ Nơi Nhà Palace">
+              <option value="Arc 2: Học Viện Hoàng Gia Leicester">
+              <option value="Arc 3: Manchester – Lãnh Địa Của Cái Chết">
+              <option value="Arc 4: Cuộc Khởi Nghĩa Tro Tàn">
+            </datalist>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="input-chap-title">Tiêu đề chương *</label>
+          <input type="text" id="input-chap-title" required placeholder="Ví dụ: Rừng Sương Muối và Lưỡi Rìu Săn Ma Thú">
+        </div>
+
+        <div class="form-group">
+          <label for="input-chap-content">Nội dung chương *</label>
+          <textarea id="input-chap-content" rows="12" required placeholder="Dán nội dung chương vào đây. Bạn có thể sử dụng các đoạn văn thông thường hoặc định dạng Markdown."></textarea>
+          <div class="form-help">Mẹo: Để chèn ảnh minh họa vào giữa văn bản, nhập thẻ <code>[ảnh: 1]</code> tại vị trí mong muốn.</div>
+        </div>
+
+        <!-- Illustrations Section in Publish Form -->
+        <div class="form-illustrations-box">
+          <div class="form-illustrations-header">
+            <h4>🖼️ Ảnh minh họa chương (Tùy chọn)</h4>
+            <button type="button" id="btn-add-illustration-row" class="btn-sm btn-outline">+ Thêm ảnh</button>
+          </div>
+          <div id="illustration-inputs-list" class="illustration-inputs-list">
+            <!-- Dynamically populated or added -->
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" id="btn-cancel-publish" class="btn-secondary">Hủy bỏ</button>
+          <button type="submit" class="btn-primary">🚀 Đăng & Đọc Ngay</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Fullscreen Lightbox for Chapter Illustrations -->
+  <div id="image-lightbox" class="lightbox-backdrop hidden" role="dialog" aria-modal="true">
+    <button id="btn-close-lightbox" class="lightbox-close" aria-label="Đóng xem ảnh">&times;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Ảnh minh họa">
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <!-- 1. Bundled chapter data (works offline & local file:// without CORS issues) -->
+  <script src="js/chapters-data.js"></script>
+  <!-- 2. Main Reader Application -->
+  <script src="js/app.js"></script>
+  <!-- 3. Publish & Backup Logic -->
+  <script src="js/publish.js"></script>
+</body>
+</html>
