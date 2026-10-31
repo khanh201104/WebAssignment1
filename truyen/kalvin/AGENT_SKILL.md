@@ -15,19 +15,20 @@
 
 ### 2.1. Khi được yêu cầu: "Viết chương mới và push lên GitHub"
 Agent tự động thực hiện tuần tự các bước sau mà không cần nhắc lại:
-1. **Rà soát bối cảnh tức thời (Context Audit):** Đọc kỹ phần cuối của chương liền trước để nắm chính xác: mốc thời gian, không gian, trạng thái thể lực/ma lực/vết thương của nhân vật, và xung đột kịch tính chưa giải quyết.
-2. **Sáng tác chương tiếp theo:** Viết trọn vẹn chương mới bám sát mạch truyện và quy chuẩn văn phong tại Mục 3.
-3. **Lưu trữ văn bản:** Tạo tệp Markdown tại `truyen/kalvin/chapters/chuong_XX.md`.
-4. **Đồng bộ ứng dụng Web Reader:**
+1. **Kiểm tra bắt buộc `KALVIN_README.md` (Mandatory Framework Check):** Đọc và đối chiếu lại `truyen/kalvin/KALVIN_README.md` để nắm chắc khung sườn Master Outline, cột mốc (milestone) của Arc hiện tại, tâm lý nhân vật và bộ quy chuẩn văn phong/cấm kỵ.
+2. **Rà soát bối cảnh tức thời (Context Audit):** Đọc kỹ phần cuối của chương liền trước để nắm chính xác: mốc thời gian, không gian, trạng thái thể lực/ma lực/vết thương của nhân vật, và xung đột kịch tính chưa giải quyết.
+3. **Sáng tác chương tiếp theo:** Viết trọn vẹn chương mới bám sát mạch truyện và quy chuẩn văn phong tại Mục 3.
+4. **Lưu trữ văn bản:** Tạo tệp Markdown tại `truyen/kalvin/chapters/chuong_XX.md`.
+5. **Đồng bộ ứng dụng Web Reader:**
    * Cập nhật `truyen/kalvin/data/chapters.json` (tăng `total_chapters`, bổ sung object chương mới với đầy đủ `elements`, `content`, `word_count`).
    * Cập nhật `truyen/kalvin/js/chapters-data.js` (đồng bộ `window.KALVIN_DATA = ...;`).
-5. **Git Commit & Push tự động:**
+6. **Git Commit & Push tự động:**
    * Chỉ `git add` các tệp bên trong thư mục `truyen/kalvin/`.
    * Commit với thông điệp chuẩn mực (ví dụ: `feat(kalvin): thêm Chương XX và cập nhật dữ liệu web reader`).
    * Thực hiện `git push origin main` đẩy mã nguồn lên GitHub.
 
 ### 2.2. Khi được yêu cầu: "Viết một chương chỉ định cụ thể" (Ví dụ: Chương X)
-1. **Định vị & Kết nối hai đầu:** Đọc chương trước (X-1) và chương sau (X+1, nếu đã tồn tại) để xây dựng cầu nối diễn biến mượt mà, hợp lý về logic và tâm lý nhân vật.
+1. **Kiểm tra `KALVIN_README.md` & Định vị hai đầu:** Đọc `KALVIN_README.md` cùng chương trước (X-1) và chương sau (X+1, nếu đã tồn tại) để xây dựng cầu nối diễn biến mượt mà, hợp lý về logic và tâm lý nhân vật.
 2. **Sáng tác & Đồng bộ:** Thực hiện đầy đủ các bước lưu trữ, đồng bộ dữ liệu vào `chapters.json`, `chapters-data.js` và tự động commit, push lên GitHub.
 
 ---
