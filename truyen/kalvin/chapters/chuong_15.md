@@ -6,7 +6,7 @@
 
 ***
 
-*Năm 939 lịch Roland.*
+*Mùa xuân năm 940 lịch Roland – Buổi chiều tà tuyết ngừng rơi (vài ngày sau khi chôn cất mẹ và rời khỏi Lâu đài Palace).*
 
 Bánh xe gỗ nghiến trên lớp sỏi ướt, phát ra những tiếng *lạo xạo* nặng nề giữa thung lũng sương mù.
 

@@ -4,6 +4,10 @@
 
 ---
 
+***
+
+*Tháng Tư năm 937 lịch Roland – Giữa mùa xuân, năm giờ sáng tinh sương (một tháng sau khi Kalvin bắt đầu sao chép lý thuyết ma pháp).*
+
 Tháng Tư năm 937 lịch Roland, tuyết trên các đỉnh núi của rặng Răng Rồng bắt đầu tan rữa thành những dòng thác bạc đổ ầm ầm xuống thung lũng. Rừng thông đen quanh Lâu đài Palace rũ bỏ lớp áo tuyết nặng nề, để lộ những thân cây sần sùi bám đầy rêu xanh ẩm ướt và mùi nhựa thông ngai ngái bốc lên nồng nặc trong làn sương sớm.
 
 Khi tiếng chuông báo hiệu năm giờ sáng của tòa tháp chính vừa ngân lên ba tiếng trầm đục, Kalvin đã có mặt tại căn nhà cối xay nước bỏ hoang.

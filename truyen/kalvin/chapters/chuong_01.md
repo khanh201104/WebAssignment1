@@ -4,6 +4,10 @@
 
 ---
 
+***
+
+*Năm 936 lịch Roland – Giữa mùa đông buốt giá, đêm cuối tháng Mười Một tại Lâu đài Palace.*
+
 Gió phương Bắc chưa bao giờ biết đến lòng thương hại.
 
 Nó gào thét qua những vách núi đá vôi lởm chởm của rặng Răng Rồng, cuộn theo những hạt tuyết sắc lẹm như mảnh thủy tinh vụn, rồi đổ ập xuống thung lũng nơi Lâu đài Palace sừng sững tọa lạc. Tòa lâu đài được xây dựng từ đá xám thô ráp, đứng kiên cố qua ba thế kỷ như một pháo đài cô độc giữa mùa đông kéo dài tới sáu tháng của Vương quốc Leicester.

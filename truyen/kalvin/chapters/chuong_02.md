@@ -4,6 +4,10 @@
 
 ---
 
+***
+
+*Năm 936 lịch Roland – Mùa đông buốt giá, rạng sáng hôm sau đêm bão tuyết (vài canh giờ sau khi Roy và Rumy rời khỏi căn phòng phụ).*
+
 Mùa đông năm 936 lịch Roland bắt đầu bằng một đợt giá rét tàn khốc nhất trong vòng một thập kỷ.
 
 Khi bóng tối của đêm bão tuyết dần nhạt nhòa, bầu trời phương Bắc chuyển sang một màu xám đục như chì. Không có bình minh rực rỡ; mặt trời chỉ là một đốm sáng nhợt nhạt, run rẩy treo lơ lửng sau những tầng mây nặng trĩu tuyết, bất lực trong việc ban phát dù chỉ một tia ấm áp xuống mặt đất.

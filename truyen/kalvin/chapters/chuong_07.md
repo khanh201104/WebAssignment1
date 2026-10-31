@@ -6,6 +6,8 @@
 
 ***
 
+*Tháng Năm năm 937 lịch Roland – Cuối mùa xuân, buổi trưa đứng bóng (một tháng sau buổi tập kiếm gỗ đầu tiên tại cối xay).*
+
 Khu rừng thông đen nằm ở sườn dốc phía Tây Bắc của Lâu đài Palace là vùng đất của những bóng cây cao vút, cành lá đan cài chằng chịt đến mức ánh mặt trời mùa xuân chỉ có thể xuyên qua thành từng vệt sáng mờ nhạt, yếu ớt như sương khói.
 
 Dưới chân những gốc thông già ngàn năm tuổi, lớp thảm mục dày cộp cấu thành từ lá kim khô, rêu ẩm và những tảng tuyết xốp chưa kịp tan tạo nên một mùi hôi ngai ngái, nồng nặc mùi lưu huỳnh tự nhiên rỉ ra từ các kẽ nứt địa nhiệt ngầm. Đất ở đây xốp mềm, bước chân giẫm lên lập tức lún sâu tới mắt cá, để lại những vũng nước đen ngòm, lạnh buốt.

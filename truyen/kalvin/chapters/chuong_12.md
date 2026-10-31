@@ -6,7 +6,7 @@
 
 ***
 
-*Năm 938 lịch Roland.*
+*Đầu mùa xuân năm 939 lịch Roland – Chiều tà tuyết tan (ba tháng sau phán quyết của Tử tước Roderick trên đĩa Hắc thạch).*
 
 Những mắt xích bằng sắt quấn quanh cánh cửa gỗ của chái nhà phụ đã bắt đầu đóng một lớp rỉ sét màu nâu đỏ, hòa lẫn với những tinh thể băng mỏng lấp lánh dưới ánh chiều tà.
 

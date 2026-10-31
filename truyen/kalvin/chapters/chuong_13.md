@@ -6,7 +6,7 @@
 
 ***
 
-*Năm 939 lịch Roland.*
+*Cuối mùa đông năm 939 lịch Roland – Buổi sáng buốt giá (gần một năm sau khoảng lặng tích lũy tại cối xay gió).*
 
 Những ngày đầu tháng Ba, lớp băng dày đóng trên bờ tường đá xám của Lâu đài Palace bắt đầu rỉ ra những giọt nước đục ngầu.
 

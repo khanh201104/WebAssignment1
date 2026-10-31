@@ -6,7 +6,7 @@
 
 ***
 
-*Năm 938 lịch Roland.*
+*Mùa đông năm 938 lịch Roland – Sáng sớm buốt giá (hơn một năm sau mùa hè tại cối xay, khi cơn sốt xám của Elena tái phát).*
 
 Mùa đông năm ấy ập xuống sớm hơn thường lệ hai tuần, mang theo những cơn gió thốc từ rặng Răng Rồng gầm rít như tiếng tru trét của bầy sói đói. Tuyết đóng thành từng tảng băng đục ngầu bám chặt vào chân tường thành Lâu đài Palace, dày đến mức những người lính gác phải dùng rìu chim đục từng bậc thang trơn trượt để đổi ca trên các chòi canh.
 

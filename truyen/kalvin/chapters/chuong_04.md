@@ -4,6 +4,10 @@
 
 ---
 
+***
+
+*Tháng Hai năm 937 lịch Roland – Cuối mùa đông, ba tháng sau biến cố tại căn phòng phụ, thời điểm băng tan nhầy nhụa.*
+
 Tháng Hai năm 937 lịch Roland gõ cửa vùng biên viễn bằng những đợt băng tan nhầy nhụa.
 
 Mùa đông phương Bắc không kết thúc bằng một sớm mai rực rỡ nắng ấm. Nó rút lui một cách chậm chạp và nhớp nháp. Lớp tuyết dày trên mái ngói Lâu đài Palace rữa ra thành từng mảng xám xịt, nhỏ từng giọt nước lạnh buốt xuống mặt sân đá, hòa cùng đất cát và phân ngựa tạo thành một thứ bùn lầy quánh đặc. Cái lạnh của thời điểm giao mùa này thậm chí còn khó chịu hơn cả bão tuyết; nó là thứ lạnh ẩm ướt, buốt nhức ngấm thẳng qua da thịt, luồn lách vào từng khớp xương của những kẻ thiếu ăn, thiếu mặc.

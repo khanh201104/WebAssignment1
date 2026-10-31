@@ -6,6 +6,8 @@
 
 ***
 
+*Mùa hè năm 937 lịch Roland – Buổi chiều oi ả hiếm hoi của phương Bắc (ba tháng sau sự kiện bẫy thú trong rừng thông).*
+
 Vụ lở tuyết tại con dốc Tử Thần trôi qua như một cơn ác mộng thoáng chốc trong mắt những kẻ quyền quý của Lâu đài Palace, nhưng dư chấn của nó lại âm ỉ rỉ máu suốt nhiều tháng trời sau đó.
 
 Tên phó quản sự Hogg được kéo về lâu đài trên một chiếc cáng gỗ đẫm máu. Đúng như những gì Kalvin đã tính toán từ trước, nỗi kinh hoàng tột độ về lưỡi dao đặt sát nhãn cầu và lời đe dọa tàn sát gia đình đã biến gã béo thành một kẻ câm điếc ngoan ngoãn. Nằm bẹp trên chiếc giường gỗ ở khu trạm xá, đối diện với ánh mắt soi xét lạnh lùng của Tử tước Roderick và những câu hỏi gặng hỏi của đội trưởng kỵ sĩ Gareth, Hogg chỉ biết khóc lóc thảm thiết, một mực khẳng định rằng gã bị trượt chân trong cơn sạt lở, sau đó bị một con sói tuyết cô độc nhảy ra cắn nát đầu gối và tha mất chiếc túi da đựng tiền thuế xuống đáy vực sâu.

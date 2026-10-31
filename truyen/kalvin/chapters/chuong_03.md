@@ -4,6 +4,10 @@
 
 ---
 
+***
+
+*Năm 936 lịch Roland – Mùa đông, chiều muộn cùng ngày sau cuộc chạm trán dưới chân cầu thang đá.*
+
 Gió chiều mang theo hơi ẩm lạnh ngắt từ rặng thông đen phía sau lâu đài tràn về, biến lớp tuyết xốp trên mặt đất thành một mảng băng mỏng giòn rụm. Mỗi bước chân giẫm lên đều phát ra những tiếng rắc, rắc rợn người, tựa như tiếng xương khô gãy vụn dưới đáy mồ.
 
 Trong căn phòng phụ phía Bắc, Elena vừa uống xong thìa thuốc cuối cùng.

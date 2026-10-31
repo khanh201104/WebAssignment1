@@ -6,7 +6,7 @@
 
 ***
 
-*Năm 941 lịch Roland.*
+*Cuối mùa đông năm 941 lịch Roland – Nửa đêm dưới cơn mưa phùn ngõ hẹp (Một tháng sau những nghiên cứu tại Thư viện Ngầm - Cuối năm nhất).*
 
 Mưa phùn bắt đầu nặng hạt hơn, rơi lộp độp trên những mái tôn rỉ sét của Khu Phố Xám.
 

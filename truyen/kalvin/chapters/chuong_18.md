@@ -6,7 +6,7 @@
 
 ***
 
-*Năm 941 lịch Roland.*
+*Đầu mùa đông năm 941 lịch Roland – Đêm muộn tại Khu Phố Xám (Hai tháng sau khi Kalvin làm thủ thư Thư viện Ngầm - Năm nhất).*
 
 Giảng đường Ma pháp Cấu trúc nằm ở tầng ba của Tòa nhà Trắng — trung tâm học thuật của Phân viện Pháp thuật Hoàng gia.
 

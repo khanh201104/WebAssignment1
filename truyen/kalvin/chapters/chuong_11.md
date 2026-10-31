@@ -6,6 +6,8 @@
 
 ***
 
+*Mùa đông năm 938 lịch Roland – Sáng sớm hôm sau đêm Rumy bộc lộ Thánh thuật Trị liệu tại cối xay gió.*
+
 Tiếng then cửa bằng sắt bị giật mạnh vang lên chói tai giữa không gian tĩnh mịch của chái nhà phụ.
 
 Cánh cửa gỗ mục nát không khóa bị đẩy tung ra, đập mạnh vào vách đá phát ra một tiếng *rầm* nặng nề, làm rơi lả tả những mảng vôi vữa bong tróc xuống nền sàn lạnh ngắt. Cùng với cơn gió buốt giá từ hành lang lùa vào là mùi hương hoa oải hương nồng nặc đến nghẹt thở — thứ hương liệu đắt tiền mà giới quý tộc phương Nam thường dùng để xua đuổi mùi hôi hám của những khu nhà dành cho hạ nhân.

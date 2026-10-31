@@ -6,7 +6,7 @@
 
 ***
 
-*Năm 941 lịch Roland.*
+*Đầu mùa thu năm 941 lịch Roland – Sáng sớm ngày tựu trường của Học viện Hoàng gia Leicester (Giai đoạn 2.1: Năm nhất).*
 
 Hoàng đô Leicester không có mùi tro tàn và tuyết rữa của phương Bắc.
 

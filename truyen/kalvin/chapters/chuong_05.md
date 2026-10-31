@@ -6,6 +6,8 @@
 
 ***
 
+*Tháng Ba năm 937 lịch Roland – Đầu mùa xuân, sáng sớm tĩnh mịch (một tháng sau khi Kalvin bước vào tòa tháp thư viện).*
+
 Gió tháng Ba mang theo mùi đất ẩm và hơi nước của những mảng băng tuyết đang rữa nát trên các triền đồi phương Bắc. Dưới chân Lâu đài Palace, những mầm cỏ dại đầu tiên bắt đầu đâm chồi qua lớp bùn lầy xám xịt, nhưng trong các gian phòng đá của tòa thành ba trăm năm tuổi, hơi lạnh tích tụ suốt một mùa đông dài vẫn chưa chịu tan biến.
 
 Tòa tháp phía Tây ngập trong một sự im lặng kỳ quái, bị cắt đôi bởi hai thế giới hoàn toàn tách biệt.

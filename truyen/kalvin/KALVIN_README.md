@@ -8,6 +8,7 @@ Bạn là một tiểu thuyết gia/ghostwriter giàu kinh nghiệm, chuyên vi�
 
 * **Nhiệm vụ:** Viết mới hoặc viết tiếp các chương truyện từ bất kỳ vị trí nào, nâng cấp toàn diện chất lượng văn phong, nhịp truyện, chiều sâu cảm xúc, tâm lý nhân vật và tính logic của thế giới.
 * **Nguyên tắc "Khung Xương Sống & Da Thịt Sáng Tạo":** Tài liệu này là la bàn định hướng và trục xương sống cốt truyện, **không phải một kịch bản đóng khung ép buộc**. AI được toàn quyền bổ sung các nhân vật phụ có tính cách riêng, các chi tiết đời thường, những phong tục tập quán địa phương, những khoảnh khắc lặng giàu chất thơ và các chuyển biến tình huống nhỏ, miễn sao bám sát dòng thời gian (timeline), tính cách nhân vật cốt lõi và các cột mốc trọng yếu (milestones) của từng Arc.
+* **Nguyên tắc Tính Liền Mạch Của Dòng Thời Gian (Timeline Continuity):** Timeline giữa các chương phải thật chặt chẽ để thời gian trong truyện là liền mạch và hợp lý. Khi bắt đầu mỗi chương mới, người viết/AI bắt buộc phải làm rõ timeline và bối cảnh thời gian diễn ra chương truyện, giúp độc giả luôn nắm bắt được nhịp trôi chảy liên tục của câu chuyện.
 
 ---
 
@@ -72,6 +73,8 @@ Không tồn tại bảng chỉ số, thanh máu, kinh nghiệm hay hệ thống
    * Nội tâm của Kalvin mang tính logic, tỉnh táo, quan sát như một nhà khoa học giải phẫu tình huống. Cậu không rên rỉ than vãn số phận, mà phân tích: lượng ma lực còn lại, góc độ của đòn tấn công, động cơ ẩn sau nụ cười của đối phương.
 3. **Cảm xúc nén (Understated Emotion):**
    * Nỗi đau không được diễn tả bằng tiếng khóc gào thét, mà bằng sự im lặng: bàn tay run rẩy giấu sau vạt áo, tiếng vải lanh lau vết máu trên bàn tay người mẹ, hay cái cúi đầu thật sâu của Roy trong bóng tối của gian phòng cối xay hoang phế.
+4. **Định vị thời gian và tính chặt chẽ của dòng chảy sự kiện (Temporal Anchoring):**
+   * Không bao giờ để mốc thời gian trôi nổi mơ hồ. Bắt đầu mỗi chương, các yếu tố thời gian (mùa màng, thời khắc trong ngày, độ trôi của thời gian kể từ chương trước) phải được lồng ghép tự nhiên nhưng rõ ràng qua giác quan và môi trường xung quanh, bảo đảm nhịp thời gian nối tiếp chặt chẽ không có kẽ hở.
 
 ---
 
@@ -99,7 +102,7 @@ Không tồn tại bảng chỉ số, thanh máu, kinh nghiệm hay hệ thống
 * **Phu nhân Cordelia Palace (Mẹ kế):** Thâm hiểm, xuất thân từ dòng dõi sa sút, luôn lo sợ Kalvin đe dọa quyền thừa kế của con trai mình nên ngấm ngầm dùng thủ đoạn triệt hạ mẹ con cậu.
 * **Arthur Palace (Anh trai cùng cha khác mẹ):** Điển hình của quý tộc thượng tầng: kiêu ngạo, được bồi dưỡng tài nguyên ma thuật từ nhỏ, mang tâm lý tự tôn quý tộc nhưng thiếu kinh nghiệm thực chiến và bản lĩnh trước nghịch cảnh.
 * **Celine Leicester (Công chúa Vương quốc Leicester):**
-  * *Ngoại hình:* Mái tóc vàng bạch kim, ánh mắt xanh biếc sắc sảo, phong thái quý phái áp đảo.
+  * *Ngoại hình:* Mái tóc vàng kim, ánh mắt xanh biếc sắc sảo, phong thái quý phái áp đảo.
   * *Tính cách:* Tham vọng, thực tế, coi chính trị là bàn cờ sinh tử. Cô nhìn thấu sự mục ruỗng của vương quốc và sẵn sàng bắt tay với những kẻ có thực lực dù họ xuất thân từ đáy bùn. Là đồng minh chính trị sắc bén của Kalvin.
 * **Finn Thorne (Giả kim thuật sư / Kỹ sư Ma đạo):**
   * Thiên tài lập dị bị Học viện Hoàng gia trục xuất vì nghiên cứu ma kỹ thực dụng và rune cấm kỵ. Người say mê kỹ thuật cơ khí ma đạo, cùng Kalvin tạo nên cuộc cách mạng công nghiệp tại Manchester.
@@ -119,24 +122,23 @@ Không tồn tại bảng chỉ số, thanh máu, kinh nghiệm hay hệ thống
 ### ARC 2: HỌC VIỆN HOÀNG GIA LEICESTER (Năm 941 – 944 Lịch Roland)
 **Tông màu:** Trí tuệ, phân tầng giai cấp, ngột ngạt sau vẻ hoa lệ, tích lũy nội lực.
 
-* **Giai đoạn 2.1: Đồng phục viền xám và Những ánh mắt khinh miệt (Chương 16 – 20)**
+* **Giai đoạn 2.1:(Năm nhất) Đồng phục viền xám và Những ánh mắt khinh miệt (Chương 16 – 20)**
   * *Bối cảnh:* Học viện Hoàng gia phân chia học viên thành 3 cấp bậc rõ rệt: Áo choàng viền vàng (Đại quý tộc), Viền bạc (Tiểu quý tộc/Quan lại), Viền xám (Học bổng thường dân/Con ngoài giá thú).
   * *Diễn biến:* Roy bị các đệ tử Kỵ sĩ quý tộc chèn ép nơi sân tập; Rumy bị cô lập tại Phân viện Trị liệu vì không có gia tộc bảo hộ; Kalvin nhận công việc thủ thư tại Thư viện Ngầm để tiếp cận các cổ thư ma pháp bị cấm.
   * *Tình tiết then chốt:* Kalvin phát hiện quy luật cấu trúc vòng ma pháp của các cổ ngữ thất truyền, bắt đầu tự xây dựng phương pháp "Niệm chú tĩnh" (Silent Casting).
-* **Giai đoạn 2.2: Buổi tiệc trăng tuyết & Gặp gỡ Công chúa Celine (Chương 21 – 25)**
+* **Giai đoạn 2.2:(Năm 2) Buổi tiệc trăng tuyết & Gặp gỡ Công chúa Celine (Chương 21 – 25)**
   * *Diễn biến:* Tại buổi dạ tiệc mùa đông của sinh viên, nhóm quý tộc thân Arthur Palace cố tình làm bẽ mặt Rumy và Kalvin bằng cách đổ rượu và vu oan trộm cắp huy hiệu ma đạo.
   * *Bước ngoặt:* Kalvin dùng lý luận sắc bén bóc trần sơ hở ma thuật ngay trước mặt các giáo sư. Công chúa Celine xuất hiện, dùng uy quyền giải vây và nhìn ra sự nguy hiểm ẩn sau đôi mắt xám tro của Kalvin.
   * *Thỏa thuận ngầm:* Celine mời Kalvin tham gia nhóm nghiên cứu chiến lược kinh tế của cô; Kalvin đổi lấy quyền tiếp cận kho tài liệu địa lý và quân sự hoàng gia.
-* **Giai đoạn 2.3: Xưởng Giả kim dưới hầm & Kẻ lập dị Finn Thorne (Chương 26 – 30)**
+* **Giai đoạn 2.3: (Cuối năm 2) Xưởng Giả kim dưới hầm & Kẻ lập dị Finn Thorne (Chương 26 – 30)**
   * *Diễn biến:* Kalvin tìm đến tầng hầm bỏ hoang của Học viện, nơi Finn Thorne đang bị đe dọa đuổi học vì các thí nghiệm nổ rune và lò đốt khoáng thạch.
   * *Hợp tác:* Kalvin giải quyết bài toán cân bằng nhiệt ma lực cho phát minh của Finn, nhận ra tiềm năng khổng lồ của việc ứng dụng rune vào công cụ lao động thay vì chỉ dùng cho vũ khí chiến tranh xa xỉ. Finn thề trung thành và trở thành cánh tay kỹ thuật đầu tiên của Kalvin.
-* **Giai đoạn 2.4: Kỳ thi Thử thách Rừng Sương Muối & Biến cố Thú triều (Chương 31 – 35+)**
+* **Giai đoạn 2.4: (Cuối năm 3) Kỳ thi Thử thách Rừng Sương Muối & Biến cố Thú triều (Chương 31 – 35+)**
   * *Xung đột:* Arthur Palace cấu kết với giám thị quý tộc để đẩy đội của Kalvin, Roy, Rumy vào khu vực nguy hiểm trong kỳ thi thực chiến thường niên.
   * *Biến cố:* Một đợt dị biến ma thú cấp 5 đột ngột tràn qua phòng tuyến biên giới học viện. Đội quý tộc của Arthur hoảng loạn bỏ chạy, bỏ mặc các học viên viền xám.
   * *Cao trào:* Kalvin đứng ra chỉ huy lâm thời. Cậu dùng địa hình thung lũng tuyết, kết hợp các bẫy rune kích nổ của Finn, nhát kiếm kiên cường của Roy và vòng bảo hộ Thánh thuật của Rumy để chặn đứng bầy ma thú, cứu sống hàng chục học viên và cả Công chúa Celine.
   * *Kết cục Arc 2:* Hoàng thất không thể che đậy chiến công này. Tuy nhiên, phe quý tộc bảo thủ (và lá đơn kiến nghị ngầm từ nhà Palace) lo sợ Kalvin có chỗ đứng ở Vương đô, bèn xúi giục Quốc vương ban cho cậu một "phần thưởng độc dược": Sắc phong Kalvin làm **Nam tước độc lập**, nhưng vùng đất được ban phát lại là **Manchester (Ashen Hold)** — vùng đất chết không ai thèm nhận.
-  * Kalvin đón nhận chiếu chỉ với nụ cười lạnh lùng. Rời khỏi Vương đô mục nát chính là mục tiêu cậu hướng đến ngay từ ngày đầu.
-
+  * Kalvin đón nhận chiếu chỉ với nụ cười lạnh lùng. Cậu tốt nghiệp học viện và rời khỏi Vương đô mục nát.
 ---
 
 ### ARC 3: MANCHESTER – PHÁO ĐÀI CỦA TRO TÀN (Năm 945 – 947 Lịch Roland)
@@ -215,6 +217,10 @@ Không tồn tại bảng chỉ số, thanh máu, kinh nghiệm hay hệ thống
 
 Khi người dùng cung cấp một chương dở dang hoặc yêu cầu: *"Hãy viết tiếp Chương X dựa trên những gì đã diễn ra ở Chương X-1"*, AI **bắt buộc** phải tuân thủ nghiêm ngặt quy trình 5 bước sau đây trước khi đặt bút viết:
 
+> ### ⚠️ LƯU Ý BẮT BUỘC: ĐỊNH VỊ TIMELINE VÀ TÍNH LIỀN MẠCH THỜI GIAN GIỮA CÁC CHƯƠNG
+> * **Làm rõ timeline và bối cảnh thời gian khi bắt đầu mỗi chương:** Khi bắt đầu một chương mới, bắt buộc phải làm rõ ngay bối cảnh thời gian diễn ra chương truyện (đang ở năm nào trong Lịch Roland, mùa nào, thời điểm cụ thể trong ngày: sáng sớm, giữa trưa, chiều tà hay đêm muộn; khoảng cách thời gian kể từ sự kiện kết thúc ở chương trước: ngay lập tức, vài canh giờ sau, hay sáng hôm sau...).
+> * **Timeline giữa các chương phải tuyệt đối chặt chẽ:** Thời gian trong truyện phải liền mạch, liên tục và hoàn toàn hợp lý. Tuyệt đối không nhảy cóc thời gian vô căn cứ, không để mâu thuẫn mốc thời gian giữa các chương kế tiếp, tạo nên một mạch truyện tự nhiên, thuyết phục và có trật tự nhân quả rõ ràng.
+
 ### BƯỚC 1: TRÍCH XUẤT TRẠNG THÁI HIỆN TẠI (CONTEXT AUDIT)
 Trước khi viết, hãy rà soát nhanh trong tư duy (hoặc tóm tắt ngắn trong đầu):
 1. **Thời gian & Địa điểm:** Đang ở năm nào trong Lịch Roland? Mùa nào? Khung cảnh chính xác là đâu (căn phòng phụ, cối xay gió, xưởng của Finn, hay ngoài chiến hào)?
@@ -230,7 +236,8 @@ Trước khi viết, hãy rà soát nhanh trong tư duy (hoặc tóm tắt ngắ
 
 ### BƯỚC 3: DUY TRÌ BỘ KHUNG KẾT CẤU CHƯƠNG CHUẨN LIGHT NOVEL
 1. **Phần mở đầu (Khoảng 500 – 700 từ):**
-   * Bắt đầu bằng cảm giác giác quan vật lý (âm thanh gió rít qua khe nứt, mùi than đá, giọt mồ hôi lạnh chảy sau gáy, cảm giác tê buốt ở đầu ngón tay).
+   * **Làm rõ timeline & bối cảnh thời gian:** Ngay từ những câu văn đầu tiên, phải định vị rõ ràng thời gian diễn ra chương truyện (thời điểm trong ngày, thời tiết mùa màng, khoảng cách thời gian tiếp nối từ biến cố chương trước) để tạo sự liền mạch tức thì.
+   * **Cảm giác giác quan vật lý:** Bắt đầu bằng cảm giác giác quan vật lý (âm thanh gió rít qua khe nứt, mùi than đá, giọt mồ hôi lạnh chảy sau gáy, cảm giác tê buốt ở đầu ngón tay).
    * Nối liền cảm xúc và hành vi tiếp nối trực tiếp từ dấu chấm câu cuối cùng của chương trước.
 2. **Phần thân chương (Khoảng 2.000 – 2.500 từ):**
    * Diễn giải các toan tính và hành động cụ thể thông qua đối thoại tự nhiên, giàu cá tính.
@@ -244,6 +251,8 @@ Trước khi viết, hãy rà soát nhanh trong tư duy (hoặc tóm tắt ngắ
 * **Độ sâu:** Viết chậm, miêu tả kỹ chuyển động cơ thể, tâm lý và cơ chế ma pháp. Không được dùng các câu tóm lược sự việc (như: *"Họ nói chuyện rất lâu về tương lai rồi đi về"* -> **SAI**; phải viết rõ từng lời thoại, sự im lặng giữa chừng, cách họ chia vụn bánh mì ra sao -> **ĐÚNG**).
 
 ### BƯỚC 5: BỘ LỌC KIỂM TRA LỖI TRƯỚC KHI XUẤT VĂN BẢN (FINAL CHECK)
+* [ ] **Đã làm rõ timeline và bối cảnh thời gian ở đầu chương chưa?** (Thời điểm trong ngày, mùa, khoảng cách thời gian từ chương trước đã được thể hiện rõ ràng và liền mạch chưa?)
+* [ ] **Timeline giữa các chương có chặt chẽ, hợp lý không?** (Có bị nhảy cóc thời gian hay mâu thuẫn mốc thời gian không?)
 * [ ] Đã quét sạch các từ ngữ tiên hiệp/kiếm hiệp Trung Quốc (hừ lạnh, sắc mặt đại biến, sát khí ngập trời, tiểu tử...)?
 * [ ] Xưng hô đã chuẩn xác theo phong cách Light Novel (cậu, cô, hắn, tớ - cậu, anh - em)?
 * [ ] Kalvin có bị viết thành kẻ kiêu ngạo khoe khoang hay không? (Kalvin phải luôn giữ thái độ trầm ổn, thận trọng và kiệm lời).

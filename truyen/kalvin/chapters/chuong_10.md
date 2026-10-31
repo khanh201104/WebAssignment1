@@ -6,6 +6,8 @@
 
 ***
 
+*Mùa đông năm 938 lịch Roland – Nửa đêm cùng ngày, ngay sau đợt trưng thu thuế tàn khốc của Lâu đài Palace.*
+
 Gió tuyết quất từng cơn điên cuồng vào khung cửa sổ gỗ ọp ẹp của chái nhà phụ.
 
 Bên trong căn phòng đá tối tăm, ngọn nến mỡ bò leo lét đặt trên mặt bàn gỗ mục, hắt ra một quầng sáng vàng đục đủ soi rõ ba khuôn mặt đang kề sát vào nhau. Không khí lạnh ngắt như hầm băng, nhưng hơi thở của ba đứa trẻ lại dồn dập, phả ra thành từng làn khói trắng quyện chặt vào nhau.

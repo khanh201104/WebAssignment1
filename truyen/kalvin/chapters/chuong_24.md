@@ -6,7 +6,7 @@
 
 ***
 
-*Năm 941 lịch Roland.*
+*Mùa đông năm 942 lịch Roland – Đêm muộn cùng ngày, tiếp nối ngay sau khi rời khỏi sảnh Dạ Tiệc Trăng Tuyết (Giai đoạn 2.2: Năm 2).*
 
 Cánh cửa gỗ sồi đen dày bốn tấc khép lại, cắt đứt hoàn toàn tiếng vĩ cầm và những âm thanh ồn ào giả tạo của Đại Sảnh Bạch Ngọc phía sau lưng.
 

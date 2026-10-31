@@ -6,7 +6,7 @@
 
 ***
 
-*Năm 941 lịch Roland.*
+*Mùa đông năm 942 lịch Roland – Sáng sớm hôm sau đêm hội đàm với Công chúa Celine, tại Tầng Bốn Thư viện Ngầm và Tầng Hầm Số Bảy (Giai đoạn 2.2 bước sang 2.3: Cuối năm 2).*
 
 Mùa đông phương Bắc trút xuống kinh thành Leicester những lớp tuyết dày hơn một thước chỉ sau một đêm.
 

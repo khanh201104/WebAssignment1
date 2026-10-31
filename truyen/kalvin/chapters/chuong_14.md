@@ -6,6 +6,8 @@
 
 ***
 
+*Đêm cuối mùa đông năm 939 lịch Roland – Vài canh giờ trước bình minh (ngay sau biến cố Elena nguy kịch).*
+
 Gió phương Bắc vào đêm cuối cùng của đợt rét muộn thổi qua những rãnh nứt trên tường đá Lâu đài Palace, mang theo tiếng rít trầm đục như tiếng thở dài của một kẻ sắp chết.
 
 Trong gian thư phòng ở tầng cao nhất của Tháp Tây, mùi cồn sát trùng và bụi giấy da cừu dường như đã bị lấn át bởi một thứ không khí khô khốc, căng thẳng đến nghẹt thở.
