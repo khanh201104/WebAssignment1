@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>Biên Niên Sử Tro Tàn: Kalvin Palace</title>
   
   <!-- Google Fonts: Literata, Inter, Merriweather -->
@@ -46,7 +46,7 @@
     </div>
   </header>
 
-  <!-- Bottom Floating Action Dock (Thanh công cụ cố định phía dưới cùng - Tối ưu Mobile & PC) -->
+  <!-- Bottom Floating Action Dock (Cố định ở chính giữa đáy trang, không dùng transform gây lệch khung) -->
   <aside class="floating-dock" id="floating-dock" aria-label="Thanh công cụ phía dưới">
     <!-- 1. Previous Chapter (<<) -->
     <button class="dock-btn" id="dock-btn-prev" title="Chương trước (<<)" aria-label="Chương trước">
@@ -91,7 +91,7 @@
     </button>
   </aside>
 
-  <!-- Reading Customization Panel (Popup nổi lên trên thanh công cụ phía dưới) -->
+  <!-- Reading Customization Panel (Popup nổi lên trên thanh dock dưới cùng) -->
   <div id="settings-panel" class="settings-panel hidden">
     <div class="settings-group">
       <label class="settings-label">Chế độ màu</label>
