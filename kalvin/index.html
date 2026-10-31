@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
   <title>Biên Niên Sử Tro Tàn: Kalvin Palace</title>
   
-  <!-- Google Fonts: Literata & Inter for high readability -->
+  <!-- Google Fonts: Literata, Inter, Merriweather -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,31 +19,28 @@
     <div id="progress-bar"></div>
   </div>
 
-  <!-- Mobile-first Top Navigation Header -->
+  <!-- Minimal Top Header for Mobile & Quick Actions -->
   <header class="app-header">
     <div class="header-left">
       <button id="btn-toggle-menu" class="btn-icon" aria-label="Mục lục chương" title="Mục lục">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <line x1="3" y1="12" x2="21" y2="12"></line>
           <line x1="3" y1="6" x2="21" y2="6"></line>
           <line x1="3" y1="18" x2="21" y2="18"></line>
         </svg>
       </button>
-      <div class="novel-info">
-        <h1 class="novel-title" id="header-novel-title">Biên Niên Sử Tro Tàn</h1>
-        <span class="novel-subtitle" id="header-chapter-badge">Chương 1</span>
+      <div class="header-novel-info">
+        <span class="header-novel-title" id="header-novel-title">Biên Niên Sử Tro Tàn</span>
+        <span class="header-chapter-badge" id="header-chapter-badge">Chương 1</span>
       </div>
     </div>
 
     <div class="header-right">
       <button id="btn-toggle-settings" class="btn-icon" aria-label="Cài đặt đọc" title="Tùy chỉnh giao diện">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="3"></circle>
-          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-        </svg>
+        <span style="font-weight: 700; font-size: 16px; font-family: serif;">A</span>
       </button>
       <button id="btn-open-publish" class="btn-publish" title="Đăng chương mới">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <line x1="12" y1="5" x2="12" y2="19"></line>
           <line x1="5" y1="12" x2="19" y2="12"></line>
         </svg>
@@ -52,13 +49,58 @@
     </div>
   </header>
 
-  <!-- Reading Customization Panel (Dropdown/Bottom sheet on mobile) -->
+  <!-- Right-Hand Floating Action Dock (Theo đúng thiết kế web truyện) -->
+  <aside class="floating-dock" id="floating-dock" aria-label="Thanh công cụ nhanh">
+    <!-- 1. Previous Chapter (<<) -->
+    <button class="dock-btn" id="dock-btn-prev" title="Chương trước (<<)" aria-label="Chương trước">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <polygon points="11 19 2 12 11 5 11 19"></polygon>
+        <polygon points="22 19 13 12 22 5 22 19"></polygon>
+      </svg>
+    </button>
+
+    <!-- 2. Home / Table of Contents (🏠) -->
+    <button class="dock-btn" id="dock-btn-home" title="Trang chủ & Mục lục chương (🏠)" aria-label="Mục lục">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+      </svg>
+    </button>
+
+    <!-- 3. Reading Settings (A) -->
+    <button class="dock-btn" id="dock-btn-settings" title="Tùy chỉnh đọc (A)" aria-label="Cài đặt đọc">
+      <span class="dock-letter-a">A</span>
+    </button>
+
+    <!-- 4. Novel Info (ℹ️) -->
+    <button class="dock-btn" id="dock-btn-info" title="Thông tin truyện (ℹ️)" aria-label="Thông tin truyện">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+      </svg>
+    </button>
+
+    <!-- 5. Bookmark (🔖) -->
+    <button class="dock-btn" id="dock-btn-bookmark" title="Đánh dấu trang (🔖)" aria-label="Đánh dấu trang">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/>
+      </svg>
+    </button>
+
+    <!-- 6. Next Chapter (>>) -->
+    <button class="dock-btn" id="dock-btn-next" title="Chương tiếp theo (>>)" aria-label="Chương tiếp theo">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <polygon points="13 19 22 12 13 5 13 19"></polygon>
+        <polygon points="2 19 11 12 2 5 2 19"></polygon>
+      </svg>
+    </button>
+  </aside>
+
+  <!-- Reading Customization Panel (Dropdown/Popup) -->
   <div id="settings-panel" class="settings-panel hidden">
     <div class="settings-group">
       <label class="settings-label">Chế độ màu</label>
       <div class="theme-buttons">
+        <button class="btn-theme sepia active" data-theme="sepia" title="Giấy Cũ (Sepia dịu mắt)">Giấy Cũ</button>
         <button class="btn-theme light" data-theme="light" title="Chế độ Sáng">Sáng</button>
-        <button class="btn-theme sepia active" data-theme="sepia" title="Giấy Cũ (Dịu mắt)">Giấy Cũ</button>
         <button class="btn-theme dark" data-theme="dark" title="Chế độ Đêm (OLED)">Đêm</button>
       </div>
     </div>
@@ -90,9 +132,21 @@
       </div>
       <input type="range" id="line-height-slider" min="1.4" max="2.4" step="0.1" value="1.8">
     </div>
+
+    <div class="settings-group">
+      <div class="settings-slider-header">
+        <label class="settings-label">Độ rộng trang</label>
+        <span id="reader-width-val">Chuẩn</span>
+      </div>
+      <div class="width-buttons">
+        <button class="btn-width" data-width="680">Gọn</button>
+        <button class="btn-width active" data-width="780">Chuẩn</button>
+        <button class="btn-width" data-width="920">Rộng</button>
+      </div>
+    </div>
   </div>
 
-  <!-- Table of Contents Drawer (Side Drawer / Modal on Mobile) -->
+  <!-- Table of Contents Drawer (Mục lục trượt) -->
   <aside id="drawer-menu" class="drawer-menu">
     <div class="drawer-overlay" id="drawer-overlay"></div>
     <div class="drawer-content">
@@ -135,36 +189,30 @@
     </div>
   </aside>
 
-  <!-- Main Reader Container -->
+  <!-- Main Reader Container (Định dạng chuẩn theo hình minh họa) -->
   <main class="reader-container" id="reader-container">
-    <!-- Chapter Header -->
+    <!-- Chapter Header (Format đúng như hình 2) -->
     <header class="chapter-header" id="chapter-header">
-      <div class="arc-badge" id="chapter-arc">Arc 1: Tuổi Thơ Nơi Nhà Palace</div>
-      <h2 class="chapter-title" id="chapter-title">Chương 1: Căn Phòng Không Có Lò Sưởi</h2>
-      <div class="chapter-meta">
-        <span id="chapter-word-count">~3.500 từ</span>
-        <span class="meta-dot">•</span>
-        <span id="chapter-read-time">~10 phút đọc</span>
-        <span id="chapter-has-illus-badge" class="illus-badge hidden">🖼️ Có ảnh minh họa</span>
+      <h1 class="main-novel-title" id="main-novel-title">Biên Niên Sử Tro Tàn</h1>
+      <h2 class="main-chapter-title" id="main-chapter-title">CHƯƠNG 1: CĂN PHÒNG KHÔNG CÓ LÒ SƯỞI</h2>
+      
+      <!-- Meta line: X Bình luận - Độ dài: X từ - Cập nhật -->
+      <div class="chapter-meta-bar">
+        <a href="#comments-section" class="meta-link" id="meta-comments-link">0 Bình luận</a>
+        <span class="meta-separator">-</span>
+        <span id="chapter-word-count">Độ dài: 8,462 từ</span>
+        <span class="meta-separator">-</span>
+        <span id="chapter-arc-name">Arc 1: Tuổi Thơ Nơi Nhà Palace</span>
       </div>
     </header>
 
-    <!-- Top Illustrations Banner (if any) -->
-    <section id="chapter-top-illustrations" class="illustration-section hidden"></section>
-
-    <!-- Chapter Content Body -->
+    <!-- Chapter Content Body (Đoạn văn hoàn chỉnh, không bị gãy dòng, không text-indent) -->
     <article class="chapter-content" id="chapter-content">
       <!-- Paragraphs and inline images injected via JS -->
       <div class="loading-spinner">Đang tải nội dung chương...</div>
     </article>
 
-    <!-- Bottom Illustrations Gallery (e.g. Manga pages, storyboard) -->
-    <section id="chapter-bottom-illustrations" class="illustration-gallery-section hidden">
-      <h3 class="gallery-title">🎨 Tranh Minh Họa & Bản Thảo Manga</h3>
-      <div class="gallery-grid" id="bottom-illustrations-grid"></div>
-    </section>
-
-    <!-- Navigation Footer Controls -->
+    <!-- Bottom Navigation Controls -->
     <nav class="chapter-nav-bottom" aria-label="Điều hướng chương">
       <button id="btn-prev-chapter" class="btn-nav" title="Chương trước">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -187,6 +235,33 @@
       </button>
     </nav>
 
+    <!-- Comments Section (Bình luận chương) -->
+    <section class="comments-section" id="comments-section">
+      <div class="comments-header">
+        <h3 class="comments-title">
+          <span>💬 Bình Luận (<span id="comments-count">0</span>)</span>
+        </h3>
+      </div>
+
+      <!-- Add Comment Form -->
+      <form id="form-comment" class="comment-form">
+        <div class="form-row">
+          <input type="text" id="comment-author" placeholder="Tên của bạn..." required>
+        </div>
+        <div class="form-row">
+          <textarea id="comment-text" rows="3" placeholder="Chia sẻ cảm nghĩ của bạn về chương này..." required></textarea>
+        </div>
+        <div class="comment-form-actions">
+          <button type="submit" class="btn-primary btn-sm">Gửi bình luận</button>
+        </div>
+      </form>
+
+      <!-- Comments List -->
+      <div class="comments-list" id="comments-list">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
     <!-- Bottom Actions -->
     <div class="reader-bottom-actions">
       <button id="btn-scroll-top" class="btn-scroll-top" title="Cuộn lên đầu">
@@ -198,17 +273,71 @@
     </div>
   </main>
 
+  <!-- Novel Info Modal (ℹ️) -->
+  <div id="info-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title">ℹ️ Thông Tin Tác Phẩm</h2>
+        <button id="btn-close-info-modal" class="btn-icon" aria-label="Đóng">&times;</button>
+      </div>
+      <div class="modal-body-scroll">
+        <div class="info-section">
+          <h3 class="info-title">Biên Niên Sử Tro Tàn: Kalvin Palace</h3>
+          <p class="info-aliases"><em>Tên khác: Nam Tước Của Vùng Đất Chết | Đứa Con Bị Lãng Quên Của Nhà Palace</em></p>
+          <div class="info-tags">
+            <span class="info-tag">Seinen Light Novel</span>
+            <span class="info-tag">High Fantasy</span>
+            <span class="info-tag">Quản trị lãnh địa</span>
+            <span class="info-tag">Học viện quý tộc</span>
+            <span class="info-tag">Chiến tranh sinh tồn</span>
+          </div>
+          <p class="info-desc">
+            Câu chuyện về Kalvin Palace, đứa con hoang bị khinh rẻ của gia tộc Tử tước Palace. Bằng trí tuệ sắc bén, khả năng kiểm soát ma lực vi mô phi thường và tình bạn sinh tử cùng Roy và Rumy, cậu từng bước vượt qua nghịch cảnh để tự tay đúc nên vương miện của riêng mình.
+          </p>
+        </div>
+
+        <div class="info-section">
+          <h4 class="info-subtitle">Bộ Ba Nhân Vật Chính</h4>
+          <ul class="info-list">
+            <li><strong>Kalvin Palace (Trí tuệ & Vi mô ma lực):</strong> Trầm tĩnh, thận trọng, lọc độc tố, kiểm soát cấu trúc ma pháp ở cấp độ vi mô.</li>
+            <li><strong>Rumy Charlotte (Trái tim & Thánh nữ):</strong> Dịu dàng nhưng kiên cường, thiên phú Thánh thuật trị liệu bẩm sinh tối thượng.</li>
+            <li><strong>Roy Kane (Thanh kiếm & Võ sĩ cận chiến):</strong> Trung kiên, phóng khoáng, phản xạ chiến đấu và vận hành Khí siêu phàm.</li>
+          </ul>
+        </div>
+
+        <div class="info-section">
+          <h4 class="info-subtitle">Hệ Thống Sức Mạnh</h4>
+          <ul class="info-list">
+            <li><strong>Khí & Kiếm Thuật:</strong> Vận hành Khí trong kinh mạch, bộc phát sức mạnh cơ bắp và phản xạ.</li>
+            <li><strong>Ma Pháp Tinh Cấp:</strong> Từ Nhất tinh đến Thất tinh, đòi hỏi cấu trúc thần chú và khả năng điều hướng mana.</li>
+            <li><strong>Thánh Thuật:</strong> Năng lượng thanh tẩy hiếm có, khắc chế ma khí và tái sinh tế bào.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bookmarks Modal (🔖) -->
+  <div id="bookmarks-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 class="modal-title">🔖 Dấu Trang Đã Lưu</h2>
+        <button id="btn-close-bookmarks-modal" class="btn-icon" aria-label="Đóng">&times;</button>
+      </div>
+      <div class="modal-body-scroll">
+        <div id="bookmarks-list" class="bookmarks-list">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Publish / Add Chapter Modal -->
   <div id="publish-modal" class="modal-backdrop hidden">
     <div class="modal-card">
       <div class="modal-header">
         <h2 class="modal-title">✍️ Đăng Chương Mới</h2>
-        <button id="btn-close-publish-modal" class="btn-icon" aria-label="Đóng">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
+        <button id="btn-close-publish-modal" class="btn-icon" aria-label="Đóng">&times;</button>
       </div>
 
       <form id="form-publish-chapter" class="publish-form">
@@ -236,8 +365,7 @@
 
         <div class="form-group">
           <label for="input-chap-content">Nội dung chương *</label>
-          <textarea id="input-chap-content" rows="12" required placeholder="Dán nội dung chương vào đây. Bạn có thể sử dụng các đoạn văn thông thường hoặc định dạng Markdown."></textarea>
-          <div class="form-help">Mẹo: Để chèn ảnh minh họa vào giữa văn bản, nhập thẻ <code>[ảnh: 1]</code> tại vị trí mong muốn.</div>
+          <textarea id="input-chap-content" rows="12" required placeholder="Dán nội dung chương vào đây. Các đoạn văn cách nhau bằng một dòng trống."></textarea>
         </div>
 
         <!-- Illustrations Section in Publish Form -->
@@ -268,12 +396,12 @@
     </div>
   </div>
 
+  <!-- Toast notification -->
+  <div id="toast" class="toast hidden"></div>
+
   <!-- Scripts -->
-  <!-- 1. Bundled chapter data (works offline & local file:// without CORS issues) -->
   <script src="js/chapters-data.js"></script>
-  <!-- 2. Main Reader Application -->
   <script src="js/app.js"></script>
-  <!-- 3. Publish & Backup Logic -->
   <script src="js/publish.js"></script>
 </body>
 </html>
