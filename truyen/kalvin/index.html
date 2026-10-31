@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/style.css?v=20261031_1755">
+  <link rel="stylesheet" href="css/style.css?v=20261031_1802">
   <style>
     /* Critical Mobile Layout & Anti-Cache Fallbacks */
     html {
@@ -38,18 +38,23 @@
       justify-content: space-between !important;
       -webkit-transform: translateZ(0) !important;
       transform: translateZ(0) !important;
+      transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), background-color var(--transition-normal), border-color var(--transition-normal) !important;
+      will-change: transform;
+    }
+    .app-header.header-hidden {
+      transform: translateY(-100%) !important;
+      -webkit-transform: translateY(-100%) !important;
     }
     #progress-bar-container {
-      position: fixed !important;
-      top: 52px !important;
+      position: absolute !important;
+      bottom: -1px !important;
+      top: auto !important;
       left: 0 !important;
       right: 0 !important;
       width: 100% !important;
       height: 3px !important;
       z-index: 1001 !important;
       pointer-events: none !important;
-      -webkit-transform: translateZ(0) !important;
-      transform: translateZ(0) !important;
     }
     .reader-container {
       padding-top: 76px !important;
@@ -118,11 +123,6 @@
 </head>
 <body class="theme-sepia font-serif">
 
-  <!-- Reading Progress Bar -->
-  <div id="progress-bar-container">
-    <div id="progress-bar"></div>
-  </div>
-
   <!-- Minimal Top Header -->
   <header class="app-header">
     <div class="header-left">
@@ -152,6 +152,11 @@
         </svg>
         <span class="btn-text">Đăng chương</span>
       </button>
+    </div>
+
+    <!-- Reading Progress Bar gắn ở đáy header -->
+    <div id="progress-bar-container">
+      <div id="progress-bar"></div>
     </div>
   </header>
 
@@ -506,8 +511,8 @@
   <div id="toast" class="toast hidden"></div>
 
   <!-- Scripts -->
-  <script src="js/chapters-data.js?v=20261031_1755"></script>
-  <script src="js/app.js?v=20261031_1755"></script>
-  <script src="js/publish.js?v=20261031_1755"></script>
+  <script src="js/chapters-data.js?v=20261031_1802"></script>
+  <script src="js/app.js?v=20261031_1802"></script>
+  <script src="js/publish.js?v=20261031_1802"></script>
 </body>
 </html>

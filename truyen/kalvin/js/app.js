@@ -21,6 +21,7 @@
   // DOM Elements
   const el = {
     body: document.body,
+    appHeader: document.querySelector('.app-header'),
     progressBar: document.getElementById('progress-bar'),
     headerTitle: document.getElementById('header-novel-title'),
     headerBadge: document.getElementById('header-chapter-badge'),
@@ -190,6 +191,10 @@
     });
 
     // Reset Progress & Scroll
+    if (el.appHeader) {
+      el.appHeader.classList.remove('header-hidden');
+    }
+    lastScrollY = 0;
     updateProgressBar();
     if (smoothScroll) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -560,11 +565,41 @@
   // 7. Lightbox, Progress & Preferences
   // ==========================================================================
 
+  // Scroll Direction Tracker for Auto-Hiding Header
+  let lastScrollY = Math.max(0, window.scrollY || document.documentElement.scrollTop);
+  const SCROLL_THRESHOLD = 8;
+
   function updateProgressBar() {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
+    const currentScrollY = Math.max(0, window.scrollY || document.documentElement.scrollTop);
     const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-    const progress = docHeight > 0 ? Math.min(100, Math.max(0, (scrollTop / docHeight) * 100)) : 0;
-    el.progressBar.style.width = `${progress}%`;
+    const progress = docHeight > 0 ? Math.min(100, Math.max(0, (currentScrollY / docHeight) * 100)) : 0;
+    if (el.progressBar) {
+      el.progressBar.style.width = `${progress}%`;
+    }
+
+    if (!el.appHeader) return;
+
+    // Luôn hiển thị header khi ở gần đỉnh trang (<= 50px)
+    if (currentScrollY <= 50) {
+      el.appHeader.classList.remove('header-hidden');
+      lastScrollY = currentScrollY;
+      return;
+    }
+
+    // Cuộn xuống (Scroll Down) -> Ẩn header
+    if (currentScrollY > lastScrollY + SCROLL_THRESHOLD && currentScrollY > 70) {
+      el.appHeader.classList.add('header-hidden');
+      // Đóng popup cài đặt nếu đang mở để tránh lơ lửng giữa màn hình
+      if (el.settingsPanel && !el.settingsPanel.classList.contains('hidden')) {
+        el.settingsPanel.classList.add('hidden');
+      }
+    } 
+    // Gạt lên (Scroll Up) -> Hiện header trở lại
+    else if (currentScrollY < lastScrollY - SCROLL_THRESHOLD) {
+      el.appHeader.classList.remove('header-hidden');
+    }
+
+    lastScrollY = currentScrollY;
   }
 
   function openLightbox(src, caption) {
@@ -701,7 +736,10 @@
     el.selectChapterJump.addEventListener('change', (e) => renderChapter(parseInt(e.target.value, 10)));
 
     // Scroll & Progress
-    el.btnScrollTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    el.btnScrollTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (el.appHeader) el.appHeader.classList.remove('header-hidden');
+    });
     window.addEventListener('scroll', updateProgressBar, { passive: true });
 
     // Lightbox
