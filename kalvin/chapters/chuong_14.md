@@ -233,3 +233,5 @@ Phía sau lưng họ, Lâu đài Palace và ngọn lửa tro tàn lùi dần, l�
 Một chương đen tối của cuộc đời đã vĩnh viễn khép lại dưới chân những bức tường đá mục ruỗng.
 
 Và trên con đường dẫn tới Hoàng đô Leicester, bánh xe của số phận... đã chính thức lăn bánh đưa đứa con của tro tàn bước vào vũ đài quyền lực của toàn bộ đại lục.
+
+![Kalvin diện kiến và nhận bản đồ quân sự cùng quy chế Khảo Hạch Bàn Cờ Tro từ Học giả Herman Brand](assets/images/chuong_14.png)

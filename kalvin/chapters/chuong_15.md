@@ -201,3 +201,5 @@ Bánh xe gỗ lại bắt đầu lăn bánh, nghiền nát những mảng tuyế
 Arc 1 đã chính thức khép lại sau những tàn tro của Lâu đài Palace và nấm mộ đá cô độc trên sườn đồi tuyết.
 
 Một hành trình mới — hành trình bước vào trung tâm của những âm mưu chính trị, của những trận chiến học viện khốc liệt và những toan tính quyền lực tàn nhẫn... đã chính thức mở ra trước mắt đứa con của tro tàn.
+
+![Dưới bóng cây bạch dương lúc hoàng hôn, bà Elena trút hơi thở cuối cùng trong vòng tay ba đứa trẻ](assets/images/chuong_15.png)

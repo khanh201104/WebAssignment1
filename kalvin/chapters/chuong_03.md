@@ -255,3 +255,5 @@ Gió tuyết phương Bắc vẫn cuộn trào bên ngoài bức tường đá �
 Ba đứa trẻ ngồi sát lại bên nhau, chia sẻ từng mẩu bánh mì khô khốc và từng chút hơi ấm ít ỏi của mùa đông năm 936 lịch Roland.
 
 Dưới đáy bùn lầy sâu thẳm, những mầm mống đầu tiên của một cơn bão táp đã bắt đầu nảy mầm trong bóng tối.
+
+![Rumy bộc lộ Thánh thuật Trị liệu thanh tẩy vết độc trên tay Kalvin tại căn cối xay gió bỏ hoang](assets/images/chuong_03.png)

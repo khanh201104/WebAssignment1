@@ -217,3 +217,5 @@ Kalvin lật mở trang sách đầu tiên.
 Tiếng giấy da sột soạt vang lên giữa đêm tĩnh mịch của mùa thu năm 941 lịch Roland.
 
 Và cuộc đi săn thực sự trong lòng kinh thành... đã chính thức bắt đầu.
+
+![Bộ ba Kalvin, Rumy và Roy trong chiếc áo choàng viền xám tại Học viện Hoàng gia Leicester](assets/images/chuong_16.png)
