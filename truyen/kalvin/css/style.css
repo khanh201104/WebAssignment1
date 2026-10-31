@@ -223,6 +223,7 @@ img {
   justify-content: center;
   transition: all var(--transition-fast);
   flex-shrink: 0;
+  text-decoration: none;
 }
 
 .btn-icon:hover {
