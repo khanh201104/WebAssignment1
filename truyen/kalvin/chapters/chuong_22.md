@@ -271,3 +271,5 @@ Kalvin nhìn phong bì thư mang con dấu sáp bạc, ngón tay khẽ miết l�
 Mùa đông của Học viện Hoàng gia Leicester... giờ mới thực sự bắt đầu bước vào những đêm lạnh giá nhất.
 
 "Đi chứ," Kalvin cất bức thư vào trong ngực áo, giọng nói trầm tĩnh nhưng kiên định như một lời tuyên thệ trước bão tố. "Đã đến lúc chúng ta bước lên bàn cờ của bọn họ rồi."
+
+![Công chúa Celine Leicester dưới bóng cây bạch dương tuyết trao phong thư mời Dạ Tiệc Trăng Tuyết cho Kalvin](assets/images/chuong_22.png)
