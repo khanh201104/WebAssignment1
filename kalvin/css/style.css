@@ -1,6 +1,7 @@
 /* ==========================================================================
    Biên Niên Sử Tro Tàn - Standard Novel Reader Stylesheet
-   Theo đúng định dạng web truyện chuyên nghiệp (Image 2)
+   Giao diện chuẩn web truyện, thanh công cụ cố định phía dưới cùng (Bottom Dock)
+   Thích ứng hoàn hảo trên cả PC & Mobile
    ========================================================================== */
 
 :root {
@@ -19,7 +20,7 @@
 }
 
 /* --------------------------------------------------------------------------
-   Themes: Sepia (Đúng màu mẫu hình 2), Dark (OLED), Light
+   Themes: Sepia (Mặc định - Màu giấy cũ), Dark (OLED), Light
    -------------------------------------------------------------------------- */
 
 body.theme-sepia {
@@ -238,41 +239,53 @@ body {
 }
 
 /* --------------------------------------------------------------------------
-   Right-Hand Floating Action Dock (Theo đúng thiết kế web truyện ở hình 2)
+   Bottom Floating Action Dock (Thanh công cụ cố định phía dưới cùng - Mobile & PC)
    -------------------------------------------------------------------------- */
 
 .floating-dock {
   position: fixed;
-  right: 12px;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 900;
-  background: var(--bg-surface);
+  background: var(--header-bg);
   border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  box-shadow: 0 6px 26px rgba(0, 0, 0, 0.15);
   display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  backdrop-filter: blur(8px);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 6px;
+  gap: 4px;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  width: min(390px, calc(100vw - 28px));
+  max-width: 100%;
+  transition: background-color var(--transition-normal), border-color var(--transition-normal);
+}
+
+/* Hỗ trợ SafeArea của iPhone khi vuốt thanh Home */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .floating-dock {
+    bottom: calc(10px + env(safe-area-inset-bottom));
+  }
 }
 
 .dock-btn {
   background: transparent;
   border: none;
-  border-bottom: 1px solid var(--border-color);
   color: var(--text-primary);
-  width: 44px;
+  flex: 1;
   height: 44px;
+  min-width: 40px;
+  border-radius: 22px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color var(--transition-fast), color var(--transition-fast);
-}
-
-.dock-btn:last-child {
-  border-bottom: none;
+  transition: background-color var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
+  position: relative;
 }
 
 .dock-btn:hover:not(:disabled) {
@@ -285,7 +298,7 @@ body {
 }
 
 .dock-btn:disabled {
-  opacity: 0.3;
+  opacity: 0.28;
   cursor: not-allowed;
 }
 
@@ -293,48 +306,45 @@ body {
   font-family: 'Literata', 'Merriweather', serif;
   font-size: 19px;
   font-weight: 700;
-}
-
-@media (max-width: 768px) {
-  .floating-dock {
-    right: 6px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
-  }
-  .dock-btn {
-    width: 38px;
-    height: 38px;
-  }
+  line-height: 1;
 }
 
 /* --------------------------------------------------------------------------
-   Settings Dropdown Panel
+   Settings Dropdown / Popover (Nổi lên phía trên thanh dock dưới cùng)
    -------------------------------------------------------------------------- */
 
 .settings-panel {
   position: fixed;
-  top: calc(var(--header-height) + 8px);
-  right: 16px;
-  width: min(340px, calc(100vw - 32px));
+  bottom: calc(72px + env(safe-area-inset-bottom, 0px));
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(360px, calc(100vw - 28px));
   background: var(--bg-surface);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
   padding: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.2);
   z-index: 950;
   display: flex;
   flex-direction: column;
   gap: 14px;
   font-family: 'Inter', sans-serif;
-  animation: slideDown 0.2s ease;
+  animation: popUp 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .settings-panel.hidden {
   display: none;
 }
 
-@keyframes slideDown {
-  from { opacity: 0; transform: translateY(-6px); }
-  to { opacity: 1; transform: translateY(0); }
+@keyframes popUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 8px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
 }
 
 .settings-group {
@@ -593,13 +603,13 @@ input[type="range"] {
 .reader-container {
   max-width: var(--max-content-width);
   margin: 0 auto;
-  padding: 36px 24px 80px;
+  /* Chừa 110px lề dưới để thanh dock không bao giờ che chữ/nút */
+  padding: 36px 20px 115px;
 }
 
 @media (max-width: 600px) {
   .reader-container {
-    padding: 24px 16px 70px;
-    padding-right: 48px; /* Dành khoảng trống cho floating dock bên phải */
+    padding: 24px 16px 110px;
   }
 }
 
@@ -931,23 +941,6 @@ input[type="range"] {
   line-height: 1.5;
 }
 
-.comment-like-btn {
-  background: transparent;
-  border: none;
-  color: var(--text-muted);
-  cursor: pointer;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  align-self: flex-start;
-  margin-top: 4px;
-}
-
-.comment-like-btn:hover {
-  color: #ef4444;
-}
-
 /* --------------------------------------------------------------------------
    Modals (Info, Bookmarks, Publish)
    -------------------------------------------------------------------------- */
@@ -1262,7 +1255,7 @@ input[type="range"] {
 
 .toast {
   position: fixed;
-  bottom: 24px;
+  bottom: 84px;
   left: 50%;
   transform: translateX(-50%);
   background: #10b981;

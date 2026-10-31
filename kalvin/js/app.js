@@ -649,13 +649,17 @@
     el.drawerOverlay.addEventListener('click', closeDrawer);
     el.searchChapterInput.addEventListener('input', (e) => renderDrawerList(e.target.value));
 
-    el.btnToggleSettings.addEventListener('click', (e) => {
-      e.stopPropagation();
-      toggleSettings();
-    });
+    if (el.btnToggleSettings) {
+      el.btnToggleSettings.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleSettings();
+      });
+    }
 
     document.addEventListener('click', (e) => {
-      if (!el.settingsPanel.contains(e.target) && e.target !== el.btnToggleSettings && !el.dockBtnSettings.contains(e.target)) {
+      const isHeaderBtn = el.btnToggleSettings && (e.target === el.btnToggleSettings || el.btnToggleSettings.contains(e.target));
+      const isDockBtn = el.dockBtnSettings && (e.target === el.dockBtnSettings || el.dockBtnSettings.contains(e.target));
+      if (!el.settingsPanel.contains(e.target) && !isHeaderBtn && !isDockBtn) {
         el.settingsPanel.classList.add('hidden');
       }
     });
