@@ -92,42 +92,80 @@
     setupEventListeners();
   }
 
+  function cleanMetaAnnotations(str) {
+    if (!str || typeof str !== 'string') return str;
+    return str
+      .replace(/\s*\(Giai đoạn[^)]*\)/gi, '')
+      .replace(/\s*-\s*Năm nhất\b/gi, '')
+      .replace(/\s*-\s*Cuối năm nhất\b/gi, '')
+      .replace(/\s*\(Kỳ khảo hạch thực địa cuối Năm nhất\)/gi, '')
+      .replace(/\s*\(Kết thúc kỳ khảo hạch Năm nhất\)/gi, '');
+  }
+
+  function sanitizeChapter(ch) {
+    if (!ch) return ch;
+    if (ch.content) {
+      ch.content = cleanMetaAnnotations(ch.content);
+    }
+    if (Array.isArray(ch.elements)) {
+      ch.elements.forEach(el => {
+        if (el && el.text) {
+          el.text = cleanMetaAnnotations(el.text);
+        }
+      });
+    }
+    return ch;
+  }
+
   function loadNovelData() {
-    // 1. LocalStorage custom chapters (if user created new chapters)
+    // 1. Always prioritize official bundled data from window.KALVIN_DATA
+    if (window.KALVIN_DATA && Array.isArray(window.KALVIN_DATA.chapters) && window.KALVIN_DATA.chapters.length > 0) {
+      state.novel = window.KALVIN_DATA.novel;
+      state.chapters = window.KALVIN_DATA.chapters.map(ch => sanitizeChapter(ch));
+    }
+
+    // 2. Merge custom chapters from localStorage (only chapters beyond the official list)
     const localChapters = localStorage.getItem('kalvin_custom_chapters');
     if (localChapters) {
       try {
         const parsed = JSON.parse(localChapters);
         if (Array.isArray(parsed) && parsed.length > 0) {
-          state.chapters = parsed;
+          if (!state.chapters.length) {
+            state.chapters = parsed.map(ch => sanitizeChapter(ch));
+          } else {
+            const maxOfficialNum = Math.max(...state.chapters.map(c => c.number || c.id || 0));
+            const extraChapters = parsed
+              .filter(c => (c.number || c.id || 0) > maxOfficialNum)
+              .map(ch => sanitizeChapter(ch));
+            if (extraChapters.length > 0) {
+              state.chapters.push(...extraChapters);
+            } else {
+              // Stale cache of official chapters in localStorage, remove to prevent stale data
+              localStorage.removeItem('kalvin_custom_chapters');
+            }
+          }
         }
       } catch (e) {
         console.error('Error parsing local chapters:', e);
       }
     }
 
-    // 2. Global bundle window.KALVIN_DATA
-    if (!state.chapters.length && window.KALVIN_DATA) {
-      state.novel = window.KALVIN_DATA.novel;
-      state.chapters = window.KALVIN_DATA.chapters;
-    }
-
     // 3. Fallback to fetch data/chapters.json
     if (!state.chapters.length) {
-      fetch('data/chapters.json')
+      fetch('data/chapters.json?v=' + Date.now())
         .then(res => res.json())
         .then(data => {
           state.novel = data.novel;
-          state.chapters = data.chapters;
+          state.chapters = (data.chapters || []).map(ch => sanitizeChapter(ch));
           onDataReady();
         })
         .catch(err => {
           console.warn('Fetch data/chapters.json failed:', err);
           if (window.KALVIN_DATA) {
             state.novel = window.KALVIN_DATA.novel;
-            state.chapters = window.KALVIN_DATA.chapters;
-            onDataReady();
+            state.chapters = (window.KALVIN_DATA.chapters || []).map(ch => sanitizeChapter(ch));
           }
+          onDataReady();
         });
       return;
     }
@@ -209,7 +247,7 @@
       const htmlParts = [];
       chapter.elements.forEach(item => {
         if (item.type === 'paragraph') {
-          const text = item.text.trim();
+          const text = cleanMetaAnnotations(item.text ? item.text.trim() : '');
           if (text) {
             htmlParts.push(`<p>${escapeHtml(text)}</p>`);
           }
@@ -222,7 +260,7 @@
       el.chapterContent.innerHTML = htmlParts.join('\n');
     } else {
       // Fallback: parse raw content by double-newlines (\n\s*\n)
-      const raw = chapter.content || '';
+      const raw = cleanMetaAnnotations(chapter.content || '');
       const blocks = raw.split(/\r?\n\s*\r?\n/);
       const htmlParts = [];
 
@@ -245,7 +283,7 @@
         // Join internal lines inside this paragraph into one unified unbroken paragraph
         const lines = trimmed.split(/\r?\n/);
         const mergedParagraph = lines.map(l => l.trim()).filter(Boolean).join(' ');
-        htmlParts.push(`<p>${escapeHtml(mergedParagraph)}</p>`);
+        htmlParts.push(`<p>${escapeHtml(cleanMetaAnnotations(mergedParagraph))}</p>`);
       });
 
       // Append bottom illustrations if any
