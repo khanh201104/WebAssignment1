@@ -6,8 +6,8 @@
 
 ## 1. PHẠM VI HOẠT ĐỘNG BẤT KHẢ XÂM PHẠM (SANDBOX SCOPE)
 
-* **Giới hạn thư mục:** Toàn bộ quá trình đọc, ghi, chỉnh sửa, phân tích mã nguồn và thực thi lệnh **chỉ được phép diễn ra duy nhất trong thư mục `kalvin/`**.
-* **Nguyên tắc cô lập:** Tuyệt đối không đọc, sửa đổi, tra cứu hoặc thao tác trên bất kỳ tệp tin, thư mục hay tài nguyên nào nằm ngoài thư mục `kalvin/` của project này.
+* **Giới hạn thư mục:** Toàn bộ quá trình đọc, ghi, chỉnh sửa, phân tích mã nguồn và thực thi lệnh **chỉ được phép diễn ra duy nhất trong thư mục `truyen/kalvin/`**.
+* **Nguyên tắc cô lập:** Tuyệt đối không đọc, sửa đổi, tra cứu hoặc thao tác trên bất kỳ tệp tin, thư mục hay tài nguyên nào nằm ngoài thư mục `truyen/kalvin/` của project này.
 
 ---
 
@@ -17,12 +17,12 @@
 Agent tự động thực hiện tuần tự các bước sau mà không cần nhắc lại:
 1. **Rà soát bối cảnh tức thời (Context Audit):** Đọc kỹ phần cuối của chương liền trước để nắm chính xác: mốc thời gian, không gian, trạng thái thể lực/ma lực/vết thương của nhân vật, và xung đột kịch tính chưa giải quyết.
 2. **Sáng tác chương tiếp theo:** Viết trọn vẹn chương mới bám sát mạch truyện và quy chuẩn văn phong tại Mục 3.
-3. **Lưu trữ văn bản:** Tạo tệp Markdown tại `kalvin/chapters/chuong_XX.md`.
+3. **Lưu trữ văn bản:** Tạo tệp Markdown tại `truyen/kalvin/chapters/chuong_XX.md`.
 4. **Đồng bộ ứng dụng Web Reader:**
-   * Cập nhật `kalvin/data/chapters.json` (tăng `total_chapters`, bổ sung object chương mới với đầy đủ `elements`, `content`, `word_count`).
-   * Cập nhật `kalvin/js/chapters-data.js` (đồng bộ `window.KALVIN_DATA = ...;`).
+   * Cập nhật `truyen/kalvin/data/chapters.json` (tăng `total_chapters`, bổ sung object chương mới với đầy đủ `elements`, `content`, `word_count`).
+   * Cập nhật `truyen/kalvin/js/chapters-data.js` (đồng bộ `window.KALVIN_DATA = ...;`).
 5. **Git Commit & Push tự động:**
-   * Chỉ `git add` các tệp bên trong thư mục `kalvin/`.
+   * Chỉ `git add` các tệp bên trong thư mục `truyen/kalvin/`.
    * Commit với thông điệp chuẩn mực (ví dụ: `feat(kalvin): thêm Chương XX và cập nhật dữ liệu web reader`).
    * Thực hiện `git push origin main` đẩy mã nguồn lên GitHub.
 
@@ -71,10 +71,10 @@ Agent tự động thực hiện tuần tự các bước sau mà không cần n
 
 ## 4. QUY CHUẨN KỸ THUẬT & HỆ THỐNG DỮ LIỆU
 
-1. **Tệp Markdown gốc:** `kalvin/chapters/chuong_XX.md`.
+1. **Tệp Markdown gốc:** `truyen/kalvin/chapters/chuong_XX.md`.
 2. **Cơ sở dữ liệu Web Reader:**
-   * `kalvin/data/chapters.json`: Cấu trúc JSON chuẩn hóa chứa toàn bộ các chương và trường `elements` tách đoạn sạch sẽ.
-   * `kalvin/js/chapters-data.js`: Đóng gói `window.KALVIN_DATA` hỗ trợ đọc offline / local file mà không vướng lỗi CORS.
+   * `truyen/kalvin/data/chapters.json`: Cấu trúc JSON chuẩn hóa chứa toàn bộ các chương và trường `elements` tách đoạn sạch sẽ.
+   * `truyen/kalvin/js/chapters-data.js`: Đóng gói `window.KALVIN_DATA` hỗ trợ đọc offline / local file mà không vướng lỗi CORS.
 3. **An toàn Git:**
-   * Mọi lệnh `git add` chỉ định danh thư mục `kalvin/`.
+   * Mọi lệnh `git add` chỉ định danh thư mục `truyen/kalvin/`.
    * Luôn kiểm tra `git status` trước và sau khi commit/push để đảm bảo cây làm việc sạch sẽ.
