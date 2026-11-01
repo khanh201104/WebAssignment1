@@ -26,6 +26,8 @@ Celine nâng chiếc kính lúp nạm bạc lên, cẩn thận soi vào từng m
 
 Nàng hạ kính lúp, ngước nhìn thiếu niên đứng khoanh tay trước bàn.
 
+![Công chúa Celine Leicester trong Thư Phòng Bạch Ngọc, đánh giá mũi khoan ma đạo và hội đàm chiến lược cùng Kalvin](assets/images/chuong_28.png)
+
 Kalvin Palace vẫn khoác chiếc áo choàng dệt bằng sợi gai màu xám tro giản dị. Cậu đứng thẳng tắp giữa căn phòng nguy nga, đôi mắt xám tro phẳng lặng như mặt hồ đóng băng, không hề e dè trước ánh mắt dò xét của vị công chúa quyền lực.
 
 "Finn Thorne đã giải quyết bài toán cơ học," Kalvin bình thản đáp. "Tôi chỉ cung cấp phương trình cân bằng ứng suất ma lực vi mô và dẫn hướng nhiệt dư thừa thành áp lực hơi nước. Nhưng mấu chốt để cỗ máy này hoạt động không nằm ở kinh thành Leicester, mà nằm ở nguồn khoáng thạch phương Bắc."
