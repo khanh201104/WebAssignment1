@@ -1,0 +1,6 @@
+# Reasonix session state — not part of the skill
+.reasonix/
+
+# OS files
+.DS_Store
+Thumbs.db
