@@ -1,74 +1,78 @@
-# 角色卡片：[角色全名]
-> 卡片编号：XXX | 创建：Chapter N | 最后更新：Chapter N
-> 来源：原创角色 / 萌娘百科导入 / 日文维基导入
+# Thẻ Nhân Vật: [Tên Đầy Đủ Của Nhân Vật]
+> Mã thẻ: XXX | Tạo lúc: Chương N | Cập nhật lần cuối: Chương N
+> Nguồn gốc: Nhân vật nguyên tác / Import từ Moegirlpedia / Import từ Wikipedia tiếng Nhật
 
 ---
 
-## 🔒 固定属性（只读 — 不随剧情变化）
+## 🔒 Thuộc tính cố định (Chỉ đọc — Không thay đổi theo cốt truyện)
 
-### 基本身份
-- 姓名：（日文读名 / 中文译名 / 英文名 / 罗马字）
-- 性别：
-- 生日：（年-月-日）
-- 血型：
-- 国籍/出生地：
-- 所属作品/IP：（原创 / 来自XX作品）
+### Thân thế cơ bản
+- Tên gọi: (Cách đọc tiếng Nhật / Tên tiếng Việt / Tên tiếng Anh / Romaji)
+- Giới tính:
+- Ngày sinh: (Năm-Tháng-Ngày)
+- Nhóm máu:
+- Quốc tịch / Nơi sinh:
+- Tác phẩm / IP trực thuộc: (Nguyên tác sáng tác / Đến từ tác phẩm XX)
 
-### 外貌（不可变）
-- 发色/发型：
-- 瞳色：
-- 身高：
-- 体重：
-- 体型：
-- 标志性特征：
-- 常穿服饰/代表造型：
+### Ngoại hình (Bất biến)
+- Màu tóc / Kiểu tóc:
+- Màu mắt:
+- Chiều cao:
+- Cân nặng:
+- Thể hình:
+- Đặc điểm nhận dạng: (Ví dụ: sợi tóc ngốc/nốt ruồi lệ/răng khểnh/mắt hai màu...)
+- Trang phục thường mặc / Tạo hình đại diện:
 
-### 性格底色（不可变）
-- MBTI/性格类型：
-- 核心性格词（3-5个）：
-- 优点：
-- 缺点：
-- 癖好/口癖：
-- 语癖/自称：
-- 价值观/座右铭：
-- 害怕/讨厌的事物：
-- 喜欢的食物/兴趣：
+### Tính cách nền tảng (Bất biến)
+- Kiểu tính cách / MBTI:
+- Từ khóa tính cách cốt lõi (3-5 từ):
+- Ưu điểm:
+- Khuyết điểm:
+- Tật xấu / Thói quen riêng:
+- Ngữ khí / Cách tự xưng: (Ví dụ: Boku/Ore/Watashi/Watakushi/Atashi...)
+- Giá trị quan / Châm ngôn sống:
+- Điều sợ hãi / Căm ghét:
+- Món ăn ưa thích / Sở thích giải trí:
 
-### 萌点（不可变）
-- 萌属性标签：
+### Điểm cuốn hút / Moe (Bất biến)
+<!-- Đối chiếu với danh mục "Moe traits" của Moegirlpedia, có thể chọn nhiều mục -->
+- Thẻ thuộc tính Moe: (Ví dụ: Tsundere/Kuudere/Đầu óc tự nhiên/Em gái/Thanh mai trúc mã/Tiền bối/Hậu bối/Hầu gái/Tiểu thư/Chuunibyou/Mỹ nhân vụng về...)
 
-### 背景（固定历史）
-- 家族构成：
-- 成长经历（关键事件）：
-- 内心创伤/秘密：
-
----
-
-## 🔄 可变动属性（每章更新）
-
-- **年龄**：
-- **学年/班级**：
-- **职业/身份**：
-- **所属组织/势力**：
-- **社会地位/称号**：
-- **名下资产**：
-- **能力/技能**：
-- **婚育状况**：（单身/恋爱中/订婚/已婚/离异 | 子女：无/孕中/X子X女）
-- **人际关系网**：
-  - [角色] — [关系类型] — 好感度 X/100 — 最后互动：Ch.
+### Bối cảnh (Lịch sử cố định)
+- Thành phần gia đình:
+- Quá trình trưởng thành (Các sự kiện then chốt):
+- Vết thương lòng / Bí mật chôn giấu: (Quá khứ nhân vật không muốn đối diện hoặc bản thân chưa biết)
 
 ---
 
-## 剧情定位
-- 角色类型：
-- 剧情功能：
-- 剧情弧线预期：
-- 登场章节：
-- 退场/死亡章节：
+## 🔄 Thuộc tính biến động (Cập nhật sau mỗi chương)
 
-## 章节追踪
-| 章节 | 关键行为 | 可变动属性变化 |
+- **Tuổi**: (Tự động tính dựa theo Ngày sinh + Thời gian hiện tại trong chương)
+- **Học niên / Lớp học**: (Nếu áp dụng — Tự động lên lớp vào tháng 4 hàng năm)
+- **Nghề nghiệp / Thân phận**: (Học sinh/Nhân viên công ty/Lao động tự do/Thất nghiệp/Ở nhà/v.v.)
+- **Tổ chức / Thế lực trực thuộc**:
+- **Địa vị xã hội / Danh hiệu**:
+- **Tài sản đứng tên**: (Bất động sản/Phương tiện/Cổ phần công ty/Số dư tài khoản/Vật phẩm quan trọng)
+- **Năng lực / Kỹ năng**: (Bao gồm Ma pháp/Siêu năng lực/Kỹ năng đặc biệt — Ghi rõ cấp bậc biến động)
+- **Tình trạng hôn nhân & Con cái**: (Độc thân/Đang hẹn hò/Đính hôn/Đã kết hôn/Ly hôn | Con cái: Chưa có/Đang mang thai/X trai X gái)
+- **Mạng lưới quan hệ nhân vật**: (Nhân vật then chốt + Loại quan hệ + Điểm hảo cảm hiện tại / Trạng thái quan hệ)
+  - [Nhân vật A] — [Loại quan hệ] — Hảo cảm X/100 — Tương tác gần nhất: Ch.N
+  - [Nhân vật B] — [Loại quan hệ] — Hảo cảm X/100 — Tương tác gần nhất: Ch.N
+
+---
+
+## Định vị cốt truyện
+- Phân loại nhân vật: (Nhân vật chính/Nữ chính/Phản diện/Nhân vật phụ/NPC được nâng cấp)
+- Chức năng trong cốt truyện: (Cây hài tsukkomi/Gánh vác chiến đấu/Trí tuệ mưu lược/Chữa lành/Đầu mối tình báo/Đối tượng cần bảo vệ)
+- Dự kiến vòng cung nhân vật (Character Arc):
+- Chương xuất hiện lần đầu: Ch.N
+- Chương rút lui / Tử vong: (Nếu có)
+
+## Bảng theo dõi qua từng chương
+| Chương | Hành vi then chốt | Biến động thuộc tính |
 |------|----------|----------------|
-| Ch.1 | | |
+| Ch.1 | [Đã làm gì] | [Điều gì đã thay đổi] |
+| Ch.2 | ... | ... |
 
-## 备注
+## Ghi chú
+(Các thông tin khác cần ghi nhớ, lưu ý của tác giả, lưu ý liên kết giữa các tác phẩm)

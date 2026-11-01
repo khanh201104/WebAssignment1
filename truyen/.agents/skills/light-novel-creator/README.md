@@ -1,193 +1,156 @@
-# Light Novel Creator Agent · 轻小说创作智能体
+# Light Novel Creator Agent · Trợ Lý Kỹ Nghệ Sáng Tác Light Novel
 
-> 一个具备持续学习能力的 AI 轻小说创作系统——学习优秀作品、模仿风格、创造新作、自我优化。
-
----
-
-## 概述
-
-Light Novel Creator Agent 是一个运行在 Reasonix 平台上的专业轻小说创作 Skill。它不仅仅是一个文本生成器，而是一个完整的**创作工程系统**，覆盖从风格研究、世界观构建、角色管理、时间线追踪到章节输出和自我审查的全生命周期。
-
-**核心理念**：学习优先 ＞ 创作优先 ＞ 输出优先
+> Một hệ thống AI sáng tác Light Novel chuyên nghiệp sở hữu năng lực học tập liên tục — Học hỏi tác phẩm xuất sắc, mô phỏng văn phong, sáng tạo tác phẩm mới và tự tối ưu hóa năng lực bản thân.
 
 ---
 
-## 功能矩阵（13 子系统）
+## 1. Tổng quan
 
-| # | 子系统 | 功能 |
-|---|--------|------|
-| 1 | **风格学习系统** | 检索指定作品/作者 → 构建 Style Profile（句长/对话比/修辞/情感节奏）→ 持久化 |
-| 2 | **多语言创作系统** | 中文/日本語/English 独立构思，母语者级本地化，无翻译腔 |
-| 3 | **创作模式** | 普通小说 / 人生模拟器 / 跑团GM(CoC/DnD) / Galgame(好感度+分支) |
-| 4 | **长篇记忆系统** | World/Character/Faction/Timeline/Foreshadow/Event 六类记忆，写作前自动读取 |
-| 5 | **灵感推演系统** | 剧情停滞时自动生成：5合理发展 + 3意外发展 + 1高爆点发展 |
-| 6 | **Skill Learning** | 自主发现→评估→安装→测试→记录 GitHub/HuggingFace 上的创作 Skills |
-| 7 | **MCP Learning** | 搜索/安装 NovelWriter/Obsidian/Memory/VectorDB 等 MCP 服务器 |
-| 8 | **样本监督学习** | 从合法公开资料学习风格特征、叙事结构——不记忆原文 |
-| 9 | **自监督训练** | 每章后 6 维度 Self Review：人设/时间线/世界观/节奏/用词/OOC |
-| 10 | **NovelWriter 集成** | 自动维护 `/NovelProject/` 文件结构，每章同步更新 |
-| 11 | **输出格式** | 完整版（规划→设定→正文→角色更新→时间线→记忆→审查→建议）或纯正文 |
-| 12 | **学习优先原则** | 创作前强制检查：是否需要学习新风格/技能/MCP/数据集 |
-| 13 | **角色卡片数据库** | 🔒固定属性(只读) + 🔄可变动属性(每章更新) + ACGN百科自动抓取 |
+Light Novel Creator Agent là một Skill sáng tác Light Novel chuyên nghiệp. Đây không đơn thuần là một công cụ sinh văn bản thông thường, mà là một **hệ thống kỹ nghệ sáng tác toàn diện (Creative Engineering System)**, bao quát toàn bộ vòng đời tác phẩm: từ nghiên cứu văn phong, kiến tạo thế giới quan, quản lý nhân vật, theo dõi dòng thời gian cho đến việc chấp bút từng chương và tự động thẩm định chất lượng sau mỗi chương.
+
+**Triết lý cốt lõi**: Học tập ưu tiên ＞ Sáng tác ưu tiên ＞ Xuất bản ưu tiên
 
 ---
 
-## 角色卡片系统
+## 2. Ma trận chức năng (13 Phân hệ chuyên sâu)
 
-### 双区格式
+| # | Phân hệ | Chức năng chính |
+|---|---------|----------------|
+| 1 | **Học phong cách (Style Learning)** | Thu thập dữ liệu tác phẩm/tác giả $\to$ Lập hồ sơ phong cách *Style Profile* (độ dài câu/tỷ lệ đối thoại/tu từ/nhịp điệu cảm xúc) $\to$ Lưu trữ vĩnh viễn |
+| 2 | **Sáng tác đa ngôn ngữ (Multi-language)** | Sáng tác độc lập bằng tiếng Trung/Nhật/Anh theo văn phong bản ngữ tự nhiên, không dịch thô ráp ("dịch ngữ") |
+| 3 | **Chế độ sáng tác (Creation Modes)** | Tiểu thuyết chuẩn / Mô phỏng cuộc đời (Life Simulator) / Quản trò TRPG GM (CoC/DnD) / Galgame (Đo hảo cảm + rẽ nhánh cốt truyện) |
+| 4 | **Trí nhớ trường thiên (Long-form Memory)** | Quản lý 6 danh mục ký ức: Thế giới (World), Nhân vật (Character), Phe phái (Faction), Dòng thời gian (Timeline), Phục bút (Foreshadow), Sự kiện (Event). Đọc tự động trước mỗi khi viết |
+| 5 | **Suy diễn cảm hứng (Inspiration Deduction)** | Khi cốt truyện bế tắc, tự động suy luận: 5 hướng phát triển hợp lý + 3 ngã rẽ bất ngờ + 1 cú nổ cao trào (Plot Twist) |
+| 6 | **Tự học Skill (Skill Learning)** | Tự chủ tìm kiếm $\to$ Đánh giá $\to$ Cài đặt $\to$ Kiểm thử $\to$ Ghi nhận các Skill sáng tác trên GitHub/HuggingFace |
+| 7 | **Tự học MCP (MCP Learning)** | Tìm kiếm và tích hợp các MCP Server: NovelWriter, Obsidian, Memory, VectorDB... |
+| 8 | **Học từ dữ liệu mẫu (Sample Learning)** | Học tập đặc trưng văn phong, cấu trúc tự sự từ tư liệu công khai hợp pháp (không học vẹt sao chép nguyên văn) |
+| 9 | **Tự thẩm định chất lượng (Self-supervised Review)** | Sau mỗi chương, tự động chạy checklist kiểm tra 6 chiều: Tính cách nhân vật / Dòng thời gian / Thế giới quan / Nhịp độ / Lặp từ / Nguy cơ OOC (lệch tính cách) |
+| 10 | **Tích hợp NovelWriter** | Tự động duy trì và cập nhật cấu trúc thư mục `/NovelProject/` đồng bộ sau mỗi chương |
+| 11 | **Định dạng xuất bản (Output Format)** | Bản đầy đủ (Kế hoạch $\to$ Thiết lập $\to$ Chính văn $\to$ Cập nhật nhân vật $\to$ Dòng thời gian $\to$ Ký ức $\to$ Thẩm định $\to$ Gợi ý tiếp theo) hoặc Bản thuần chính văn |
+| 12 | **Nguyên tắc ưu tiên học tập** | Kiểm tra bắt buộc trước khi sáng tác: Đã nạp đủ phong cách/kỹ năng/MCP/dữ liệu cần thiết chưa |
+| 13 | **Cơ sở dữ liệu Thẻ Nhân Vật** | 🔒 Thuộc tính cố định (Chỉ đọc) + 🔄 Thuộc tính biến động (Cập nhật sau mỗi chương) + Tự động bóc tách dữ liệu bách khoa ACGN |
 
-角色卡片分为两个区域：
+---
+
+## 3. Hệ thống Thẻ Nhân Vật (Character Card)
+
+### Định dạng 2 vùng dữ liệu
+
+Thẻ nhân vật được phân tách rành mạch thành hai vùng:
 
 ```
-🔒 固定属性（只读）                   🔄 可变动属性（每章强制更新）
-─────────────────────────           ─────────────────────────
-姓名/性别/生日/血型/国籍              年龄（自动推算）
-发色/瞳色/身高/体型/标志性特征         学年/职业/身份
-MBTI/性格词/优缺点/癖好/口癖          所属组织/社会地位/称号
-萌点/萌属性标签                       名下资产
-家族构成/成长经历/内心创伤             能力/技能（含等级变化）
-                                     婚育状况/人际关系网（含好感度）
+🔒 Thuộc tính cố định (Chỉ đọc)              🔄 Thuộc tính biến động (Cập nhật sau mỗi chương)
+─────────────────────────                    ─────────────────────────
+Họ tên / Giới tính / Ngày sinh / Nhóm máu    Tuổi (Tự động tính theo dòng thời gian)
+Màu tóc / Màu mắt / Chiều cao / Thể hình     Học niên / Nghề nghiệp / Thân phận
+MBTI / Tính cách cốt lõi / Điểm mạnh / Yếu   Tổ chức trực thuộc / Địa vị xã hội / Danh hiệu
+Thẻ thuộc tính Moe (Tsundere, Kuudere...)    Tài sản đứng tên
+Thành phần gia đình / Quá khứ / Chấn thương  Năng lực / Kỹ năng (Ghi rõ biến động cấp bậc)
+                                             Hôn nhân con cái / Mạng lưới quan hệ (Kèm điểm hảo cảm)
 ```
 
-### 创建角色三种方式
+### 3 Phương thức khởi tạo nhân vật
 
-| 方式 | 触发 | 说明 |
-|------|------|------|
-| **A. 询问用户** | 用户无 Prompt 时 | 逐项询问 13 个字段 |
-| **B. 自由 Prompt** | 用户提供角色描述 | 自动提取 + 追问缺失项 |
-| **C. ACGN 百科导入** | 用户指定已有 ACGN 角色 | 萌娘百科/日文维基自动抓取 → 填入卡片 |
+| Phương thức | Khi nào kích hoạt | Mô tả quy trình |
+|---|---|---|
+| **A. Phỏng vấn người dùng** | Khi người dùng chưa có Prompt chi tiết | Lần lượt hỏi người dùng 13 trường thông tin cốt lõi |
+| **B. Phân tích tự do** | Người dùng cung cấp đoạn mô tả tự do | Tự động bóc tách phân loại vào 2 vùng + hỏi thêm các mục còn thiếu |
+| **C. Import Bách khoa ACGN** | Người dùng chỉ định nhân vật ACGN có sẵn | Tự động bóc tách từ Moegirlpedia / Wikipedia tiếng Nhật $\to$ Điền vào thẻ |
 
-### 每章自动更新
+### Tự động cập nhật sau mỗi chương
 
-章节完成后强制检查 8 个动态字段：年龄/职业/组织/地位/资产/能力/婚育/关系网
+Sau khi hoàn thành chương văn, bắt buộc kiểm tra 8 trường dữ liệu động: Tuổi / Nghề nghiệp / Tổ chức / Địa vị / Tài sản / Năng lực / Hôn nhân / Mạng lưới quan hệ.
 
-### 时间线联动
+### Liên kết chặt chẽ với Dòng thời gian (Timeline)
 
-Timeline.md 与角色卡片双写验证：年龄 = 生日 + 当前日期，状态必须一致
+Xác thực chéo 2 chiều giữa `Timeline.md` và Thẻ nhân vật: `Tuổi = Ngày sinh + Ngày hiện tại của cốt truyện`, mọi trạng thái phải đồng nhất 100%.
 
 ---
 
-## ACGN 百科对接
+## 4. Tích hợp Bách khoa ACGN
 
-配套 Skill：[`acgn-character-scraper`](../acgn-character-scraper/SKILL.md)
+Phối hợp cùng Skill: `acgn-character-scraper`
 
 ```
-用户：「把《春物》的雪之下雪乃加入故事」
+Người dùng: "Hãy đưa nhân vật Yukinoshita Yukino trong Oregairu vào câu chuyện"
   ↓
-① web_fetch 萌娘百科 zh.moegirl.org.cn/雪之下雪乃
-② 解析 Infobox + 萌点栏 + 关系章节
-③ 20+ 字段自动映射到 🔒固定属性 / 🔄可变动属性
-④ 输出标准卡片 Markdown
-⑤ 追问 5 项确认（登场时间/初始关系/年龄调整/能力保留/属性修改）
+① web_fetch trang Moegirlpedia zh.moegirl.org.cn/雪之下雪乃
+② Bóc tách Infobox + Cột thuộc tính Moe + Các chương quan hệ nhân vật
+③ Tự động ánh xạ 20+ trường dữ liệu vào 🔒 Thuộc tính cố định / 🔄 Thuộc tính biến động
+④ Xuất thẻ nhân vật chuẩn Markdown
+⑤ Hỏi xác nhận 5 điểm: Thời điểm xuất hiện / Quan hệ ban đầu / Điều chỉnh độ tuổi / Giữ nguyên năng lực / Tùy biến thuộc tính
 ```
 
-支持数据源：萌娘百科 / 日文维基 / 英文维基 / Bangumi / AniDB
+Hỗ trợ các nguồn dữ liệu: Moegirlpedia (萌娘百科) / Wikipedia tiếng Nhật / Wikipedia tiếng Anh / Bangumi / AniDB.
 
 ---
 
-## NovelProject 文件结构
+## 5. Cấu trúc thư mục NovelProject
 
 ```
 NovelProject/
-├─ World.md              # 世界观设定
-├─ Characters.md         # 角色一览 + 关系图谱（自动生成）
-├─ Characters/           # ★ 角色卡片数据库
-│  ├─ _template.md       # 卡片模板
-│  ├─ 001_主角.md
-│  ├─ 002_女主A.md
+├─ World.md              # Thiết lập thế giới quan
+├─ Characters.md         # Danh sách nhân vật + Sơ đồ quan hệ (Tự động sinh)
+├─ Characters/           # ★ Cơ sở dữ liệu thẻ nhân vật
+│  ├─ _template.md       # Mẫu thẻ nhân vật chuẩn
+│  ├─ 001_NhanVatChinh.md
+│  ├─ 002_NuChinhA.md
 │  └─ ...
-├─ Timeline.md           # ★ 时间线概要（含角色状态速览 + 联动验证）
-├─ Settings.md           # 场景/地点设定
-├─ Factions.md           # 势力设定
-├─ Foreshadows.md        # 伏笔追踪
-├─ Chapter01.md
-├─ Chapter02.md
+├─ Timeline.md           # ★ Dòng thời gian tóm lược (Kèm trạng thái nhân vật + xác thực kép)
+├─ Settings.md           # Thiết lập địa danh / Cảnh trí
+├─ Factions.md           # Thiết lập các thế lực, bang phái
+├─ Foreshadows.md        # Theo dõi phục bút (chi tiết cài cắm & thu hồi)
+├─ Chapter01.md          # Chương 1
+├─ Chapter02.md          # Chương 2
 └─ ...
 ```
 
 ---
 
-## 安装与使用
+## 6. Hướng dẫn sử dụng
 
-### 安装
-
-Skill 已内置在 Reasonix 项目中，路径：
+### Quy trình làm việc tiêu chuẩn
 
 ```
-.reasonix/skills/light-novel-creator/SKILL.md
-```
-
-### 使用方式
-
-```
-# 加载 Skill（Reasonix 自动发现）
-/light-novel-creator
-
-# 或通过 run_skill
-run_skill name="light-novel-creator" arguments="<你的创作需求>"
-```
-
-### 典型工作流
-
-```
-1. 设定世界观         → 「半魔幻架空都市，2010-2050 日本」
-2. 研究现实基底       → 自动研究日本铁道/企业/校园/都市系统
-3. 创建角色卡片       → 方式A/B/C 创建主角+女主角
-4. 选择风格           → 「用春物风格」→ 自动构建 Style Profile
-5. 开始第一章         → 输出完整格式（规划→正文→更新→审查）
-6. 继续下一章         → 自动读取卡片+时间线 → 写 → 更新
-```
-
-### ACGN 角色导入
-
-```
-# 单独调用抓取器
-run_skill name="acgn-character-scraper" arguments="雪之下雪乃 from 春物"
-
-# 或在 light-novel-creator 中直接说
-「把《无职转生》的洛琪希加入故事」
+1. Thiết lập thế giới quan    → "Đô thị siêu nhiên bán ma ảo, bối cảnh Nhật Bản 2010-2050"
+2. Nghiên cứu thực tế         → Tự động tra cứu hệ thống đường sắt / Doanh nghiệp / Học đường Nhật Bản
+3. Tạo thẻ nhân vật           → Áp dụng phương thức A/B/C tạo Nam chính + Nữ chính
+4. Chọn phong cách            → "Dùng văn phong Oregairu" → Tự động lập Style Profile
+5. Viết chương đầu tiên       → Xuất định dạng đầy đủ (Kế hoạch → Chính văn → Cập nhật → Thẩm định)
+6. Viết các chương tiếp theo  → Tự động đọc thẻ nhân vật + Dòng thời gian → Chấp bút → Cập nhật
 ```
 
 ---
 
-## 强制门禁
+## 7. Các rào chắn kiểm duyệt bắt buộc (Mandatory Gates)
 
-> 以下步骤不可跳过：
+> Tuyệt đối không được phép bỏ qua các bước sau:
 
-| 时机 | 强制操作 |
-|------|----------|
-| **写第一章前** | 必须创建男主角 + ≥1 女主角的角色卡片 |
-| **写每章前** | 必须 `read_file Timeline.md` + 全部 `Characters/*.md` |
-| **写每章后** | 必须更新所有受影响的角色卡片 + 追加时间线条目 |
-| **角色卡片更新** | 只更新 🔄可变动属性；🔒固定属性 = 只读 |
-| **时间线更新** | 必须与角色卡片双写验证（年龄/职业/关系一致性） |
-
----
-
-## 预置风格库
-
-| 作品 | 作者 | 核心技法 |
-|------|------|----------|
-| 春物 | 渡航 | 不可靠叙述、屁理屈引擎、潜台词密度 |
-| エロマンガ先生 | 伏見つかさ | 漫才式对话、直球恋爱喜剧 |
-| 禁書目録 | 鎌池和馬 | 多POV、技术动作描写、科学/魔法体系 |
-| 無職転生 | 理不尽な孫の手 | 生涯叙事、叙事声音随年龄成长 |
-| Re:ゼロ | 長月達平 | 死亡回归叙事、情感过山车 |
-| 86 | 安里アサト | 情感克制、Epigraph、军事SF精准度 |
-| 变态王子与不笑猫 | さがら総 | 本音泄漏喜剧、语言游戏、回旋镖结构 |
+| Thời điểm | Hành động bắt buộc |
+|---|---|
+| **Trước khi viết Chương 1** | Bắt buộc phải tạo xong thẻ nhân vật của Nam chính + ít nhất 1 Nữ chính |
+| **Trước khi viết mỗi chương** | Bắt buộc phải đọc `Timeline.md` + toàn bộ thẻ nhân vật trong `Characters/*.md` |
+| **Sau khi viết mỗi chương** | Bắt buộc phải cập nhật tất cả thẻ nhân vật bị ảnh hưởng + Bổ sung sự kiện vào dòng thời gian |
+| **Cập nhật thẻ nhân vật** | Chỉ cập nhật 🔄 Thuộc tính biến động; Vùng 🔒 Thuộc tính cố định = Chỉ đọc |
+| **Cập nhật Dòng thời gian** | Bắt buộc đối chiếu xác thực kép với Thẻ nhân vật (Tính nhất quán về Tuổi / Nghề nghiệp / Quan hệ) |
 
 ---
 
-## 依赖
+## 8. Thư viện phong cách tích hợp sẵn
 
-- **平台**：Reasonix
-- **内置工具**：`web_fetch`、`remember`、`memory`、`write_file`、`read_file`、`install_skill`、`install_source`
-- **配套 Skill**：`acgn-character-scraper`（可选，用于 ACGN 百科角色导入）
-- **已有 MCP**：`mcp__bytebase-dbhub`（可选数据库存储）、`mcp__negokaz-excel-mcp-server`（可选 Excel 设定表）
+| Tác phẩm | Tác giả | Kỹ thuật tự sự cốt lõi |
+|---|---|---|
+| **Oregairu (春物)** | Wataru Watari | Người kể chuyện không đáng tin cậy, lý luận ngụy biện phản biện xã hội, mật độ hàm ý ngầm cao |
+| **Eromanga Sensei** | Tsukasa Fushimi | Hội thoại kiểu tấu hài Manzai, hài kịch lãng mạn đánh thẳng vào cảm xúc |
+| **Toaru Majutsu no Index** | Kazuma Kamachi | Kỹ thuật đa điểm nhìn (Multi-POV), miêu tả hành động chuẩn xác, hệ thống khoa học đối lập ma pháp |
+| **Mushoku Tensei** | Rifujin na Magonote | Tự sự trọn đời (biography), giọng văn biến chuyển trưởng thành theo từng độ tuổi |
+| **Re:Zero** | Tappei Nagatsuki | Tự sự vòng lặp tử vong (Return by Death), tàu lượn siêu tốc cảm xúc |
+| **86 - Eighty Six** | Asato Asato | Tiết chế cảm xúc đỉnh cao, trích dẫn đầu chương (Epigraph), độ chính xác viễn tưởng quân sự |
+| **Hentai Ouji to Warawanai Neko** | Sou Sagara | Hài kịch bộc lộ tiếng lòng, chơi chữ ngữ nghĩa, kết cấu cốt truyện gậy ông đập lưng ông |
 
 ---
 
-## 版本
+## 9. Lịch sử phiên bản
 
-- **v2.0** — 新增 §13 角色卡片数据库 + 时间线联动 + ACGN 百科对接
-- **v1.0** — 初始 12 子系统 + Japanese Reference 研究文档
+- **v2.0** — Bổ sung Phân hệ 13: Cơ sở dữ liệu Thẻ nhân vật + Liên kết Dòng thời gian kép + Tích hợp bách khoa ACGN.
+- **v1.0** — Khởi tạo 12 Phân hệ sáng tác + Tài liệu tham khảo hiện thực Nhật Bản (Japan Reference).
