@@ -1,85 +1,107 @@
 # QUY CHUẨN HOẠT ĐỘNG & BỘ KỸ NĂNG AGENT (AGENT SKILL & CONSTRAINTS)
-> **Tài liệu tham chiếu tối cao cho mọi tác vụ trong không gian làm việc này.**
-> Áp dụng trực tiếp cho dự án tiểu thuyết & Web Reader: **Biên Niên Sử Tro Tàn: Kalvin Palace**.
+> **Tài liệu tham chiếu tối cao cho mọi tác vụ trong không gian làm việc này.**  
+> **Áp dụng trực tiếp cho dự án tiểu thuyết & Web Reader: Biên Niên Sử Tro Tàn: Kalvin Palace.**  
+> **Khung kiến trúc tích hợp:** Chuẩn hóa theo hệ thống 13 phân hệ của `.agents/skills/light-novel-creator`.
 
 ---
 
-## 1. PHẠM VI HOẠT ĐỘNG BẤT KHẢ XÂM PHẠM (SANDBOX SCOPE)
+## 1. PHẠM VI HOẠT ĐỘNG & QUYỀN TRUY CẬP (SANDBOX SCOPE)
 
-* **Giới hạn thư mục:** Toàn bộ quá trình đọc, ghi, chỉnh sửa, phân tích mã nguồn và thực thi lệnh **chỉ được phép diễn ra duy nhất trong thư mục `truyen/kalvin/`**.
-* **Nguyên tắc cô lập:** Tuyệt đối không đọc, sửa đổi, tra cứu hoặc thao tác trên bất kỳ tệp tin, thư mục hay tài nguyên nào nằm ngoài thư mục `truyen/kalvin/` của project này.
-
----
-
-## 2. QUY TRÌNH LÀM VIỆC TỰ ĐỘNG (WORKFLOW PROTOCOL)
-
-### 2.1. Khi được yêu cầu: "Viết chương mới và push lên GitHub"
-Agent tự động thực hiện tuần tự các bước sau mà không cần nhắc lại:
-1. **Kiểm tra bắt buộc `KALVIN_README.md` (Mandatory Framework Check):** Đọc và đối chiếu lại `truyen/kalvin/KALVIN_README.md` để nắm chắc khung sườn Master Outline, cột mốc (milestone) của Arc hiện tại, tâm lý nhân vật và bộ quy chuẩn văn phong/cấm kỵ.
-2. **Rà soát bối cảnh tức thời (Context Audit):** Đọc kỹ phần cuối của chương liền trước để nắm chính xác: mốc thời gian, không gian, trạng thái thể lực/ma lực/vết thương của nhân vật, và xung đột kịch tính chưa giải quyết.
-3. **Sáng tác chương tiếp theo:** Viết trọn vẹn chương mới bám sát mạch truyện và quy chuẩn văn phong tại Mục 3.
-4. **Lưu trữ văn bản:** Tạo tệp Markdown tại `truyen/kalvin/chapters/chuong_XX.md`.
-5. **Đồng bộ ứng dụng Web Reader:**
-   * Cập nhật `truyen/kalvin/data/chapters.json` (tăng `total_chapters`, bổ sung object chương mới với đầy đủ `elements`, `content`, `word_count`).
-   * Cập nhật `truyen/kalvin/js/chapters-data.js` (đồng bộ `window.KALVIN_DATA = ...;`).
-6. **Git Commit & Push tự động:**
-   * Chỉ `git add` các tệp bên trong thư mục `truyen/kalvin/`.
-   * Commit với thông điệp chuẩn mực (ví dụ: `feat(kalvin): thêm Chương XX và cập nhật dữ liệu web reader`).
-   * Thực hiện `git push origin main` đẩy mã nguồn lên GitHub.
-
-### 2.2. Khi được yêu cầu: "Viết một chương chỉ định cụ thể" (Ví dụ: Chương X)
-1. **Kiểm tra `KALVIN_README.md` & Định vị hai đầu:** Đọc `KALVIN_README.md` cùng chương trước (X-1) và chương sau (X+1, nếu đã tồn tại) để xây dựng cầu nối diễn biến mượt mà, hợp lý về logic và tâm lý nhân vật.
-2. **Sáng tác & Đồng bộ:** Thực hiện đầy đủ các bước lưu trữ, đồng bộ dữ liệu vào `chapters.json`, `chapters-data.js` và tự động commit, push lên GitHub.
+* **Giới hạn thư mục:** Toàn bộ quá trình đọc, ghi, chỉnh sửa, phân tích mã nguồn và thực thi lệnh **được cấp quyền trong phạm vi toàn bộ thư mục `truyen/`** (bao gồm `truyen/.agents/`, `truyen/kalvin/`, `truyen/index.html` và các tài nguyên trực thuộc).
+* **Nguyên tắc ranh giới an toàn:** Tuyệt đối không đọc, sửa đổi, tra cứu hoặc thao tác trên bất kỳ tệp tin, thư mục hay tài nguyên nào nằm ngoài thư mục `truyen/` của không gian làm việc này.
 
 ---
 
-## 3. TIÊU CHUẨN SÁNG TÁC & VĂN PHONG (THEO KALVIN_README.MD)
+## 2. KIẾN TRÚC NOVELPROJECT & CƠ SỞ DỮ LIỆU ĐỘC LẬP
 
-### 3.1. Phong cách chủ đạo: Seinen Fantasy Light Novel Nhật Bản
-* **Tông màu:** Trầm lắng, hiện thực, tàn khốc nhưng giàu chất thơ và tình cảm đồng đội nén chặt (*Grimgar*, *86 - Eighty Six*, *Mushoku Tensei*, *Spice & Wolf*).
-* **Tuyệt đối cấm văn phong Tiên hiệp / Kiếm hiệp Trung Quốc:**
-  * ❌ *CẤM:* Hừ lạnh, cười gằn, sắc mặt đại biến, hít một hơi khí lạnh, khóe miệng giật giật, tiểu tử thối, lão bất tử, con kiến hôi, ngươi muốn chết, to gan lớn mật, sát khí ngập trời, huyết nhục mơ hồ, bọt máu cuồng phun, lực lượng kinh khủng bực này...
-  * ✅ *BẮT BUỘC:* Miêu tả chuyển động vi mô của cơ bắp, hơi thở phả thành sương, tiếng kim loại va đập sắc gọn, mùi rỉ sét của máu, độ buốt giá của đá vôi, sự im lặng đầy sức nặng giữa các câu thoại.
-* **Xưng hô chuẩn mực:** Cậu, cô, hắn, ông ta; mày - tao (khi thù địch); ngài, điện hạ, thiếu gia; tớ - cậu, anh - em (thân thiết, tình cảm).
+Dự án áp dụng cấu trúc thư mục tiêu chuẩn hóa `NovelProject/` nhằm duy trì tính nhất quán tuyệt đối về thế giới quan, nhân vật, dòng thời gian và phong cách sáng tác:
 
-### 3.2. Yêu cầu về độ dài & nhịp độ
-* **Dung lượng:** Mỗi chương phải đạt từ **3.000 đến 4.000 từ tiếng Việt**.
-* **Nhịp độ viết sâu (Micro-pacing):** Viết chậm rãi, tả kỹ từng chuyển động cơ thể, cơ chế vận hành của Khí và Ma lực vi mô. Tuyệt đối **không nhảy cóc thời gian** và **không tóm tắt sự kiện** (ví dụ: cấm viết *"Họ nói chuyện cả buổi rồi quay về"*).
-
-### 3.3. Nhất quán hình tượng ba nhân vật chính
-* **Kalvin Palace (Cái Đầu / Chiến lược):**
-  * Tóc đen, mắt xám tro tĩnh lặng.
-  * Trầm mặc, kiệm lời, khả năng kiểm soát cảm xúc và ma lực vi mô tuyệt đối; suy nghĩ lý tính như một nhà khoa học giải phẫu.
-  * Tàn nhẫn, dứt khoát với kẻ thù; vụng về nhưng sâu sắc trong việc bảo vệ Roy và Rumy. Tuyệt đối **không kiêu ngạo, không khoe khoang**.
-* **Rumy Charlotte (Trái Tim / Thánh Nữ):**
-  * Mái tóc đỏ rực rỡ như đốm lửa ấm, mắt màu hổ phách.
-  * Dịu dàng, nhẫn nại nhưng ý chí sắt đá, không yếu đuối bánh bèo. Sở hữu Thánh căn bẩm sinh tối thượng. Mỏ neo nhân tính giữ Kalvin khỏi ranh giới tàn độc.
-* **Roy Kane (Thanh Kiếm / Kỵ Sĩ Trung Thành):**
-  * Vạm vỡ, tóc nâu, phóng khoáng, nụ cười nửa miệng.
-  * Trực giác chiến đấu thiên bẩm, vận hành Khí điêu luyện, đặt niềm tin tuyệt đối vào Kalvin.
-
-### 3.4. Bộ lọc kiểm tra 5 bước (Continuation Protocol)
-1. **Bước 1 - Rà soát bối cảnh:** Năm Roland, địa điểm, thể lực, ma lực, xung đột tức thời.
-2. **Bước 2 - Phạm vi:** Giới hạn 1 - 2 phân cảnh lớn/chương.
-3. **Bước 3 - Cấu trúc 3 phần:**
-   * *Mở đầu (500 – 700 từ):* Gắn với giác quan vật lý (gió, mùi, vị muối, nhiệt độ).
-   * *Thân chương (2.000 – 2.500 từ):* Đối thoại tự nhiên, chiến thuật chi tiết, xung đột leo thang.
-   * *Kết chương (500 – 800 từ):* Điểm lặng, quyết định dứt khoát, để lại dư âm (hook).
-4. **Bước 4 - Kiểm soát dung lượng:** 3.000 – 4.000 từ.
-5. **Bước 5 - Bộ lọc làm sạch:** Quét sạch từ ngữ tiên hiệp và chú thích giai đoạn nội bộ trước khi xuất bản.
-
-### 3.5. Quy chuẩn định vị dòng thời gian (Temporal Anchoring)
-* Đầu mỗi chương bắt buộc có dòng định vị thời gian in nghiêng tự nhiên: `*Mùa/Tháng năm XXX lịch Roland – Thời khắc trong ngày, bối cảnh / khoảng cách thời gian kể từ sự kiện trước.*`
-* **TUYỆT ĐỐI KHÔNG ĐƯA CHÚ THÍCH GIAI ĐOẠN NỘI BỘ VÀO VĂN BẢN:** Các nhãn phân kỳ như `(Giai đoạn 2.1: Năm nhất)`, `(Giai đoạn 2.2: Năm 2)` là tài liệu định hướng nội bộ của Master Outline để AI nắm bắt tiến trình cốt truyện, **tuyệt đối không được đưa vào nội dung chương truyện hay hiển thị trên giao diện độc giả**.
+```
+truyen/kalvin/
+├── NovelProject/                       # Cơ sở dữ liệu cốt lõi (World Bible & Knowledge Base)
+│   ├── Characters/                     # Cơ sở dữ liệu thẻ nhân vật 2 vùng dữ liệu
+│   │   ├── _template.md                # Phôi chuẩn 2 vùng: 🔒 Cố định & 🔄 Biến động
+│   │   ├── 001_Kalvin_Palace.md        # Thẻ nhân vật Nam chính Kalvin
+│   │   ├── 002_Rumy_Charlotte.md       # Thẻ nhân vật Nữ chính Rumy
+│   │   ├── 003_Roy_Kane.md             # Thẻ nhân vật Nam thứ Roy
+│   │   ├── 004_Finn_Thorne.md          # Thẻ nhân vật Kỹ sư Finn
+│   │   ├── 005_Celine_Leicester.md     # Thẻ nhân vật Công chúa Celine
+│   │   └── ... (006 -> 012)            # Các nhân vật phụ và phản diện
+│   ├── Characters.md                   # Master index nhân vật & Sơ đồ quan hệ mạng lưới
+│   ├── Timeline.md                     # Bảng tra cứu trạng thái + Lịch sử + Nhật ký dòng thời gian
+│   ├── World.md                        # Thiết lập thế giới quan, ma lực vi mô, hệ thống Khí huyết
+│   ├── Settings.md                     # Bối cảnh địa danh, cảnh trí, không gian giác quan
+│   ├── Factions.md                     # Bản đồ thế lực, cấu trúc chính trị, phe cánh
+│   ├── Foreshadows.md                  # Quản lý phục bút (Plant - Reinforce - Payoff)
+│   ├── Style_Profile.md                # Hồ sơ phong cách Seinen Light Novel Nhật Bản
+│   └── Review_Checklist.md             # Quy trình tự thẩm định chất lượng 6 chiều sau mỗi chương
+├── chapters/                           # Tệp markdown văn bản từng chương (chuong_01.md -> ...)
+├── data/                               # Cơ sở dữ liệu Web Reader (chapters.json)
+├── js/                                 # Kịch bản Web Reader (chapters-data.js, app.js...)
+├── css/                                # Định dạng giao diện Web Reader
+├── index.html                          # Giao diện ứng dụng đọc truyện Web Reader
+├── KALVIN_README.md                    # Tài liệu định hướng sáng tác & Master Outline
+└── AGENT_SKILL.md                      # Quy chuẩn hoạt động và kiểm soát chất lượng của Agent
+```
 
 ---
 
-## 4. QUY CHUẨN KỸ THUẬT & HỆ THỐNG DỮ LIỆU
+## 3. CỔNG KIỂM SOÁT BẮT BUỘC TRƯỚC VÀ SAU KHI SÁNG TÁC (MANDATORY GATES)
 
-1. **Tệp Markdown gốc:** `truyen/kalvin/chapters/chuong_XX.md`.
-2. **Cơ sở dữ liệu Web Reader:**
-   * `truyen/kalvin/data/chapters.json`: Cấu trúc JSON chuẩn hóa chứa toàn bộ các chương và trường `elements` tách đoạn sạch sẽ.
-   * `truyen/kalvin/js/chapters-data.js`: Đóng gói `window.KALVIN_DATA` hỗ trợ đọc offline / local file mà không vướng lỗi CORS.
-3. **An toàn Git:**
-   * Mọi lệnh `git add` chỉ định danh thư mục `truyen/kalvin/`.
-   * Luôn kiểm tra `git status` trước và sau khi commit/push để đảm bảo cây làm việc sạch sẽ.
+Tuân thủ nghiêm ngặt nguyên tắc của `.agents/skills/light-novel-creator`:
+
+### 3.1. Cổng kiểm soát TRƯỚC khi viết (Pre-write Gate)
+Trước khi đặt bút viết một chương mới, Agent **bắt buộc phải thực hiện 2 thao tác tra cứu**:
+1. **Đọc `NovelProject/Timeline.md`:** Nắm chính xác năm Roland hiện tại, mùa, thời điểm trong ngày, vị trí địa lý của các nhân vật và sự kiện vừa diễn ra ở cuối chương liền kề.
+2. **Đọc các thẻ nhân vật liên quan trong `NovelProject/Characters/*.md`:** Nắm chắc tuổi hiện tại (xác thực kép: `Năm Roland hiện tại - Năm sinh`), trạng thái thể lực/ma lực/vết thương, trang bị đang mang, và mức độ hảo cảm/quan hệ hiện tại.
+
+### 3.2. Cổng kiểm soát SAU khi viết (Post-write Gate)
+Sau khi hoàn thành bản thảo chương, Agent **bắt buộc phải chạy Quy trình tự thẩm định 6 chiều (`NovelProject/Review_Checklist.md`)**:
+- [x] **Chiều 1 - Văn phong & Banned Words:** Quét sạch toàn bộ từ ngữ tiên hiệp/kiếm hiệp Trung Hoa. Bảo đảm ngôn ngữ Seinen Light Novel giàu giác quan và cảm xúc nén.
+- [x] **Chiều 2 - Timeline & Tuổi:** Xác thực tính liền mạch, không nhảy cóc thời gian. Tuyệt đối **không đưa chú thích giai đoạn nội bộ** như `(Giai đoạn 2.2: Năm 2)` vào văn bản chương hay web.
+- [x] **Chiều 3 - Tính nhất quán (OOC check):** Kiểm tra đối chiếu với vùng Thuộc tính cố định (🔒) của nhân vật.
+- [x] **Chiều 4 - Dung lượng:** Đo đếm từ chính xác, bảo đảm nằm trong ngưỡng **3.000 – 4.000 từ tiếng Việt**.
+- [x] **Chiều 5 - Phục bút:** Đối chiếu tiến độ với `NovelProject/Foreshadows.md`.
+- [x] **Chiều 6 - Cập nhật dữ liệu:**
+  1. Cập nhật vùng 🔄 Thuộc tính biến động của các thẻ nhân vật xuất hiện.
+  2. Bổ sung dòng tóm tắt vào `NovelProject/Timeline.md`.
+  3. Cập nhật `truyen/kalvin/data/chapters.json` và `truyen/kalvin/js/chapters-data.js`.
+  4. Thực hiện Git commit và push lên GitHub.
+
+---
+
+## 4. QUY TRÌNH THỰC THI CHI TIẾT KHI NHẬN LỆNH VIẾT CHƯƠNG MỚI
+
+Khi người dùng yêu cầu: *"Viết tiếp chương sau"* hoặc *"Viết chương XX"*:
+
+1. **Bước 1 - Pre-write Audit:**
+   * Đọc phần kết của chương liền trước (`truyen/kalvin/chapters/chuong_XX-1.md`).
+   * Đọc `NovelProject/Timeline.md` và các thẻ `NovelProject/Characters/*.md` của nhân vật tham gia phân cảnh.
+   * Tra cứu `KALVIN_README.md` để nắm mục tiêu cốt truyện của phân đoạn hiện tại.
+2. **Bước 2 - Viết chương truyện:**
+   * **Đầu chương:** Định vị thời gian tự nhiên bằng giác quan và dòng in nghiêng: `*Mùa... năm... lịch Roland – Thời khắc trong ngày, bối cảnh tiếp nối.*` (Không có nhãn Giai đoạn).
+   * **Thân chương:** Đối thoại sinh động, phân tích ma lực vi mô, chiến thuật thực chiến, đào sâu tâm lý.
+   * **Kết chương:** Điểm dừng giàu dư âm, mở ra chuyển biến tiếp theo.
+   * **Độ dài:** Chuẩn xác từ 3.000 đến 4.000 từ tiếng Việt.
+3. **Bước 3 - Lưu trữ & Đồng bộ ứng dụng Web:**
+   * Tạo tệp `truyen/kalvin/chapters/chuong_XX.md`.
+   * Cập nhật `truyen/kalvin/data/chapters.json` (tăng `total_chapters`, đẩy object chương mới với đầy đủ trường `elements`).
+   * Cập nhật `truyen/kalvin/js/chapters-data.js` (đồng bộ biến toàn cục `window.KALVIN_DATA`).
+4. **Bước 4 - Cập nhật hệ thống dữ liệu NovelProject:**
+   * Cập nhật `NovelProject/Timeline.md` (thêm dòng lịch sử chương).
+   * Cập nhật vùng biến động trong `NovelProject/Characters/*.md`.
+5. **Bước 5 - Bảo toàn giao diện Web & Tự động Git Push:**
+   * Tuyệt đối không làm thay đổi hay phá vỡ giao diện Web Reader (`truyen/kalvin/index.html` giữ nguyên thiết kế Sepia/Light/Dark, ngăn kéo chương, modal thông tin nhân vật).
+   * Kiểm tra `git status` trong phạm vi `truyen/`.
+   * Thực hiện `git add truyen/` -> `git commit -m "..."` -> `git push origin main`.
+
+---
+
+## 5. BỘ QUY CHUẨN VĂN PHONG SEINEN LIGHT NOVEL CỐT LÕI
+
+| Yếu tố | CẤM TUYỆT ĐỐI (Tiên hiệp / Kiếm hiệp) | BẮT BUỘC SỬ DỤNG (Seinen Light Novel) |
+| :--- | :--- | :--- |
+| **Biểu cảm** | *Sắc mặt đại biến, hít một hơi khí lạnh, cười gằn, khóe miệng giật giật, ngây như phỏng, khinh thường liếc nhìn con kiến.* | *Mí mắt giật nhẹ, lồng ngực thắt lại, ánh mắt trầm xuống như mặt nước đóng băng, nuốt khan một ngụm nước bọt buốt lạnh, im lặng dõi theo.* |
+| **Chiến đấu** | *Sát khí ngập trời, ngàn cân treo sợi tóc, bọt máu cuồng phun, một quyền đánh nổ, huyết nhục mơ hồ, vạn kiếp bất phục.* | *Hơi thở sắc lạnh như dao cạo, mùi rỉ sắt xộc vào mũi, thớ cơ bắp căng cứng đến phát đau, tiếng kim loại va đập đanh gọn, máu đỏ sẫm rỉ qua khe giáp.* |
+| **Xưng hô** | *Tiểu tử thối, lão bất tử, con kiến hôi, ngươi muốn chết, to gan lớn mật, cút cho ta, bản tọa, lão phu, tại hạ, các hạ.* | *Cậu, cô, hắn, ông ta; mày - tao (thù địch/thô lỗ); ngài, điện hạ, thiếu gia; tớ - cậu, anh - em (thân thiết).* |
+| **Nhịp điệu** | Câu cảm thán liên tục ("thế mà lại là...", "chẳng lẽ là...", "lực lượng kinh khủng bực này!"). | Ngắt câu giàu nhịp điệu, chú trọng khoảng lặng (*Ma - 間*), cảm xúc nén vào hành vi vật lý. |
