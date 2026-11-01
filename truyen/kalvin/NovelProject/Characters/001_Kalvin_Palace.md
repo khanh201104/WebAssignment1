@@ -83,3 +83,4 @@
 | Ch.26-28 | Thu phục Finn Thorne, giải quyết nợ 210 đồng vàng, rèn Trọng Kiếm Sắt Đen, nhận bản đồ địa nhiệt Manchester | Nhận tài trợ 3.000 đồng vàng từ Cấm Vệ, chuẩn bị tiếp quản Manchester |
 | Ch.29 | Đột nhập Tháp Chuông Đen, giải mã tần số 37 chu kỳ Black Ore, phát hiện bẫy Dạ U Thảo của nhà Vane; bắn thử thành công súng ma đạo xuyên giáp | Hoàn thiện nguyên mẫu Hỏa Thương Ma Đạo đầu tiên; chuẩn bị phản kích bẫy Rừng Sương Muối |
 | Ch.30 | Dẫn đội viền xám vào Rừng Sương Muối; sơ tán học viên lên mỏm Bàn Cờ, dùng hỏa thương nòng dài bắn nổ đỉnh Dạ U Thảo đảo ngược bầy thú cấp 5 | Sập bẫy ngược quý tộc, mở màn cuộc đi săn đảo chiều |
+| Ch.31 | Bắn mù mắt và xuyên yết hầu hạ gục Băng Cốt Ma Hùng cấp 5 cứu mạng Arthur; phối hợp cùng Bộ Tứ đập tan bầy ma thú; đối diện Celine trước xác chúa tể Rừng Sương Muối | Khẳng định uy lực vũ khí ma đạo trước mặt Cấm Vệ và Hội Đồng Khảo Hạch; hoàn toàn đè bẹp Arthur |

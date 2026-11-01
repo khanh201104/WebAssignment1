@@ -63,3 +63,10 @@
 - Phân loại nhân vật: Nữ thứ chính / Đồng minh cấp cao (The Patron / Political Ally).
 - Chức năng trong cốt truyện: Cung cấp ô dù chính trị tại hoàng đô, đối trọng với phe quý tộc bảo thủ, mở đường cho Kalvin tiến tới Manchester.
 - Chương xuất hiện lần đầu: Chương 22.
+
+## Bảng theo dõi qua từng chương
+| Chương | Hành vi then chốt | Biến động thuộc tính |
+|---|---|---|
+| Ch.22-25 | Giải vây cho Kalvin, hội đàm Thư Phòng Bạch Ngọc, trao chìa khóa Tháp Chuông Đen | Xác lập liên minh chiến lược bí mật |
+| Ch.26-28 | Cung cấp lệnh bài bảo hộ Tầng Hầm Số Bảy, đánh giá mũi khoan chấn động | Cấp 3.000 đồng vàng ngân sách |
+| Ch.31 | Cùng Cấm Vệ Quân tiến vào Rừng Sương Muối, chứng kiến xác Băng Cốt Ma Hùng và thảm họa của tháp quan sát quý tộc | Khẳng định kết quả khảo hạch thuộc về Kalvin; nắm cán chuôi chính trị để đè bẹp phe Vane |

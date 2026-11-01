@@ -81,3 +81,4 @@
 | Ch.26-28 | Dùng Thánh thuật chữa vết bỏng cho Finn, vận hành bình ngưng tụ áp suất âm chiết xuất Thánh dược | Trở thành Dược sư trưởng Xưởng Quân Nhu Số Ba |
 | Ch.29 | Chiết xuất dầu Băng Tinh Thảo kết hợp Thánh dược bảo vệ nòng súng khỏi ma sát nhiệt; nhận tin về độc Dạ U Thảo | Bắt đầu chưng cất dầu Băng Tinh hàng loạt và bào chế thuốc giải độc Dạ U Thảo |
 | Ch.30 | Hoàn thành 20 liều Thanh U Tán giải độc Dạ U Thảo; phân phát cho học viên viền xám che giấu mùi hơi thở; cung cấp dược hoàn bảo hộ tâm trí | Trở thành điểm tựa y tế và che giấu sinh mệnh cho toàn đội |
+| Ch.31 | Vận hành Thánh lực phát tán Thanh U Tán quy mô lớn, trung hòa hoàn toàn mùi Dạ U Thảo, khiến bầy ma báo mất động lực cuồng loạn | Hóa giải hoàn toàn bẫy độc của nhà Vane |

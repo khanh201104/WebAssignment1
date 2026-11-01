@@ -77,3 +77,4 @@ graph TD
 1. **Trước mỗi chương**: Bắt buộc đọc file `Characters/*.md` của các nhân vật sẽ xuất hiện để nắm chắc trạng thái, trang bị, tâm lý và hảo cảm hiện tại.
 2. **Sau mỗi chương**: Cập nhật vùng 🔄 Thuộc tính biến động nếu có phát sinh (tuổi, quan hệ, chức vị, tài sản, thương tật, kỹ năng mới).
 3. **Tuyệt đối không OOC**: Kalvin không kiêu ngạo; Roy không toan tính mưu mô; Rumy không yếu đuối ngây thơ; Finn không màng quyền quý.
+4. **Khung nhân vật sáng tạo**: Người viết truyện có thể tự tạo thêm một số nhân vật phụ (xuất hiện ít) nếu phù hợp với bối cảnh của  mạch truyện và chương truyện. Có thể tạo thêm nhân vật chính, xuất hiện nhiều hơn( khi thật sự cần thiết) để làm cho cốt truyện có thêm chiều sâu.
