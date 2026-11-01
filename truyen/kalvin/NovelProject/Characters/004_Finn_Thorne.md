@@ -75,3 +75,4 @@
 | Ch.29 | Đúc nòng thép đen, ứng dụng tần số 37 chu kỳ giải quyết sốc nhiệt, hoàn thành súng ma đạo đầu tiên | Chứng kiến uy lực phá giáp 50 bước; nhận nhiệm vụ chế tạo thêm 2 khẩu và 200 đạn |
 | Ch.30 | Hoàn thành thêm 2 khẩu hỏa thương và 200 đạn sắt đen; trang bị hỏa thương nòng dài cùng Kalvin tham chiến thực địa | Lần đầu tiên mang vũ khí tự chế ra chiến trường thực chiến |
 | Ch.31 | Dùng hỏa thương nòng dài bắn gãy khớp gối chân sau Băng Cốt Ma Hùng ở khoảng cách 40 bước; hỗ trợ ghìm chân quái thú | Chứng minh độ tin cậy tuyệt đối của súng ma đạo trong tác chiến tầm xa |
+| Ch.32 | Thu thập toàn bộ 18 lõi ma tinh cấp 3 và 4 lõi cấp 4 của bầy ma báo vào túi da; đối chất thách thức giáo sư Varner về chuẩn kiểm định vũ khí ma đạo của học viện | Tự hào khẳng định uy tín vũ khí cơ khí ma đạo; bảo toàn toàn bộ chiến lợi phẩm |

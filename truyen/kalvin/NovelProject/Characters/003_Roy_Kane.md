@@ -78,3 +78,4 @@
 | Ch.29 | Giúp Finn dũa thoi đẩy, thử cầm súng ma đạo, chứng kiến phát bắn xuyên giáp 50 bước | Bắt đầu huấn luyện xạ kích chiến thuật kết hợp cận chiến |
 | Ch.30 | Trang bị hỏa thương carbine nòng ngắn phối hợp Trọng Kiếm Sắt Đen; yểm hộ Kalvin trên gờ đá bazan Vực Đá Răng Cưa | Nắm vững kỹ thuật phối hợp kiếm - súng trên chiến trường |
 | Ch.31 | Lao xuống sườn đồi, vung Trọng Kiếm chém đôi 2 Ma Báo Răng Kiếm, dùng carbine bắn vỡ sọ con thứ 3 ở cự ly 5 bước | Trình diễn phong cách cận chiến kiếm - súng kinh hoàng, bảo vệ hiện trường |
+| Ch.32 | Dùng đoản đao rạch gân gáy Băng Cốt Ma Hùng, thu hoạch Lõi Ma Tinh Cấp 5 nguyên vẹn trao cho Ban Giám Khảo; kề vai sát cánh bên Kalvin trước mặt các kỵ sĩ Cấm Vệ | Thu hoạch chiến lợi phẩm ma thú cấp 5 đỉnh cao, xác lập uy danh Kỵ sĩ Tiên phong của đội |

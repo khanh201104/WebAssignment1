@@ -54,3 +54,5 @@
 ### Nhật ký biến động
 - Chương 26: Ra lệnh đình chỉ tài trợ than đá cho Finn Thorne nhằm ép cậu giao nộp bản vẽ lõi nhiệt ma đạo.
 - Chương 27 - 28: Dẫn lính gác xuống Tầng Hầm Số Bảy toan tịch thu xưởng đúc và bắt giữ Finn, nhưng bị Kalvin dùng luật học viện vặn hỏi đến nghẹn lời, sau đó bị Cấm Vệ Quân trục xuất thẳng thừng.
+- Chương 30 - 31: Đồng lõa với Julian và Arthur đưa nhóm viền xám vào hẻm cụt Rừng Sương Muối; hoảng loạn khi thấy bầy ma thú quay lại húc sập tháp canh quý tộc.
+- Chương 32: Cố tình vu khống Kalvin sử dụng vũ khí ma đạo trái phép nhưng bị Finn Thorne bẻ gãy bằng quy định kiểm định khí tài quân nhu và bị Gerald/Celine tước quyền giám khảo, đình chỉ công tác giảng dạy chờ điều tra.

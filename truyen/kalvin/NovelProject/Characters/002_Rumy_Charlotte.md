@@ -82,3 +82,4 @@
 | Ch.29 | Chiết xuất dầu Băng Tinh Thảo kết hợp Thánh dược bảo vệ nòng súng khỏi ma sát nhiệt; nhận tin về độc Dạ U Thảo | Bắt đầu chưng cất dầu Băng Tinh hàng loạt và bào chế thuốc giải độc Dạ U Thảo |
 | Ch.30 | Hoàn thành 20 liều Thanh U Tán giải độc Dạ U Thảo; phân phát cho học viên viền xám che giấu mùi hơi thở; cung cấp dược hoàn bảo hộ tâm trí | Trở thành điểm tựa y tế và che giấu sinh mệnh cho toàn đội |
 | Ch.31 | Vận hành Thánh lực phát tán Thanh U Tán quy mô lớn, trung hòa hoàn toàn mùi Dạ U Thảo, khiến bầy ma báo mất động lực cuồng loạn | Hóa giải hoàn toàn bẫy độc của nhà Vane |
+| Ch.32 | Đứng cạnh Kalvin và Finn trước Ban Giám Khảo; chứng kiến chiến thắng vang dội của đội viền xám và chuẩn bị dược thảo cùng hạt giống phương Bắc cho chuyến hành trình Ashen Hold | Khẳng định vai trò Dược sư trị liệu trưởng của toàn đội |

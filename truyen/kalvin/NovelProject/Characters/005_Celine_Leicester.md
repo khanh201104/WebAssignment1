@@ -70,3 +70,4 @@
 | Ch.22-25 | Giải vây cho Kalvin, hội đàm Thư Phòng Bạch Ngọc, trao chìa khóa Tháp Chuông Đen | Xác lập liên minh chiến lược bí mật |
 | Ch.26-28 | Cung cấp lệnh bài bảo hộ Tầng Hầm Số Bảy, đánh giá mũi khoan chấn động | Cấp 3.000 đồng vàng ngân sách |
 | Ch.31 | Cùng Cấm Vệ Quân tiến vào Rừng Sương Muối, chứng kiến xác Băng Cốt Ma Hùng và thảm họa của tháp quan sát quý tộc | Khẳng định kết quả khảo hạch thuộc về Kalvin; nắm cán chuôi chính trị để đè bẹp phe Vane |
+| Ch.32 | Ra lệnh niêm phong tang vật đỉnh đồng Dạ U Thảo và bắt giữ toàn bộ lính đánh thuê của Julian Vane; ngầm cảnh báo Kalvin về mưu đồ đày ải đến Manchester của Thượng Viện; kinh ngạc trước tầm nhìn chiến lược của Kalvin đối với Ashen Hold | Siết chặt gọng kìm chính trị lên phe quý tộc; nâng cao sự tôn trọng và thán phục dành cho Kalvin |
