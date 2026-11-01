@@ -76,3 +76,4 @@
 | Ch.30 | Hoàn thành thêm 2 khẩu hỏa thương và 200 đạn sắt đen; trang bị hỏa thương nòng dài cùng Kalvin tham chiến thực địa | Lần đầu tiên mang vũ khí tự chế ra chiến trường thực chiến |
 | Ch.31 | Dùng hỏa thương nòng dài bắn gãy khớp gối chân sau Băng Cốt Ma Hùng ở khoảng cách 40 bước; hỗ trợ ghìm chân quái thú | Chứng minh độ tin cậy tuyệt đối của súng ma đạo trong tác chiến tầm xa |
 | Ch.32 | Thu thập toàn bộ 18 lõi ma tinh cấp 3 và 4 lõi cấp 4 của bầy ma báo vào túi da; đối chất thách thức giáo sư Varner về chuẩn kiểm định vũ khí ma đạo của học viện | Tự hào khẳng định uy tín vũ khí cơ khí ma đạo; bảo toàn toàn bộ chiến lợi phẩm |
+| Ch.33 | Mang túi ma tinh đối chất tại Đại Sảnh Đường; phân tích tiềm năng khổng lồ của mỏ quặng Sắt Đen và địa nhiệt Ashen Hold tại Tầng Hầm Số Bảy; bắt đầu đóng gói lò nung và công cụ cơ khí chuẩn bị lên đường | Trở thành Tổng công trình sư & Trưởng xưởng Cơ khí Ma đạo lãnh địa Manchester |

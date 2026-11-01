@@ -55,3 +55,4 @@
 - Chương 1 - 14: Thờ ơ, bỏ mặc mẹ con Kalvin sống chết mặc bay ở khu nhà phụ.
 - Chương 15: Cười khẩy khi Kalvin đỗ hệ nghiên cứu viền xám, không cấp một đồng lộ phí.
 - Chương 21 - 28: Hoang mang trước tin đồn Kalvin được Công chúa Celine để mắt, gửi thư yêu cầu Kalvin phải nộp báo cáo nghiên cứu về cho gia tộc nhưng bị phớt lờ hoàn toàn.
+- Chương 33: Nhận tin sét đánh Arthur gãy tay và sụp đổ tinh thần; vội vã gửi thư khẩn yêu cầu Thượng Viện tống khứ Kalvin ra vùng đất chết Manchester hòng dập tắt tai tiếng cho con trưởng và đoạn tuyệt quyền thừa kế của Kalvin.

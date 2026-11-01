@@ -59,3 +59,4 @@
 - Chương 29 - 30: Gia nhập Ban giám sát kỳ thi, ép nhóm Kalvin vào hẻm cụt Vực Đá Răng Cưa và cho lính châm lửa Dạ U Thảo; bị Kalvin bắn nổ đỉnh đồng hắt ngược tinh dầu, đàn ma thú cấp 5 quay đầu tấn công tháp quan sát khiến Arthur hoảng loạn tột độ.
 - Chương 31: Tháp canh sụp đổ, gãy tay phải, bị Băng Cốt Ma Hùng áp sát; quỳ lạy van xin trong sự nhục nhã tột cùng; được Kalvin bắn mù mắt ma thú cứu mạng; sụp đổ hoàn toàn tinh thần và tôn nghiêm quý tộc. Trở thành nhân chứng sống của vụ bê bối.
 - Chương 32: Bị quân y Cấm Vệ cố định cánh tay gãy trong đau đớn và nhục nhã; trơ mắt nhìn Toby và nhóm học viên xám vạch trần tội ác ép người vào chỗ chết; bị áp giải về kinh thành chờ xét xử kỷ luật, tinh thần hoàn toàn tan vỡ.
+- Chương 33: Bị áp giải về Đại Sảnh Đường, nghe phán quyết đình chỉ học và bị điều tra hình sự; ngất xỉu vì nhục nhã và sợ hãi, đánh mất hoàn toàn vị thế người thừa kế kiêu hãnh của Nhà Palace.

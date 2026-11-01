@@ -48,9 +48,9 @@
 
 - **Tuổi**: 17 tuổi (Năm 942 lịch Roland).
 - **Học niên / Giai đoạn**: Cuối năm 2 Học viện Hoàng gia Leicester (Hệ nghiên cứu Ma pháp Cấu trúc).
-- **Nghề nghiệp / Thân phận**: Học viên viền xám / Thủ thư Tầng Ba & Bốn Thư viện Ngầm / Đồng sáng lập Xưởng Khí Tài Quân Nhu Đặc Biệt Số Ba / Nam tước dự khuyết Manchester.
-- **Tổ chức / Thế lực trực thuộc**: Phân viện Pháp thuật Leicester / Đối tác nghiên cứu độc quyền của Quân đoàn Cấm Vệ Hoàng Gia (Phe Công chúa Celine).
-- **Địa vị xã hội / Danh hiệu**: "Thủ khoa lý thuyết viền xám", "Đứa con bị ruồng bỏ của nhà Palace", Tân thủ lĩnh liên minh thợ rèn & kỵ sĩ viền xám.
+- **Nghề nghiệp / Thân phận**: Nam tước Độc Lập Manchester / Thủ lĩnh Bộ Tứ Tro Tàn & Liên minh Viền Xám / Cựu học viên Thủ khoa Học viện Leicester.
+- **Tổ chức / Thế lực trực thuộc**: Lãnh địa Manchester (Ashen Hold) / Đồng minh chiến lược của Quân đoàn Cấm Vệ (Phe Công chúa Celine).
+- **Địa vị xã hội / Danh hiệu**: "Nam tước Độc Lập", "Thủ khoa toàn khóa Học viện Leicester", Lãnh chúa Ashen Hold.
 - **Tài sản đứng tên**: Quyền sử dụng vĩnh viễn Tầng Hầm Số Bảy; ngân sách 3.000 đồng vàng được Cấm Vệ Quân duyệt chi; chìa khóa Tầng Lưu Trữ Cơ Mật Tháp Chuông Đen; mẫu thử nghiệm Mũi khoan chấn động lõi kép; tài liệu địa chất cổ Ashen Hold.
 - **Năng lực / Kỹ năng**:
   - *Vi mô Ma Lực (Micro-Mana Control)*: Cấp độ vi mô tuyệt đối, điều khiển các phân tử năng lượng không cần niệm chú (Silent Casting).
@@ -85,3 +85,4 @@
 | Ch.30 | Dẫn đội viền xám vào Rừng Sương Muối; sơ tán học viên lên mỏm Bàn Cờ, dùng hỏa thương nòng dài bắn nổ đỉnh Dạ U Thảo đảo ngược bầy thú cấp 5 | Sập bẫy ngược quý tộc, mở màn cuộc đi săn đảo chiều |
 | Ch.31 | Bắn mù mắt và xuyên yết hầu hạ gục Băng Cốt Ma Hùng cấp 5 cứu mạng Arthur; phối hợp cùng Bộ Tứ đập tan bầy ma thú; đối diện Celine trước xác chúa tể Rừng Sương Muối | Khẳng định uy lực vũ khí ma đạo trước mặt Cấm Vệ và Hội Đồng Khảo Hạch; hoàn toàn đè bẹp Arthur |
 | Ch.32 | Xuất trình mảnh đỉnh đồng bóc trần tội chứng bẫy dụ thú của nhà Vane; chứng kiến Ban Giám Khảo xác nhận Thủ khoa tuyệt đối; nhận lời cảnh báo của Celine và tuyên bố Ashen Hold là thành trì bất khả xâm phạm | Giành thắng lợi tuyệt đối kỳ khảo hạch; chính thức bước vào tư thế sẵn sàng tiếp quản lãnh địa Manchester |
+| Ch.33 | Trình diện mảnh vỡ gia huy Vane và sổ điều chuyển vật tư tại phiên điều trần Đại Sảnh Đường, phế truất Varner; chính thức nhận sắc phong Nam tước Độc Lập Manchester cùng quyền di dân 30 nhân sự; họp bàn tại Tầng Hầm Số Bảy chuẩn bị tiến về phương Bắc | Nhận tước vị Nam tước Độc Lập, bước vào quỹ đạo xây dựng thế lực tự chủ (Kingdom Building) |
