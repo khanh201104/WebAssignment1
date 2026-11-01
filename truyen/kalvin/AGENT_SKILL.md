@@ -60,7 +60,7 @@ Sau khi hoàn thành bản thảo chương, Agent **bắt buộc phải chạy Q
 - [x] **Chiều 1 - Văn phong & Banned Words:** Quét sạch toàn bộ từ ngữ tiên hiệp/kiếm hiệp Trung Hoa. Bảo đảm ngôn ngữ Seinen Light Novel giàu giác quan và cảm xúc nén.
 - [x] **Chiều 2 - Timeline & Tuổi:** Xác thực tính liền mạch, không nhảy cóc thời gian. Tuyệt đối **không đưa chú thích giai đoạn nội bộ** như `(Giai đoạn 2.2: Năm 2)` vào văn bản chương hay web.
 - [x] **Chiều 3 - Tính nhất quán (OOC check):** Kiểm tra đối chiếu với vùng Thuộc tính cố định (🔒) của nhân vật.
-- [x] **Chiều 4 - Dung lượng:** Đo đếm từ chính xác, bảo đảm nằm trong ngưỡng **3.000 – 4.000 từ tiếng Việt**.
+- [x] **Chiều 4 - Dung lượng:** Nằm trong ngưỡng **3.500 – 4.500 từ tiếng Việt** (linh động, kiểm tra gọn gàng, tránh lãng phí token).
 - [x] **Chiều 5 - Phục bút:** Đối chiếu tiến độ với `NovelProject/Foreshadows.md`.
 - [x] **Chiều 6 - Cập nhật dữ liệu:**
   1. Cập nhật vùng 🔄 Thuộc tính biến động của các thẻ nhân vật xuất hiện.
@@ -82,7 +82,7 @@ Khi người dùng yêu cầu: *"Viết tiếp chương sau"* hoặc *"Viết ch
    * **Đầu chương:** Định vị thời gian tự nhiên bằng giác quan và dòng in nghiêng: `*Mùa... năm... lịch Roland – Thời khắc trong ngày, bối cảnh tiếp nối.*` (Không có nhãn Giai đoạn).
    * **Thân chương:** Đối thoại sinh động, phân tích ma lực vi mô, chiến thuật thực chiến, đào sâu tâm lý.
    * **Kết chương:** Điểm dừng giàu dư âm, mở ra chuyển biến tiếp theo.
-   * **Độ dài:** Chuẩn xác từ 3.000 đến 4.000 từ tiếng Việt.
+   * **Độ dài:** Linh động trong ngưỡng **3.500 đến 4.500 từ tiếng Việt**.
 3. **Bước 3 - Lưu trữ & Đồng bộ ứng dụng Web:**
    * Tạo tệp `truyen/kalvin/chapters/chuong_XX.md`.
    * Cập nhật `truyen/kalvin/data/chapters.json` (tăng `total_chapters`, đẩy object chương mới với đầy đủ trường `elements`).

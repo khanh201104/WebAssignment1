@@ -73,3 +73,4 @@
 | Ch.25-26 | Chế tạo Mũi khoan chấn động, Kalvin cứu lò nung khỏi nổ, thề trung thành | Gia nhập nhóm Kalvin, thoát nợ |
 | Ch.27-28 | Rèn Trọng Kiếm Sắt Đen cho Roy, Tầng Hầm Số Bảy được Cấm Vệ bảo hộ | Bắt đầu nghiên cứu nòng súng ma đạo |
 | Ch.29 | Đúc nòng thép đen, ứng dụng tần số 37 chu kỳ giải quyết sốc nhiệt, hoàn thành súng ma đạo đầu tiên | Chứng kiến uy lực phá giáp 50 bước; nhận nhiệm vụ chế tạo thêm 2 khẩu và 200 đạn |
+| Ch.30 | Hoàn thành thêm 2 khẩu hỏa thương và 200 đạn sắt đen; trang bị hỏa thương nòng dài cùng Kalvin tham chiến thực địa | Lần đầu tiên mang vũ khí tự chế ra chiến trường thực chiến |

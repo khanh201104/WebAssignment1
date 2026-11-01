@@ -48,8 +48,8 @@ Sau khi viết xong một chương mới, AI **tuyệt đối không được b�
 
 ### 📏 Chiều 4: Dung Lượng & Kết Cấu Nhịp Điệu (Pacing & Word Count)
 - [ ] **Độ dài chương chuẩn xác:**
-  - Độ dài nằm trong khoảng: **3.000 – 4.000 từ tiếng Việt** (kiểm tra bằng bộ đếm từ chính xác).
-  - Không dưới 3.000 từ và không vượt quá 4.000 từ.
+  - Độ dài nằm trong khoảng: **3.500 – 4.500 từ tiếng Việt** (linh động, tránh tốn token lặp lại).
+  - Không quá ngắn dưới 3.500 từ và không vượt quá 4.500 từ.
 - [ ] **Phân bổ kết cấu 3 hồi hợp lý:**
   - Mở đầu (500 – 700 từ): Bối cảnh thời gian + giác quan vật lý + nối cảm xúc chương trước.
   - Thân chương (2.000 – 2.500 từ): Xung đột, đối thoại, phát triển hành động cụ thể.

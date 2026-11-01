@@ -56,3 +56,4 @@
 - Chương 15: Đỗ vào Học viện Hoàng gia với danh hiệu học viên viền vàng nhờ tiền tài và thế lực của cha mẹ.
 - Chương 21 - 24: Bày mưu vu oan cho Kalvin và Rumy tại Dạ tiệc Mùa đông, bị Kalvin bóc trần sơ hở trước mặt toàn trường và bị Công chúa Celine khiển trách nặng nề.
 - Chương 26 - 28: Cấu kết với Julian Vane nhằm ngăn chặn dự án chế tạo súng ma đạo ở Tầng Hầm Số Bảy; đang âm mưu dàn xếp cái chết của nhóm Kalvin trong kỳ thi Rừng Sương Muối năm 3.
+- Chương 29 - 30: Gia nhập Ban giám sát kỳ thi, ép nhóm Kalvin vào hẻm cụt Vực Đá Răng Cưa và cho lính châm lửa Dạ U Thảo; bị Kalvin bắn nổ đỉnh đồng hắt ngược tinh dầu, đàn ma thú cấp 5 quay đầu tấn công tháp quan sát khiến Arthur hoảng loạn tột độ.

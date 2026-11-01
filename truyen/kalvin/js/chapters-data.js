@@ -7,7 +7,7 @@ window.KALVIN_DATA = {
     ],
     "author": "Antigravity & User",
     "genre": "High Fantasy, Seinen Light Novel, Quản trị lãnh địa, Học viện quý tộc",
-    "total_chapters": 29,
+    "total_chapters": 30,
     "description": "Câu chuyện về Kalvin Palace, đứa con hoang bị khinh rẻ của gia tộc Tử tước Palace. Bằng trí tuệ sắc bén, khả năng kiểm soát ma lực vi mô phi thường và tình bạn sinh tử cùng Roy và Rumy, cậu từng bước vượt qua nghịch cảnh để tự tay đúc nên vương miện của riêng mình."
   },
   "chapters": [
@@ -14077,6 +14077,490 @@ window.KALVIN_DATA = {
         }
       ],
       "content": "# CHƯƠNG 29: MẬT THƯ THÁP CHUÔNG ĐEN VÀ HỎA KHÍ TRO TÀN\n\n*Mùa đông năm 942 lịch Roland – Rạng sáng hôm sau đêm hội đàm tại Khu Phố Xám, trước giờ mở cổng Tháp Chuông Đen.*\n\nGió bấc rạng sáng mang theo vụn băng sắc lạnh quét qua đại lộ cẩm thạch của Khu Thượng Thành.\n\nVương đô Leicester vẫn chìm trong tĩnh mịch lạnh buốt. Những cột khói than sưởi từ các dinh thự quý tộc uể oải bốc lên bầu trời chì đặc quánh. Trên vai những bức tượng thiên thần đá dọc đường, lớp băng mỏng đóng thành từng vệt trong suốt như kim loại vừa tôi.\n\nDưới lòng đường vắng vẻ, Kalvin Palace sải bước đều đặn trong sương mù. Cậu kéo cao cổ chiếc áo choàng gai viền xám. Vải thô cọ vào cổ ram ráp, không ngăn nổi gió buốt, nhưng bước chân cậu không hề chậm lại. Đôi giày da cũ chạm xuống nền đá phủ tuyết, phát ra tiếng *lạo xạo* đanh gọn.\n\nTrong túi áo ngực bên trái, chiếc chìa khóa đồng đen tựa sát vào ngực cậu. Khối kim loại nặng trịch, lạnh buốt qua lớp áo lanh. Sâu bên trong lõi của nó, Kalvin cảm nhận được dao động ma lực cực nhỏ đang âm ỉ rung động — thứ phong ấn hoàng gia cổ xưa chỉ có thể giải trừ bằng cấu trúc của ổ khóa trên đỉnh Tháp Chuông Đen.\n\nTòa tháp sừng sững hiện ra sau rặng thông đen phủ tuyết của hoa viên hoàng gia. Đó là khối kiến trúc bát giác bằng đá bazan đen kịt, cao vút lên như mũi giáo cắm thẳng vào mây u ám, từng là trạm quan sát quân sự và kho lưu trữ hải đồ tuyệt mật từ thời lập quốc. Suốt hàng trăm năm qua, các tầng trên bị niêm phong nghiêm ngặt, chỉ kẻ nắm giữ quân lệnh của Quốc vương hoặc Chỉ huy Cấm Vệ mới có quyền bước qua cánh cửa vòm bọc sắt.\n\nTrước bậc thềm đá, bốn kỵ sĩ Cấm Vệ Quân đứng gác bất động như pho tượng thép. Áo giáp bạc của họ phủ lớp sương muối trắng, hơi thở sau mạng che mặt phả ra thành luồng khói dài. Nghe tiếng bước chân trên tuyết, viên sĩ quan chỉ huy khẽ nhấc ngọn giáo dài.\n\nKalvin dừng lại cách ba bước. Cậu rút chiếc lệnh bài chim ưng vương miện cùng chiếc chìa khóa đồng đen hình rồng cuộn.\n\nViên sĩ quan khẽ giật mi mắt. Hắn bước lên, áp ngón tay cái lên viên ngọc ma thuật trên chuôi chìa để kiểm tra. Vệt sáng lam nhạt bùng lên rồi tắt lịm.\n\n\"Lệnh bài của Nhị Điện hạ,\" viên kỵ sĩ trầm giọng. \"Cậu có hai canh giờ trước khi ca trực của Thượng Viện bắt đầu tuần tra. Mời vào.\"\n\nBốn kỵ sĩ thu giáo, gót giày sắt va đập đanh gọn. Cánh cửa đá bazan nặng hàng tấn trượt sang bên nhờ cơ chế đối trọng ngầm, để lộ khoảng tối sâu thẳm cùng mùi da cừu cũ kỹ, sáp ong niêm phong và mùi bụi đất qua nhiều thế kỷ.\n\n***\n\nCầu thang xoắn ốc bằng đá bazan dốc đứng và hẹp chỉ đủ một người đi.\n\nKalvin đặt từng bước chân vững chãi lên bậc đá mòn vẹt. Không khí càng lên cao càng loãng và lạnh ngắt, tiếng gió rít qua khe thông gió hẹp nghe như tiếng huýt sáo của dã thú. Trong bóng tối lờ mờ, ma lực vi mô lưu chuyển nơi đáy mắt giúp cậu nhìn rõ từng vết nứt trên đá.\n\nLên đến tầng cao nhất, trước mặt Kalvin là cánh cửa gỗ thiết mộc dày cộp, gia cố bằng những thanh nẹp đồng bản lớn. Ở giữa cửa là ổ khóa cơ khí hình tròn chạm khắc phù văn phong ấn hệ Thổ và Lôi. Kalvin tra chìa đồng đen vào khe, xoay nửa vòng sang phải rồi ấn nhẹ vào tâm đầu rồng chạm nổi.\n\n*Cạch... Rắc...*\n\nBánh răng kim loại ăn khớp vang lên giòn giã. Lớp ma lực phong ấn nhấp nháy tia sáng bạc rồi tan biến.\n\nCánh cửa mở ra gian phòng tròn rộng lớn sàn lát đá xám phẳng lì. Bốn bề tường tháp kê kín kệ sách gỗ sồi ngâm dầu chống mục, chứa hàng vạn cuộn da cừu, bản đồ quân sự và rương gỗ bọc da khóa đồng.\n\nKalvin bước nhanh qua các kệ hồ sơ hành chính, dừng lại ở khu vực có tấm thẻ kim loại: *Khảo Sát Địa Chất & Quân Đoàn Viễn Chinh – Kỷ Nguyên Roland Thứ Nhất.*\n\nCậu kéo chiếc rương gỗ số 42 ở góc phòng. Nhờ luồng ma lực vi mô luồn vào chốt hãm, tiếng chốt gãy *tách* rất khẽ. Bên trong là ba cuộn da cừu cùng cuốn nhật ký hành quân bọc da bò thô ráp mang dấu triện của Quân đoàn Viễn Chinh Đệ Nhất từ năm 542 lịch Roland — bốn trăm năm trước.\n\nKalvin mở cuốn nhật ký ra dưới ánh sáng xám lạnh rọi qua ô cửa:\n\n*\"Ngày 14 tháng Mười Một, năm 542 lịch Roland... Toàn bộ trung đoàn khảo sát của Tướng quân Vane Đệ Nhị buộc phải dừng bước trước khe nứt Ashen Hold. Đất đai đen sì, gió tuyết mang theo tro khoáng khiến mắt và cổ họng binh lính rát buốt. Tuy nhiên, điều kỳ dị nhất là dòng sông ngầm bên dưới...\"*\n\nĐôi mắt xám của Kalvin nheo lại. Cậu đọc chậm từng dòng bản vẽ mặt cắt địa chất:\n\n*\"...Tại độ sâu sáu mươi thước dưới đáy khe nứt, chúng tôi phát hiện một mạch nước nóng khổng lồ phun trào qua các tầng đá bazan đen. Nhiệt độ của nước lên tới bảy mươi độ, làm tan chảy băng tuyết trên bề mặt trong phạm vi ba dặm. Mạch khoáng thạch bao quanh dòng sông ngầm có màu đen tuyền, cấu trúc phân tử cực kỳ bền vững, có khả năng hấp thụ và tích tụ ma lực nhiệt lượng cao...\"*\n\nDưới bản vẽ là dòng ghi chú run rẩy của một nhà giả kim cổ:\n\n*\"Cảnh báo: Kim loại Black Ore này có tính trơ ma thuật ở trạng thái tĩnh, nhưng khi chịu áp lực nén và kích hoạt bằng ma lực vi mô có tần số cộng hưởng ba mươi bảy chu kỳ, nó sẽ giải phóng năng lượng tương đương với hỏa ma pháp Tứ tinh mà không tạo khói hay muội than...\"*\n\n\"Ba mươi bảy chu kỳ cộng hưởng,\" Kalvin lẩm bẩm, ánh mắt lóe lên tia sáng sắc lạnh.\n\nCon số này trùng khớp hoàn hảo với bài toán cân bằng nhiệt ma lực mà cậu đã tính cho lò nung của Finn Thorne. Quý tộc Leicester suốt hàng thế kỷ chỉ coi Manchester là bãi tha ma nhiễm độc vì họ chỉ nhìn vào lớp tro bụi mặt đất, trong khi tự nhiên đã giấu kín kho báu năng lượng vô tận ngay dưới chân họ.\n\nKalvin lật sang cuộn da cừu thứ hai: bản đồ hành quân chi tiết vùng Rừng Sương Muối — nơi chuẩn bị diễn ra kỳ khảo hạch thực chiến của học viện.\n\nKhi ánh mắt quét qua sơ đồ thung lũng, một chi tiết bất thường đập vào mắt cậu. Trên mép bản đồ, nơi đánh dấu khu vực Vực Đá Răng Cưa giáp ranh vùng ma thú cấp 5, có những vết xước mờ rất mới. Mùi dầu thơm xạ hương nồng nặc của gia tộc Hầu tước Vane vẫn thoang thoảng bám trên sợi dây buộc.\n\nKalvin ghé sát mắt nhìn. Cậu thấy một ký hiệu chữ thập bằng mực đỏ nhạt vừa được đánh dấu bí mật tại hẻm núi cụt Vực Đá Răng Cưa, kèm theo dòng chữ viết tắt: *D.U.T - 03.*\n\n\"Dạ U Thảo,\" lồng ngực Kalvin khẽ thắt lại.\n\nĐó là loại cỏ độc ma quái chỉ mọc ở các đầm lầy hẻo lánh phía Đông. Khi đốt cháy, tinh dầu Dạ U Thảo tỏa ra mùi hương ngọt lịm kích thích cuồng bạo ma thú ăn thịt, khiến chúng điên cuồng lao về phía nguồn phát hương.\n\nJulian Vane và Arthur Palace không chỉ muốn chèn ép nhóm học viên viền xám. Bọn chúng đang chuẩn bị một vụ thảm sát ngụy trang dưới danh nghĩa \"tai nạn thực địa mùa đông\". Vực Đá Răng Cưa là hẻm núi dốc đứng cụt đường lui. Nếu bầy ma thú cấp 5 tràn xuống từ rặng tuyết vì Dạ U Thảo, toàn bộ đội hình của Kalvin sẽ bị xé nát trước khi giám khảo kịp can thiệp.\n\nKhóe môi Kalvin nhếch lên thành đường cong sắc lẹm, lạnh lẽo như lưỡi dao cạo. Cậu không hề hoảng sợ. Một âm mưu bị phơi bày không còn là mối đe dọa, mà đã biến thành tọa độ chiến thuật định sẵn trên bàn cờ.\n\nCậu ghi nhớ chính xác từng hang động ngầm và hố sụt tuyết quanh Vực Đá Răng Cưa, cuộn bản đồ lại cẩn thận rồi khóa then cài như cũ. Khi bóng lưng thiếu niên viền xám rời khỏi Tháp Chuông Đen, tiếng chuông đồng từ nhà thờ lớn Hoàng đô ngân vang báo hiệu một ngày mới.\n\n***\n\nBuổi trưa cùng ngày.\n\nTầng Hầm Số Bảy chìm trong hơi nóng hầm hập và mùi dầu máy nồng nặc.\n\nTiếng búa tạ nện xuống đe thép phát ra những âm thanh *chanh... chát...* đanh thép. Bụi than và tàn lửa đỏ rực bay lên trong không trung, vẽ thành vệt sáng chói lòa trong bóng tối mờ ảo của các hốc đá.\n\nFinn Thorne cởi trần nửa người, chiếc tạp dề da dính đầy dầu mỡ và muội than đen nhẻm. Bắp tay chàng thợ rèn cuộn lên theo từng nhịp quai búa, giọt mồ hôi túa ra trên trán rơi xuống thanh kim loại đỏ rực bốc khói xèo xèo. Roy Kane ngồi trên thùng gỗ thông đối diện, tay cầm dũa thép tỉ mỉ chỉnh sửa từng răng cưa của bộ phận thoi đẩy. Ở góc phòng cạnh lò ủ nhiệt, Rumy Charlotte đang cẩn thận dùng thìa bạc khuấy dung dịch màu xanh ngọc bích sánh mịn trong chiếc bát sứ dày. Mùi thảo dược khô hòa lẫn hương thơm thanh khiết của Thánh dược tỏa ra ngào ngạt.\n\nCánh cửa ngầm khẽ mở. Kalvin bước vào, cởi áo choàng gai xám treo lên móc sắt. Cậu bước thẳng tới bàn làm việc của Finn, rút tờ giấy da ghi chép thông số địa chất và tần số ma lực:\n\n\"Tao đã có tọa độ địa nhiệt của Manchester và cấu trúc dao động của quặng Black Ore. Ba mươi bảy chu kỳ cộng hưởng.\"\n\nFinn buông búa tạ xuống sàn với tiếng *keng* chấn động. Đôi mắt sau cặp kính nứt màng trợn tròn, bàn tay đen nhẻm vồ lấy tờ giấy da:\n\n\"Ba mươi bảy chu kỳ?! Thảo nào trước đây nòng súng cứ bắn được hai phát là nứt toác vì sốc nhiệt! Với ba mươi bảy chu kỳ, áp lực nén bên trong nòng thép sẽ triệt tiêu hoàn toàn độ giãn nở của kim loại!\"\n\nFinn phấn khích túm lấy ống kim loại dài bằng cánh tay đặt trên bàn giơ lên:\n\n\"Nhìn này! Tao và Roy đã đúc xong phôi nòng súng từ hợp kim sắt đen mà Cấm Vệ mang tới tối qua. Dày ba phân, tôi bằng dầu khoáng lạnh, lòng nòng được khoan rãnh xoắn bằng mũi khoan chấn động! Nhưng vấn đề là ma sát nhiệt sinh ra sẽ thiêu cháy chất bôi trơn thông thường trong chớp mắt, nòng súng sẽ nổ tung ngay trên tay người bắn!\"\n\n\"Việc đó để em lo,\" Rumy mỉm cười, bưng chiếc bát sứ màu xanh ngọc bước lại gần bàn.\n\nCô đặt chiếc bát xuống bên cạnh nòng súng:\n\n\"Đây là dầu chiết xuất từ rễ Băng Tinh Thảo kết hợp với dịch Thánh dược thanh lọc mà em vừa hoàn thành. Nó chịu được nhiệt độ lên tới năm trăm độ mà không bay hơi, đồng thời Thánh lực sẽ tạo thành lớp màng năng lượng bảo vệ bề mặt kim loại khỏi sự ăn mòn của ma lực nhiệt.\"\n\nRoy huýt sáo một tiếng tán thưởng: \"Tuyệt hảo! Giờ chỉ còn thiếu trái tim của nó.\"\n\nKalvin kéo ghế ngồi xuống trước bàn, đón lấy ống thép đen từ tay Finn. Bằng những ngón tay gầy gò, cậu bắt đầu vận chuyển ma lực vi mô.\n\nKhông có ánh sáng chói lòa, không có câu chú nào được xướng lên. Dòng ma lực tinh khiết mỏng như sợi tơ nhện từ từ luồn vào lòng nòng thép đen. Dưới sự dẫn dắt của tư duy logic, Kalvin khắc từng đường vân ma pháp siêu nhỏ lên bề mặt kim loại. Đó là cấu trúc nén áp suất gồm ba mươi bảy điểm nút vi mô chạy dọc rãnh xoắn, đóng vai trò như các khoang giảm chấn và định hướng luồng khí nóng.\n\nTừng giọt mồ hôi lấm tấm trên trán Kalvin. Đôi mắt xám tro tĩnh lặng không hề chớp suốt mười lăm phút. Mỗi đường vân khắc xong, lớp dầu Băng Tinh của Rumy lập tức thẩm thấu vào từng kẽ kim loại, ánh lên vệt sáng lam thẫm mờ ảo rồi lặn sâu vào thớ thép đen.\n\n*Tách.*\n\nMột âm thanh thanh thúy vang lên khi đường vân cuối cùng khép lại thành một vòng tuần hoàn hoàn chỉnh. Kalvin thở ra một hơi dài, đặt ống kim loại xuống: \"Xong rồi. Lắp ráp thôi.\"\n\n***\n\nFinn Thorne thoăn thoắt lắp ghép từng chi tiết: khóa nòng bằng thép tôi, lò xo nén lực bằng đồng đàn hồi, báng súng đẽo từ gỗ sồi đen nguyên khối ôm khít khung cơ khí, và lẫy cò mạ kền sáng bóng.\n\nChưa đầy nửa canh giờ sau, một thứ vũ khí hoàn toàn mới đã thành hình trên mặt bàn.\n\nNó dài khoảng bốn gang tay, nặng chừng sáu cân, phủ màu đen tuyền mờ đục của thép đen tôi dầu. Báng gỗ sồi nâu sẫm ôm sát khung cơ khí sắc cạnh, không có chi tiết chạm trổ xa xỉ nào. Nó toát lên vẻ đẹp thuần túy của công năng, lạnh lùng, thực dụng và mang hơi thở chết chóc của kỷ nguyên mới.\n\n\"Đạn đây,\" Finn đặt lên bàn năm ống sắt đặc hình trụ nhỏ bằng ngón tay cái, đầu chuốt nhọn hình nón, bên trong chứa lõi đá ma thuật nén nhiệt mà Kalvin chuẩn bị.\n\nRoy Kane bước lại gần, cầm thứ vũ khí kỳ lạ lên ngắm thử: \"Cầm chắc tay đấy... Nhưng thứ này thực sự bắn xuyên qua giáp kỵ sĩ sao?\"\n\n\"Thử một phát là biết ngay,\" Kalvin đứng dậy, chỉ tay về phía cửa hầm thông gió ngầm ở góc sâu nhất của tầng hầm.\n\nĐó là đường hầm khai thác quặng bỏ hoang ăn sâu vào lòng núi hơn ba mươi thước, bốn bề là vách đá hoa cương kiên cố và cách âm hoàn toàn. Ở cuối đường hầm, Finn đã dựng một tấm giáp ngực bằng thép đúc dày nửa tấc — trang bị phòng thủ tiêu chuẩn của kỵ sĩ quý tộc Tam tinh, thứ mà ngay cả một đòn chém toàn lực bằng Trọng Kiếm bọc Khí của Roy cũng chỉ làm móp méo một vết lõm sâu.\n\nFinn kéo khóa nòng, tra một viên đạn sắt đen vào buồng đạn. Tiếng *khách... cạch...* vang lên đanh gọn. Cậu ta trao súng vào tay Kalvin: \"Phát đầu tiên phải do mày bắn.\"\n\nKalvin đón lấy khẩu súng. Cậu đứng thẳng ở khoảng cách năm mươi bước chân, chân trái hơi bước lên tạo thế vững chãi, hai cánh tay nâng báng súng áp sát vai phải. Mắt xám tro nhìn qua đầu ruồi kim loại, khóa chặt vào tâm điểm tấm giáp thép đối diện.\n\nCăn hầm ngầm hoàn toàn tĩnh lặng.\n\nKalvin đặt ngón trỏ lên lẫy cò. Ma lực vi mô từ ngón tay truyền thẳng vào lõi đá ma thuật bên trong buồng đạn.\n\n*Bóp.*\n\nKhông có tiếng nổ đinh tai của thuốc nổ hỗn loạn. Chỉ có tiếng rít ma sát cực nhanh: *Xì xoẹt...* tiếp nối ngay lập tức bằng tiếng *ĐOÀNG!* đanh thép, khô khốc như tiếng thanh kiếm thép khổng lồ bị bẻ gãy giữa không trung.\n\nMột tia chớp màu lam thẫm rạch ngang bóng tối. Khẩu súng giật nảy trên vai Kalvin, nhưng lực ghì chuẩn xác của cậu đã triệt tiêu hoàn toàn độ giật lùi. Làn khói mỏng thơm mùi tinh dầu Băng Tinh phả ra từ miệng nòng thép, tan biến gần như ngay lập tức.\n\nỞ cuối đường hầm, âm thanh va chạm kim loại chói tai vang lên: *KENG!*\n\nSau đó là tiếng đá nứt toác *rắc... rắc...* rơi lả tả xuống sàn đất.\n\nCả bốn người vội vã chạy về phía cuối đường hầm. Dưới ánh đèn dầu hỏa, cảnh tượng hiện ra khiến sống lưng mọi người lạnh toát.\n\nTấm giáp ngực bằng thép đúc dày nửa tấc của kỵ sĩ quý tộc đã bị xuyên thủng một lỗ tròn nhẵn thín to bằng ngón tay cái ngay tại vị trí tim. Mép lỗ thủng bị nhiệt độ ma lực nung chảy đỏ rực, đang xèo xèo nguội dần thành một vòng kim loại sẫm màu. Viên đạn sắt đen không dừng lại ở tấm giáp, mà găm sâu vào vách đá hoa cương phía sau hơn một gang tay, tạo nên mạng lưới vết nứt kéo dài ra xung quanh.\n\n\"Trời đất ơi...\" Finn run rẩy quỳ sụp xuống, ngón tay sờ vào mép lỗ thủng còn nóng hổi. \"Hoàn toàn xuyên thủng ở cự ly năm mươi bước... Không cần Khí huyết... Không cần tụ lực ma pháp năm phút...\"\n\nRoy Kane nuốt khan một ngụm nước bọt buốt lạnh: \"Một đòn đánh này... uy lực phá giáp vượt xa nhát kiếm toàn lực của kỵ sĩ Tứ tinh. Ngay cả tấm khiên sắt đen của tao cũng không thể cản nổi ở cự ly gần.\"\n\n\"Và bất kỳ một đứa trẻ nào, chỉ cần biết nâng súng và kéo cò... đều có thể hạ gục một đại quý tộc mặc giáp trụ trị giá hàng trăm đồng vàng,\" Kalvin chậm rãi cất lời.\n\nNòng thép đen vẫn còn ấm áp, nhưng lớp dầu của Rumy đã giữ cho cấu trúc kim loại nguyên vẹn 100%, không hề có một vết rạn nứt nhỏ nào.\n\nTrật tự thế giới mà các hiệp sĩ và pháp sư quý tộc đã dày công xây dựng suốt hàng ngàn năm qua... đang bắt đầu rạn nứt từ chính căn hầm ngầm ẩm mốc này.\n\n***\n\n\"Một phát bắn tuyệt diệu.\"\n\nMột giọng nói đanh thép bất ngờ vang lên từ phía cầu thang dẫn xuống hầm ngầm.\n\nRoy lập tức rút thanh kiếm ngắn bên hông, xoay người chắn trước mặt Kalvin và Rumy. Nhưng Kalvin khẽ giơ tay ngăn lại.\n\nTừ trong bóng tối, Đại úy Brandon bước ra trong bộ quân phục Cấm Vệ giáp bạc viền xanh thẫm. Ánh mắt viên sĩ quan nhìn chằm chằm vào lỗ thủng trên tấm giáp thép, mí mắt khẽ giật nhẹ:\n\n\"May cho các cậu là người canh gác ở cửa hầm hôm nay là tiểu đội của tôi. Nếu giám sát viên của Thượng Viện nghe thấy âm thanh vừa rồi, Tầng Hầm Số Bảy đã bị phong tỏa bởi một trung đoàn thiết giáp.\"\n\n\"Đại úy Brandon,\" Kalvin bình thản gật đầu chào. \"Có tin tức từ Thư Phòng Bạch Ngọc sao?\"\n\nBrandon rút từ túi áo ra cuộn da cừu có dấu niêm phong đỏ của Hội Đồng Khảo Hạch Hoàng Gia:\n\n\"Nhị Điện hạ sai tôi mang danh sách chính thức của kỳ thi thực chiến Rừng Sương Muối xuống cho các cậu. Ban giám khảo năm nay vừa được bổ sung hai thành viên giám sát đặc biệt: Trưởng khoa Giả kim Varner và Trưởng tử Arthur Palace. Đội của các cậu đã bị phân bổ vào khu vực khảo sát phía Tây: Vực Đá Răng Cưa.\"\n\nFinn Thorne nghiến răng: \"Lũ chó chết... Bọn chúng lộ rõ mặt muốn dồn chúng ta vào chỗ chết!\"\n\n\"Không chỉ có thế,\" Brandon trầm giọng. \"Mật thám của Cấm Vệ vừa phát hiện người của nhà Vane đã lén vận chuyển ba thùng Dạ U Thảo ra khỏi kho dược liệu Hoàng đô vào đêm qua. Bọn chúng dự định đốt số cỏ đó tại đầu gió hẻm núi Vực Đá Răng Cưa khi đội của cậu tiến vào.\"\n\nKhông khí trong hầm bỗng chốc đông cứng lại. Roy siết chặt chuôi kiếm: \"Bầy ma thú cấp 5 sẽ bị mùi hương kích động tràn xuống hẻm núi... Đó là một cái bẫy tuyệt đối.\"\n\nRumy tiến lên một bước, ánh mắt hổ phách kiên định hướng về phía Kalvin: \"Chúng ta sẽ không rút lui chứ, Kalvin?\"\n\nKalvin không đáp ngay. Cậu chậm rãi tháo hộp tiếp đạn ra khỏi khẩu súng, nhét thêm năm viên đạn sắt đen mới vào khay tiếp đạn với những tiếng *tách... tách...* nhịp nhàng.\n\nCậu ngẩng đầu lên, nhìn thẳng vào viên Đại úy Cấm Vệ:\n\n\"Kỳ thi diễn ra vào ngày nào?\"\n\n\"Ba ngày nữa. Đúng tiết Đông chí,\" Brandon đáp.\n\n\"Rất tốt,\" khóe môi Kalvin nhếch lên một nụ cười lạnh lùng, đôi mắt xám tro phẳng lặng như mặt hồ đóng băng trước bão tuyết. \"Nói với Nhị Điện hạ... hãy chuẩn bị sẵn sắc lệnh thụ phong Nam tước Manchester và đoàn xe vận chuyển thiết bị.\"\n\nCậu quay sang nhìn Roy, Finn và Rumy — ba người đồng đội đã cùng cậu đi lên từ đống tro tàn của Lâu đài Palace:\n\n\"Trong ba ngày tới, chúng ta sẽ chế tạo thêm hai khẩu súng này và hai trăm viên đạn xuyên giáp. Finn phụ trách nòng và bộ gõ; Rumy chưng cất đủ dầu Băng Tinh và thuốc giải độc Dạ U Thảo; Roy sẽ cùng tao làm quen với xạ kích chiến thuật.\"\n\nKalvin nâng khẩu súng thép đen lên ngang ngực, hướng nòng súng về phía bản đồ Rừng Sương Muối trải trên bàn:\n\n\"Arthur Palace và Julian Vane nghĩ rằng chúng đang lùa lũ cừu non vào lò mổ. Nhưng khi bước vào Vực Đá Răng Cưa... bọn chúng sẽ nhận ra ai mới là kẻ đi săn thực sự.\"\n\nÁnh lửa từ lò rèn bùng lên, phản chiếu trên nòng thép đen bóng loáng của thứ vũ khí tro tàn.\n\nMùa đông năm 942 của Vương quốc Leicester sắp sửa khép lại bằng một hồi chuông báo tử đẫm máu dành cho tầng lớp quý tộc kiêu ngạo.\n"
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "title": "RỪNG SƯƠNG MUỐI VÀ TIẾNG GẦM TIẾT ĐÔNG CHÍ",
+      "full_title": "Chương 30: RỪNG SƯƠNG MUỐI VÀ TIẾNG GẦM TIẾT ĐÔNG CHÍ",
+      "arc": "Arc 2: Học Viện Hoàng Gia Leicester",
+      "word_count": 4458,
+      "illustrations": [],
+      "elements": [
+        {
+          "type": "paragraph",
+          "text": "*Mùa đông năm 942 lịch Roland – Ba ngày sau cuộc bắn thử nghiệm tại Tầng Hầm Số Bảy, rạng sáng ngày Đông chí trước cổng Rừng Sương Muối.*"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gió bấc rít từng cơn điên cuồng qua những hàng rào cọc gỗ nhọn hoắt của tiền đồn biên giới phía Tây."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hôm nay là ngày Đông chí — thời khắc khắc nghiệt nhất trong năm của Vương quốc Leicester. Mặt trời chỉ là đốm sáng vàng đục yếu ớt sau rặng mây tro tàn, không đủ xua tan màn sương muối dày đặc cuộn trào từ thung lũng Rừng Sương Muối."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thứ sương mù mặn chát đục ngầu tràn qua khắp các ngả đường, bám vào từng thanh gỗ tháp canh, đọng lại trên áo giáp thành lớp tinh thể muối trắng xốp. Hễ ai hít thở sâu, cuống họng liền bỏng rát vị mặn khoáng chất."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trước cổng tiền đồn đá xám dẫn vào bãi khảo hạch, hơn ba trăm học viên năm thứ ba của Học viện Hoàng gia Leicester đã tập hợp đông đủ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sự phân hóa giai cấp hiển hiện rõ rệt đến tàn nhẫn ngay giữa khoảng sân phủ đầy tuyết xốp."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ở khu vực trung tâm có mái che và những lò sưởi di động đốt bằng than củi thông đắt tiền, nhóm học viên Áo choàng viền vàng của giới đại quý tộc đứng tụ tập thành từng tốp nhỏ. Dẫn đầu là Arthur Palace và Julian Vane. Bọn chúng khoác giáp xích mạ bạc gia huy tinh xảo, áo choàng nhung viền lông chồn ấm áp, bên hông đeo bảo kiếm nạm đá quý. Trên môi những kẻ thừa kế thượng tầng luôn nở nụ cười khinh khỉnh, ung dung như một chuyến đi săn tiêu khiển."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cách đó một khoảng xa, đứng sát mép hàng rào gỗ mục nát dưới làn gió buốt buốt lạnh, là nhóm hơn bốn mươi học viên Áo choàng viền xám."
+        },
+        {
+          "type": "paragraph",
+          "text": "Không có lò sưởi hay trà nóng, trang phục của họ chỉ là áo choàng vải gai thô độn bông xơ xác. Đôi môi tím tái vì lạnh, những bàn tay thô ráp siết chặt ngọn giáo gỗ bọc sắt rỉ hoặc kiếm ngắn rẻ tiền. Với học viên nghèo, kỳ thi thực chiến này là cơn ác mộng sinh tử — nơi họ dễ trở thành bia đỡ đạn cho đám quý tộc viền vàng."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nhưng ở góc khuất gió nhất của nhóm viền xám, bốn bóng người trẻ tuổi đứng lặng lẽ, toát ra một bầu không khí trầm mặc và sắc lạnh hoàn toàn khác biệt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalvin Palace đứng ở vị trí trung tâm."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cậu mặc chiếc áo giáp da nai ôm sát thân hình gầy gò nhưng cân đối, bên ngoài khoác chiếc áo choàng gai xám quen thuộc. Sau lưng Kalvin, một bọc vải thô màu nâu sẫm dài bốn gang tay được buộc chặt bằng dây da thuộc, bên trong là khẩu hỏa thương ma đạo nòng dài với ba mươi bảy điểm nút nén áp suất do chính cậu hoàn thiện đêm qua. Ánh mắt xám tro của cậu nhìn thẳng vào làn sương muối đục ngầu phía trước, phẳng lặng và tĩnh mịch như mặt nước đóng băng sâu thẳm."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bên cạnh cậu, Roy Kane vác thanh Trọng Kiếm Sắt Đen dài năm thước trên vai. Khối kim loại nặng ba mươi sáu cân đối với vị võ sĩ trẻ tuổi dường như nhẹ tênh, thớ cơ bắp cuồn cuộn dưới lớp áo giáp da vảy thép đen khẽ căng lên theo từng nhịp thở trầm ổn. Bên hông trái của Roy, ẩn giấu dưới vạt áo choàng, là một khẩu súng ngắn ma đạo nòng ngắn — thứ vũ khí cận chiến tầm gần mà Finn vừa tôi luyện xong rạng sáng nay."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rumy Charlotte đứng sát bên Kalvin, mái tóc đỏ rực rỡ được búi gọn gàng sau gáy dưới chiếc mũ len màu hạt dẻ. Bàn tay nhỏ bé đeo găng da cừu của cô nhẹ nhàng vỗ về chiếc túi cứu thương bằng da thuộc đeo chéo bên hông. Bên trong túi là hai mươi ống nghiệm thủy tinh chứa dung dịch màu lam trong suốt — thành quả của ba ngày thức trắng bên bình chưng cất áp suất âm: \"Thanh U Tán\", loại dược dịch có khả năng trung hòa hoàn toàn độc tính kích động ma thú của Dạ U Thảo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ở phía sau cùng, Finn Thorne chỉnh lại cặp kính nứt màng trên sống mũi. Khuôn mặt chàng thợ rèn lấm lem những vệt muội than chưa kịp rửa sạch sau ba đêm đỏ lửa lò rèn, nhưng đôi mắt sau tròng kính lại sáng rực lên một thứ ánh sáng sắc sảo và tự tin chưa từng thấy. Chiếc túi đeo lưng bằng da bò dày của Finn căng phồng với hai trăm viên đạn sắt đen chuốt nhọn, mỗi viên đều được nhồi lõi đá ma thuật nén nhiệt ba mươi bảy chu kỳ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ba ngày qua là cuộc chạy đua nghẹt thở chống lại thời gian. Dưới sự bảo hộ của tiểu đội Cấm Vệ do Đại úy Brandon chỉ huy tại Tầng Hầm Số Bảy, họ làm việc không ngừng nghỉ: từng nòng thép đen được khoan rãnh xoắn chính xác, từng đường vân ma lực được khắc tỉ mỉ bằng ma lực vi mô của Kalvin, và dầu Băng Tinh của Rumy thẩm thấu vào kim loại bảo đảm nòng súng không biến dạng nhiệt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bây giờ, ba khẩu hỏa thương tro tàn đã sẵn sàng. Thứ duy nhất họ chờ đợi là chiếc bẫy của kẻ thù sập xuống."
+        },
+        {
+          "type": "break",
+          "text": "❖ ❖ ❖"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tiếng kèn đồng quân sự vang lên khô khốc, xé toạc màn sương muối lạnh giá."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trên lễ đài gỗ cao dựng trước cổng tiền đồn, Giáo sư Varner — Viện phó kiêm Trưởng khoa Giả kim của học viện — bước ra mép sàn gỗ. Lão mặc chiếc áo choàng học giả màu tím đắt tiền viền lông chồn, khuôn mặt gầy guộc với hàng ria mép chuốt sáp vểnh lên đầy vẻ đạo mạo giả tạo. Đứng cạnh lão là Arthur Palace trong bộ giáp ngực nạm vàng sáng chói, tay chống lên chuôi kiếm quý tộc, ánh mắt ngạo nghễ quét qua đám học viên bên dưới."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Học viên toàn viện trật tự!\" Giọng nói the thé được khuếch đại bằng ma pháp âm thanh của Varner vang vọng khắp sân tiền đồn. \"Kỳ khảo hạch thực chiến Rừng Sương Muối năm thứ ba chính thức bắt đầu! Mục tiêu khảo hạch năm nay là thu thập lõi ma tinh của ma thú cấp 3 trở lên, đồng thời cắm cờ khảo sát tại các tọa độ chỉ định!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Varner dừng lại một nhịp, khóe mắt híp lại sau cặp kính tròn gọng vàng, liếc thẳng về phía nhóm của Kalvin với nụ cười nham hiểm:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Theo quy định điều chỉnh đặc biệt của Hội Đồng Giám Thị nhằm nâng cao tính công bằng và rèn luyện bản lĩnh cho các học viên nhận học bổng... Phân đội số Chín, gồm toàn bộ các học viên hệ nghiên cứu và hỗ trợ viền xám dưới quyền chỉ huy của Kalvin Palace, sẽ đảm nhận nhiệm vụ khảo sát phân khu Tây Bắc: Hẻm núi Vực Đá Răng Cưa!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Một làn sóng xôn xao lập tức bùng nổ trong hàng ngũ học viên viền xám."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Vực Đá Răng Cưa?! Điên rồi sao?!\" Một học viên nghèo run rẩy thốt lên, khuôn mặt cắt không còn giọt máu. \"Nơi đó là địa bàn của bầy Băng Cốt Ma Hùng cấp 4 và Ma Báo Răng Kiếm cấp 5! Địa hình hẻm núi cụt, nếu bị ma thú bao vây thì chỉ có con đường chết!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Đúng thế! Ngay cả các kỵ sĩ viền vàng cũng chưa từng dám nhận nhiệm vụ ở Vực Đá Răng Cưa vào mùa đông! Đây rõ ràng là dồn người vào chỗ chết!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Im lặng!\" Varner gõ mạnh cây trượng ma pháp xuống sàn đài, thanh âm đanh lại đầy vẻ đe dọa. \"Đây là mệnh lệnh chính thức từ Hội Đồng Giám Thị! Học viên nào từ chối nhận địa bàn khảo hạch sẽ bị tước bỏ toàn bộ tư cách dự thi, đồng thời hủy bỏ học bổng và trục xuất khỏi học viện ngay trong ngày hôm nay!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Đám học viên nghèo im bặt, lồng ngực thắt lại trong sự phẫn uất bất lực. Họ hiểu rõ, dưới sự thao túng của liên minh nhà Vane và nhà Palace, mọi lời khiếu nại của tầng lớp dưới chỉ là trò cười vô nghĩa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Arthur Palace bước lên mép đài, cúi nhìn Kalvin bên dưới. Khóe môi gã nhếch lên thành nụ cười khinh bỉ tột cùng, ánh mắt như đang nhìn những con cừu non sắp bị lùa vào lò mổ:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Đừng có run rẩy thế chứ, những người anh em viền xám. Nếu cảm thấy bản thân bất tài vô dụng, các người có thể quỳ xuống xin rút lui ngay bây giờ. Gia tộc Palace chúng ta vốn dĩ rất rộng lượng với những kẻ biết thân biết phận.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Đám học viên quý tộc viền vàng phía sau Arthur cười rộ lên khoái trá, tiếng cười nhạo báng vang vọng trong gió lạnh."
+        },
+        {
+          "type": "paragraph",
+          "text": "Roy Kane siết chặt chuôi Trọng Kiếm Sắt Đen đến mức khớp ngón tay phát ra tiếng *răng rắc*. Luồng Khí nâu đỏ âm ỉ cuộn trào dưới da gà, ánh mắt của Roy rực sáng lên ngọn lửa hoang dã của mãnh thú chuẩn bị vồ mồi. Nhưng một bàn tay gầy gò, lạnh ngắt nhẹ nhàng đặt lên bả vai cậu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalvin khẽ lắc đầu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cậu bước lên phía trước một bước, ngẩng đầu nhìn thẳng vào mắt Arthur Palace trên lễ đài."
+        },
+        {
+          "type": "paragraph",
+          "text": "Đôi mắt xám tro của thiếu niên viền xám tĩnh lặng đến rợn người. Không có sự tức giận, không có nỗi sợ hãi, cũng không có bất kỳ một lời phản bác thừa thãi nào. Ánh mắt ấy sâu thẳm và lạnh buốt như đáy vực băng giá, nhìn xoáy thẳng vào tâm can Arthur khiến nụ cười trên môi gã quý tộc trẻ tuổi bỗng chốc cứng đờ lại. Một cơn ớn lạnh kỳ lạ vô cớ chạy dọc sống lưng Arthur, khiến gã vô thức lùi lại nửa bước trước khi kịp nhận ra sự hèn nhát của chính mình."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Phân đội số Chín nhận lệnh,\" Kalvin cất lời."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thanh âm của cậu không lớn, nhưng phẳng lặng và chuẩn xác, cắt ngang toàn bộ những tiếng cười cợt của đám quý tộc:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Vực Đá Răng Cưa. Chúng tôi sẽ đến đó.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Nói xong, cậu xoay người dứt khoát, dẫn đầu nhóm học viên viền xám sải bước tiến thẳng về phía cánh cổng sắt nặng nề của tiền đồn vừa được kéo lên."
+        },
+        {
+          "type": "paragraph",
+          "text": "Phía sau lưng cậu, Julian Vane nheo đôi mắt dài hẹp lại, ngón tay xoay nhẹ chiếc nhẫn gia huy hình rắn biển, thì thầm vào tai Arthur:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Để nó mạnh miệng nốt hôm nay đi. Ba thùng Dạ U Thảo đã được người của chúng ta châm ngòi tại đầu gió hẻm núi rồi. Chỉ cần một khắc nữa thôi... toàn bộ Vực Đá Răng Cưa sẽ biến thành mồ chôn tập thể của lũ rác rưởi đó.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Arthur nghiến răng, cố xua đi cảm giác bất an vừa dấy lên trong lòng, gật đầu hung tợn:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Lần này, ta muốn tận mắt nhìn thấy xương cốt của nó bị nghiền nát.\""
+        },
+        {
+          "type": "break",
+          "text": "❖ ❖ ❖"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bước qua cánh cổng sắt của tiền đồn, thế giới thực tại dường như hoàn toàn biến mất sau lưng."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rừng Sương Muối mở ra trước mắt họ như một vùng đất chết bị nguyền rủa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mặt đất phủ một lớp tuyết xốp màu xám đục lẫn tro khoáng dày tới bắp chân, phát ra những tiếng *xột xoạt* nặng nề theo từng bước chân. Những thân cây thông đen khổng lồ vươn lên giữa màn sương mù mặn chát, cành lá trơ trụi đóng băng trông như những cánh tay xương xẩu vặn vẹo của những linh hồn chết oan. Tầm nhìn xung quanh bị hạn chế nghiêm ngặt trong vòng chưa đầy mười lăm bước chân; quá khoảng cách đó, mọi thứ chỉ còn là một bức màn sương trắng nhờ nhờ, lạnh lẽo và đặc quánh."
+        },
+        {
+          "type": "paragraph",
+          "text": "Không gian tĩnh lặng nghẹt thở, chỉ có tiếng gió rít qua khe đá vôi và tiếng cành cây gãy dưới sức nặng băng tuyết."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hơn ba mươi học viên viền xám đi sau lưng Kalvin bắt đầu run rẩy. Hơi lạnh ngấm qua lớp giày da mỏng khiến ngón chân họ tê dại, trong khi nỗi sợ hãi về ma thú cấp 5 vô hình trong màn sương khiến hơi thở của họ trở nên dồn dập, hổn hển."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Kalvin... Chúng ta đang đi đâu thế này?\" Một học viên tên là Toby, thiếu niên gầy gò chuyên về ma pháp Phong cấp 1, đánh bạo bước lên hỏi, giọng run bần bật. \"Hẻm núi Vực Đá Răng Cưa nằm ở nhánh đường trũng phía dưới kia mà? Sao cậu lại dẫn chúng ta leo lên dốc đá dựng đứng này?\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalvin dừng bước dưới bóng của một tảng đá hoa cương khổng lồ. Cậu quay lại nhìn toàn bộ nhóm học viên nghèo đang run rẩy vì đói và rét."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cậu không giải thích dài dòng về âm mưu của nhà Vane, bởi sự hoảng loạn lúc này sẽ chỉ làm rối loạn đội hình. Cậu rút từ trong túi áo ra một chiếc còi đồng nhỏ cùng một xấp bùa định vị do chính tay cậu vẽ:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Dưới đáy hẻm núi là vùng trũng tích tụ khí độc và là tử địa không có đường lui. Nếu các cậu muốn sống sót trở về lãnh học bổng mùa sau, hãy tuân thủ tuyệt đối ba mệnh lệnh của tôi.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Ánh mắt sắc lẹm và phong thái trầm ổn của Kalvin như một chiếc mỏ neo vững chắc giữ lấy tâm lý đang lung lay của đám thiếu niên:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Thứ nhất: Toàn bộ ba mươi người các cậu lập tức di chuyển lên mỏm đá Bàn Cờ cách đây hai trăm thước. Nơi đó có vách đá che chắn ba mặt, chỉ có một con đường độc đạo dẫn lên. Toby, cậu dẫn đầu nhóm, lập kết giới Phong ma pháp cơ bản để cảnh giới.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Thứ hai: Rumy, phân phát Thanh U Tán cho mọi người.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Rumy lập tức bước lên, mở chiếc túi da thuộc lấy ra ba mươi túi vải nhỏ chứa bột thảo dược màu lam nhạt trao cho từng học viên:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Mọi người bôi thứ bột này lên cổ áo và ủng da. Nó sẽ che giấu hoàn toàn mùi mồ hôi và hơi thở của con người, ma thú trong bán kính năm mươi bước sẽ không thể ngửi thấy các bạn.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Đám học viên vội vã làm theo, ánh mắt nhìn Rumy tràn ngập sự cảm kích như nhìn thấy một vị cứu tinh. Khi lớp bột lam được thoa lên người, một làn hương thơm thanh khiết như cỏ non mùa xuân lan tỏa, lập tức xua tan cảm giác ngột ngạt, cay xè của sương muối trong khoang mũi họ."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Thứ ba,\" Kalvin nhìn thẳng vào mắt từng người. \"Bất kể nghe thấy tiếng động gì dưới hẻm núi trong một canh giờ tới, tuyệt đối không được rời khỏi mỏm đá Bàn Cờ. Đội của tôi — tôi, Roy, Rumy và Finn — sẽ xử lý phần còn lại.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Nhưng... còn các cậu thì sao?!\" Toby lo lắng hỏi. \"Bốn người các cậu định đi đâu?\""
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Chúng tôi đi săn,\" Roy Kane khẽ nhếch môi, nụ cười nửa miệng phóng khoáng lộ ra hàm răng trắng bóng. Cậu vỗ nhẹ lên chuôi Trọng Kiếm sau lưng: \"Lên đài quan sát đi, mấy nhóc. Xem kỵ sĩ viền xám đập tan cái bẫy của lũ quý tộc như thế nào.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Trước phong thái tự tin áp đảo của bộ tứ, đám học viên viền xám không còn ai nghi ngờ. Dưới sự dẫn dắt của Toby, họ nhanh chóng phân tán, men theo vách đá dốc ngược tiến về phía mỏm Bàn Cờ an toàn."
+        },
+        {
+          "type": "paragraph",
+          "text": "Khi bóng người cuối cùng khuất sau rặng thông tuyết, chỉ còn lại bốn người giữa màn sương muối lạnh giá."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalvin quay sang nhìn Finn: \"Vũ khí thế nào?\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Finn Thorne tháo chiếc bọc vải thô trên lưng xuống, đặt lên tảng đá phẳng. Ba khẩu hỏa thương ma đạo bằng thép đen tuyền lộ ra dưới ánh sáng xám mờ của buổi sớm đông, lạnh lùng và đen bóng như ba con rắn độc đang ngủ say. Bên cạnh là những hộp tiếp đạn chứa đầy đạn sắt đặc nén nhiệt ma lực."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Hai khẩu nòng dài cho mày và tao, tầm bắn hiệu quả một trăm bước,\" Finn thì thầm, bàn tay thoăn thoắt kiểm tra chốt búa gõ và lò xo đẩy. \"Khẩu carbine nòng ngắn cho Roy, tầm bắn ba mươi bước, tốc độ nạp đạn nhanh gấp đôi. Tất cả đều đã ngâm dầu Băng Tinh của Rumy, bảo đảm bắn liên tục hai mươi phát không bị biến dạng nhiệt!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalvin đón lấy khẩu súng nòng dài của mình. Đôi bàn tay thon dài của cậu lướt qua khóa nòng bằng thép tôi, kéo mạnh chốt tiếp đạn ra sau."
+        },
+        {
+          "type": "paragraph",
+          "text": "*Cạch... Khách!*"
+        },
+        {
+          "type": "paragraph",
+          "text": "Âm thanh kim loại ăn khớp vang lên giòn giã, khô khốc và sắc lẹm giữa không gian tĩnh mịch. Cậu tra hộp tiếp đạn năm viên vào khe súng, đẩy chốt khóa về vị trí sẵn sàng."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Lên đỉnh đèo Vực Đá Răng Cưa,\" Kalvin ra lệnh, ánh mắt hướng về phía sườn dốc đá cheo leo phía trên hẻm núi cụt. \"Kẻ đốt lửa sắp bắt đầu rồi.\""
+        },
+        {
+          "type": "break",
+          "text": "❖ ❖ ❖"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gió trên đỉnh đèo thổi mạnh hơn, cuốn theo những đám sương muối xoay tròn cuồng loạn như những chiếc vòi rồng nhỏ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bốn người ẩn mình sau một gờ đá bazan tự nhiên nhô ra trên vách núi cao hơn ba mươi thước, nhìn thẳng xuống lòng chảo hẹp của hẻm núi Vực Đá Răng Cưa bên dưới. Từ vị trí này, toàn bộ địa hình hẻm núi cụt thu trọn vào tầm mắt họ như một bàn cờ địa lý thu nhỏ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ở phía đầu gió của hẻm núi, cách họ khoảng tám mươi bước chân, bóng ba gã đàn ông mặc áo giáp da của lính đánh thuê đang lui cui bên ba chiếc đỉnh đồng lớn đặt trên mặt tuyết."
+        },
+        {
+          "type": "paragraph",
+          "text": "Một trong ba gã — kẻ có vết sẹo dài trên trán mang gia huy rắn biển của nhà Vane — đang dùng đá lửa châm ngòi vào lớp củi khô tẩm dầu đặt dưới đáy đỉnh."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ngọn lửa bùng lên, liếm vào những bó cỏ khô màu tím thẫm chất đầy bên trong đỉnh đồng."
+        },
+        {
+          "type": "paragraph",
+          "text": "*Xèo... Xèo...*"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ngay lập tức, một luồng khói màu tím nhạt, đặc quánh như nhung bốc lên ngùn ngụt từ ba chiếc đỉnh đồng, theo chiều gió bấc cuồn cuộn tràn thẳng vào lòng hẻm núi Vực Đá Răng Cưa. Cùng lúc đó, một mùi hương ngọt lịm kỳ quái — thứ mùi hương giống như mật ong pha lẫn xác thịt thối rữa — bắt đầu khuếch tán trong không khí với tốc độ chóng mặt."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Dạ U Thảo...\" Rumy Charlotte khẽ thốt lên, lông mày thanh tú chau lại. \"Số lượng này đủ để kích động toàn bộ ma thú trong bán kính mười dặm của Rừng Sương Muối phát điên!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Cô nhanh chóng lấy từ trong túi ra bốn viên thuốc thảo dược màu lam ngọc, đưa cho mỗi người một viên: \"Ngậm viên này dưới lưỡi, nó sẽ ngăn không cho độc tố Dạ U Thảo làm rối loạn dòng chảy ma lực và Khí huyết.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalvin đón lấy viên thuốc ngậm vào miệng. Vị đắng thanh mát lập tức lan tỏa khắp cuống họng, làm tinh thần cậu trở nên tỉnh táo tuyệt đối."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cậu nâng khẩu hỏa thương ma đạo lên, đặt nòng súng tựa vững chãi trên gờ đá bazan phủ tuyết, mắt ngắm dọc theo đường rãnh kim loại hướng thẳng về phía gã lính đánh thuê đầu đàn bên dưới."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ở phía xa, trên một tháp canh gỗ cao nằm ngoài rìa khu vực an toàn, hai bóng người mặc áo choàng viền vàng đang dùng kính viễn vọng ma đạo nhìn về phía hẻm núi. Đó chính là Arthur Palace và Julian Vane. Bọn chúng đứng đó, nhấp từng ngụm rượu vang nóng, chờ đợi cảnh tượng đàn ma thú xé xác nhóm học viên viền xám để hoàn tất bản báo cáo \"tai nạn thực địa đáng tiếc\"."
+        },
+        {
+          "type": "paragraph",
+          "text": "Đột nhiên, mặt đất dưới chân họ khẽ rung chuyển."
+        },
+        {
+          "type": "paragraph",
+          "text": "*Rầm... Rầm... Rầm...*"
+        },
+        {
+          "type": "paragraph",
+          "text": "Những rung chấn từ xa truyền lại qua các tầng đá bazan, ban đầu nhẹ như nhịp tim đập, nhưng chỉ vài giây sau đã biến thành một chuỗi âm thanh ầm ầm như sấm rền từ lòng đất. Tuyết trên các sườn núi xung quanh bắt đầu sụt lở, tạo thành những đợt sóng tuyết trắng xóa tràn xuống thung lũng."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Tới rồi!\" Roy Kane thì thầm, bàn tay nắm chặt thanh Trọng Kiếm, ánh mắt bốc cháy ngọn lửa chiến đấu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Từ sâu trong màn sương muối dày đặc của khu vực cấm phía Bắc, những đôi mắt đỏ ngầu như than hồng rực sáng liên tiếp xuất hiện."
+        },
+        {
+          "type": "paragraph",
+          "text": "Một tiếng gầm kinh thiên động địa vang lên, xé toạc bầu không khí tĩnh mịch của mùa đông:"
+        },
+        {
+          "type": "paragraph",
+          "text": "*GÀO... Ồ... Ồ...!*"
+        },
+        {
+          "type": "paragraph",
+          "text": "Âm thanh gầm rú mang theo uy áp khủng khiếp của ma lực cấp 5 khiến toàn bộ cây thông xung quanh rung lắc dữ dội, lớp băng tuyết trên cành cây vỡ vụn rơi lả tả như mưa rào."
+        },
+        {
+          "type": "paragraph",
+          "text": "Một sinh vật khổng lồ phá tan màn sương tuyết lao ra."
+        },
+        {
+          "type": "paragraph",
+          "text": "Đó là con Băng Cốt Ma Hùng trưởng thành — chúa tể săn mồi Rừng Sương Muối. Thân hình đồ sộ cao hơn bốn thước, toàn thân bọc giáp xương trắng đục tủa ra từ sống lưng như chông đá. Đôi mắt nó đỏ quạch vì tinh dầu Dạ U Thảo kích thích, nước dãi hàn khí nhỏ xuống làm đóng băng tuyết dưới chân."
+        },
+        {
+          "type": "paragraph",
+          "text": "Theo sau con ma gấu khổng lồ là một đàn hơn hai mươi con Ma Báo Răng Kiếm cấp 3 và cấp 4, thân hình thon dài như những vệt bóng ma xám xịt, móng vuốt sắc nhọn cào nát mặt tuyết khi chúng điên cuồng lao về phía ba chiếc đỉnh đồng tỏa khói tím."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ba gã lính đánh thuê của nhà Vane bên dưới thấy cảnh tượng đó liền hoảng hốt dập lửa để tìm đường tháo chạy. Tên cầm đầu hét lớn:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Rút lui! Mau rút lui! Mẹ kiếp, tại sao lại có cả Băng Cốt Ma Hùng cấp 5 thế này?! Mau kích hoạt bùa truyền tống!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Hắn run rẩy thò tay vào túi áo ngực định lấy bùa cứu hộ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nhưng hắn không bao giờ có cơ hội chạm vào nó nữa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trên gờ đá bazan cao ba mươi thước, ngón tay trỏ của Kalvin Palace siết nhẹ lẫy cò."
+        },
+        {
+          "type": "paragraph",
+          "text": "*Xì xoẹt... ĐOÀNG!*"
+        },
+        {
+          "type": "paragraph",
+          "text": "Một tiếng sấm nén khô khốc, đanh thép nổ vang giữa hẻm núi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Một tia chớp lam thẫm rạch ngang màn sương muối mờ đục với tốc độ vượt xa tầm mắt con người."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cách đó tám mươi bước chân, chiếc đỉnh đồng lớn nhất bỗng chốc nổ tung thành hàng trăm mảnh vụn kim loại. Viên đạn sắt đen nén nhiệt ba mươi bảy chu kỳ bắn xuyên qua thành đỉnh đồng dày hai phân, kích nổ toàn bộ ma lực nhiệt lượng tích tụ bên trong buồng đốt, tạo nên một quả cầu lửa khổng lồ hất văng cả ba tên lính đánh thuê xuống tuyết!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Toàn bộ tinh dầu Dạ U Thảo đang cháy dở bị sóng xung kích thổi ngược trở lại, phủ kín lên người ba tên lính đánh thuê và hắt thẳng về phía lối thoát duy nhất của hẻm núi — nơi con đường mòn dẫn ngược về phía tháp canh của Arthur Palace và Julian Vane!"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Cái gì thế?!\" Tên lính đánh thuê đầu đàn gầm lên kinh hãi khi thấy toàn thân mình bị nhuộm đỏ bởi dầu Dạ U Thảo bốc khói ngào ngạt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Và trước mắt hắn, con Băng Cốt Ma Hùng khổng lồ cùng đàn ma báo bỗng nhiên dừng bước."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mùi hương ngọt lịm nồng nặc nhất lúc này... không còn ở trong hẻm núi cụt nữa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nó đang bốc lên ngùn ngụt từ chính thân xác của ba tên lính đánh thuê, và theo ngọn gió ngược tràn thẳng về phía tháp quan sát của giới quý tộc!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Đôi mắt đỏ ngầu của con gấu khổng lồ từ từ chuyển hướng. Nó ngửa cổ lên trời gầm lên một tiếng cuồng nộ tột cùng, bốn chiếc chân hộ pháp bọc giáp xương dẫm nát mặt tuyết, dẫn đầu toàn bộ bầy ma thú hung hãn quay ngoắt một trăm tám mươi độ, điên cuồng lao thẳng về phía con đường dẫn lên tháp canh của Arthur Palace!"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trên tháp quan sát, chiếc ly rượu vang trên tay Arthur Palace rơi xuống sàn gỗ vỡ tan tành. Khuôn mặt gã quý tộc trẻ tuổi cắt không còn một giọt máu, hàm răng run lên cầm cập khi nhìn thấy làn sóng ma thú hung tợn đang quay đầu lao thẳng về phía mình:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Julian... Julian... Bọn chúng... Bọn chúng đang chạy về phía này! Mau... Mau gọi Cấm Vệ Quân! Cứu mạng!\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Julian Vane đứng chết lặng, chiếc kính viễn vọng rơi khỏi tay, đôi mắt xảo quyệt lúc này chỉ còn lại sự kinh hoàng tột độ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trên gờ đá bazan phía trên hẻm núi, Kalvin Palace chậm rãi hạ nòng súng thép đen còn bốc khói mờ xuống."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gió bấc thổi tung tà áo choàng gai xám của thiếu niên. Đôi mắt xám tro của cậu nhìn theo bóng lưng hoảng loạn của đám quý tộc đang giẫm đạp lên nhau tháo chạy giữa cơn bão tuyết, khóe môi khẽ nhếch lên một nụ cười sắc lạnh như lưỡi dao cạo:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Chiếc bẫy đã đóng lại.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Cậu quay sang nhìn Roy, Rumy và Finn:"
+        },
+        {
+          "type": "paragraph",
+          "text": "\"Nạp đạn. Cuộc đi săn của chúng ta... bây giờ mới thực sự bắt đầu.\""
+        }
+      ],
+      "content": "# CHƯƠNG 30: RỪNG SƯƠNG MUỐI VÀ TIẾNG GẦM TIẾT ĐÔNG CHÍ\n\n*Mùa đông năm 942 lịch Roland – Ba ngày sau cuộc bắn thử nghiệm tại Tầng Hầm Số Bảy, rạng sáng ngày Đông chí trước cổng Rừng Sương Muối.*\n\nGió bấc rít từng cơn điên cuồng qua những hàng rào cọc gỗ nhọn hoắt của tiền đồn biên giới phía Tây.\n\nHôm nay là ngày Đông chí — thời khắc khắc nghiệt nhất trong năm của Vương quốc Leicester. Mặt trời chỉ là đốm sáng vàng đục yếu ớt sau rặng mây tro tàn, không đủ xua tan màn sương muối dày đặc cuộn trào từ thung lũng Rừng Sương Muối.\n\nThứ sương mù mặn chát đục ngầu tràn qua khắp các ngả đường, bám vào từng thanh gỗ tháp canh, đọng lại trên áo giáp thành lớp tinh thể muối trắng xốp. Hễ ai hít thở sâu, cuống họng liền bỏng rát vị mặn khoáng chất.\n\nTrước cổng tiền đồn đá xám dẫn vào bãi khảo hạch, hơn ba trăm học viên năm thứ ba của Học viện Hoàng gia Leicester đã tập hợp đông đủ.\n\nSự phân hóa giai cấp hiển hiện rõ rệt đến tàn nhẫn ngay giữa khoảng sân phủ đầy tuyết xốp.\n\nỞ khu vực trung tâm có mái che và những lò sưởi di động đốt bằng than củi thông đắt tiền, nhóm học viên Áo choàng viền vàng của giới đại quý tộc đứng tụ tập thành từng tốp nhỏ. Dẫn đầu là Arthur Palace và Julian Vane. Bọn chúng khoác giáp xích mạ bạc gia huy tinh xảo, áo choàng nhung viền lông chồn ấm áp, bên hông đeo bảo kiếm nạm đá quý. Trên môi những kẻ thừa kế thượng tầng luôn nở nụ cười khinh khỉnh, ung dung như một chuyến đi săn tiêu khiển.\n\nCách đó một khoảng xa, đứng sát mép hàng rào gỗ mục nát dưới làn gió buốt buốt lạnh, là nhóm hơn bốn mươi học viên Áo choàng viền xám.\n\nKhông có lò sưởi hay trà nóng, trang phục của họ chỉ là áo choàng vải gai thô độn bông xơ xác. Đôi môi tím tái vì lạnh, những bàn tay thô ráp siết chặt ngọn giáo gỗ bọc sắt rỉ hoặc kiếm ngắn rẻ tiền. Với học viên nghèo, kỳ thi thực chiến này là cơn ác mộng sinh tử — nơi họ dễ trở thành bia đỡ đạn cho đám quý tộc viền vàng.\n\nNhưng ở góc khuất gió nhất của nhóm viền xám, bốn bóng người trẻ tuổi đứng lặng lẽ, toát ra một bầu không khí trầm mặc và sắc lạnh hoàn toàn khác biệt.\n\nKalvin Palace đứng ở vị trí trung tâm.\n\nCậu mặc chiếc áo giáp da nai ôm sát thân hình gầy gò nhưng cân đối, bên ngoài khoác chiếc áo choàng gai xám quen thuộc. Sau lưng Kalvin, một bọc vải thô màu nâu sẫm dài bốn gang tay được buộc chặt bằng dây da thuộc, bên trong là khẩu hỏa thương ma đạo nòng dài với ba mươi bảy điểm nút nén áp suất do chính cậu hoàn thiện đêm qua. Ánh mắt xám tro của cậu nhìn thẳng vào làn sương muối đục ngầu phía trước, phẳng lặng và tĩnh mịch như mặt nước đóng băng sâu thẳm.\n\nBên cạnh cậu, Roy Kane vác thanh Trọng Kiếm Sắt Đen dài năm thước trên vai. Khối kim loại nặng ba mươi sáu cân đối với vị võ sĩ trẻ tuổi dường như nhẹ tênh, thớ cơ bắp cuồn cuộn dưới lớp áo giáp da vảy thép đen khẽ căng lên theo từng nhịp thở trầm ổn. Bên hông trái của Roy, ẩn giấu dưới vạt áo choàng, là một khẩu súng ngắn ma đạo nòng ngắn — thứ vũ khí cận chiến tầm gần mà Finn vừa tôi luyện xong rạng sáng nay.\n\nRumy Charlotte đứng sát bên Kalvin, mái tóc đỏ rực rỡ được búi gọn gàng sau gáy dưới chiếc mũ len màu hạt dẻ. Bàn tay nhỏ bé đeo găng da cừu của cô nhẹ nhàng vỗ về chiếc túi cứu thương bằng da thuộc đeo chéo bên hông. Bên trong túi là hai mươi ống nghiệm thủy tinh chứa dung dịch màu lam trong suốt — thành quả của ba ngày thức trắng bên bình chưng cất áp suất âm: \"Thanh U Tán\", loại dược dịch có khả năng trung hòa hoàn toàn độc tính kích động ma thú của Dạ U Thảo.\n\nỞ phía sau cùng, Finn Thorne chỉnh lại cặp kính nứt màng trên sống mũi. Khuôn mặt chàng thợ rèn lấm lem những vệt muội than chưa kịp rửa sạch sau ba đêm đỏ lửa lò rèn, nhưng đôi mắt sau tròng kính lại sáng rực lên một thứ ánh sáng sắc sảo và tự tin chưa từng thấy. Chiếc túi đeo lưng bằng da bò dày của Finn căng phồng với hai trăm viên đạn sắt đen chuốt nhọn, mỗi viên đều được nhồi lõi đá ma thuật nén nhiệt ba mươi bảy chu kỳ.\n\nBa ngày qua là cuộc chạy đua nghẹt thở chống lại thời gian. Dưới sự bảo hộ của tiểu đội Cấm Vệ do Đại úy Brandon chỉ huy tại Tầng Hầm Số Bảy, họ làm việc không ngừng nghỉ: từng nòng thép đen được khoan rãnh xoắn chính xác, từng đường vân ma lực được khắc tỉ mỉ bằng ma lực vi mô của Kalvin, và dầu Băng Tinh của Rumy thẩm thấu vào kim loại bảo đảm nòng súng không biến dạng nhiệt.\n\nBây giờ, ba khẩu hỏa thương tro tàn đã sẵn sàng. Thứ duy nhất họ chờ đợi là chiếc bẫy của kẻ thù sập xuống.\n\n***\n\nTiếng kèn đồng quân sự vang lên khô khốc, xé toạc màn sương muối lạnh giá.\n\nTrên lễ đài gỗ cao dựng trước cổng tiền đồn, Giáo sư Varner — Viện phó kiêm Trưởng khoa Giả kim của học viện — bước ra mép sàn gỗ. Lão mặc chiếc áo choàng học giả màu tím đắt tiền viền lông chồn, khuôn mặt gầy guộc với hàng ria mép chuốt sáp vểnh lên đầy vẻ đạo mạo giả tạo. Đứng cạnh lão là Arthur Palace trong bộ giáp ngực nạm vàng sáng chói, tay chống lên chuôi kiếm quý tộc, ánh mắt ngạo nghễ quét qua đám học viên bên dưới.\n\n\"Học viên toàn viện trật tự!\" Giọng nói the thé được khuếch đại bằng ma pháp âm thanh của Varner vang vọng khắp sân tiền đồn. \"Kỳ khảo hạch thực chiến Rừng Sương Muối năm thứ ba chính thức bắt đầu! Mục tiêu khảo hạch năm nay là thu thập lõi ma tinh của ma thú cấp 3 trở lên, đồng thời cắm cờ khảo sát tại các tọa độ chỉ định!\"\n\nVarner dừng lại một nhịp, khóe mắt híp lại sau cặp kính tròn gọng vàng, liếc thẳng về phía nhóm của Kalvin với nụ cười nham hiểm:\n\n\"Theo quy định điều chỉnh đặc biệt của Hội Đồng Giám Thị nhằm nâng cao tính công bằng và rèn luyện bản lĩnh cho các học viên nhận học bổng... Phân đội số Chín, gồm toàn bộ các học viên hệ nghiên cứu và hỗ trợ viền xám dưới quyền chỉ huy của Kalvin Palace, sẽ đảm nhận nhiệm vụ khảo sát phân khu Tây Bắc: Hẻm núi Vực Đá Răng Cưa!\"\n\nMột làn sóng xôn xao lập tức bùng nổ trong hàng ngũ học viên viền xám.\n\n\"Vực Đá Răng Cưa?! Điên rồi sao?!\" Một học viên nghèo run rẩy thốt lên, khuôn mặt cắt không còn giọt máu. \"Nơi đó là địa bàn của bầy Băng Cốt Ma Hùng cấp 4 và Ma Báo Răng Kiếm cấp 5! Địa hình hẻm núi cụt, nếu bị ma thú bao vây thì chỉ có con đường chết!\"\n\n\"Đúng thế! Ngay cả các kỵ sĩ viền vàng cũng chưa từng dám nhận nhiệm vụ ở Vực Đá Răng Cưa vào mùa đông! Đây rõ ràng là dồn người vào chỗ chết!\"\n\n\"Im lặng!\" Varner gõ mạnh cây trượng ma pháp xuống sàn đài, thanh âm đanh lại đầy vẻ đe dọa. \"Đây là mệnh lệnh chính thức từ Hội Đồng Giám Thị! Học viên nào từ chối nhận địa bàn khảo hạch sẽ bị tước bỏ toàn bộ tư cách dự thi, đồng thời hủy bỏ học bổng và trục xuất khỏi học viện ngay trong ngày hôm nay!\"\n\nĐám học viên nghèo im bặt, lồng ngực thắt lại trong sự phẫn uất bất lực. Họ hiểu rõ, dưới sự thao túng của liên minh nhà Vane và nhà Palace, mọi lời khiếu nại của tầng lớp dưới chỉ là trò cười vô nghĩa.\n\nArthur Palace bước lên mép đài, cúi nhìn Kalvin bên dưới. Khóe môi gã nhếch lên thành nụ cười khinh bỉ tột cùng, ánh mắt như đang nhìn những con cừu non sắp bị lùa vào lò mổ:\n\n\"Đừng có run rẩy thế chứ, những người anh em viền xám. Nếu cảm thấy bản thân bất tài vô dụng, các người có thể quỳ xuống xin rút lui ngay bây giờ. Gia tộc Palace chúng ta vốn dĩ rất rộng lượng với những kẻ biết thân biết phận.\"\n\nĐám học viên quý tộc viền vàng phía sau Arthur cười rộ lên khoái trá, tiếng cười nhạo báng vang vọng trong gió lạnh.\n\nRoy Kane siết chặt chuôi Trọng Kiếm Sắt Đen đến mức khớp ngón tay phát ra tiếng *răng rắc*. Luồng Khí nâu đỏ âm ỉ cuộn trào dưới da gà, ánh mắt của Roy rực sáng lên ngọn lửa hoang dã của mãnh thú chuẩn bị vồ mồi. Nhưng một bàn tay gầy gò, lạnh ngắt nhẹ nhàng đặt lên bả vai cậu.\n\nKalvin khẽ lắc đầu.\n\nCậu bước lên phía trước một bước, ngẩng đầu nhìn thẳng vào mắt Arthur Palace trên lễ đài.\n\nĐôi mắt xám tro của thiếu niên viền xám tĩnh lặng đến rợn người. Không có sự tức giận, không có nỗi sợ hãi, cũng không có bất kỳ một lời phản bác thừa thãi nào. Ánh mắt ấy sâu thẳm và lạnh buốt như đáy vực băng giá, nhìn xoáy thẳng vào tâm can Arthur khiến nụ cười trên môi gã quý tộc trẻ tuổi bỗng chốc cứng đờ lại. Một cơn ớn lạnh kỳ lạ vô cớ chạy dọc sống lưng Arthur, khiến gã vô thức lùi lại nửa bước trước khi kịp nhận ra sự hèn nhát của chính mình.\n\n\"Phân đội số Chín nhận lệnh,\" Kalvin cất lời.\n\nThanh âm của cậu không lớn, nhưng phẳng lặng và chuẩn xác, cắt ngang toàn bộ những tiếng cười cợt của đám quý tộc:\n\n\"Vực Đá Răng Cưa. Chúng tôi sẽ đến đó.\"\n\nNói xong, cậu xoay người dứt khoát, dẫn đầu nhóm học viên viền xám sải bước tiến thẳng về phía cánh cổng sắt nặng nề của tiền đồn vừa được kéo lên.\n\nPhía sau lưng cậu, Julian Vane nheo đôi mắt dài hẹp lại, ngón tay xoay nhẹ chiếc nhẫn gia huy hình rắn biển, thì thầm vào tai Arthur:\n\n\"Để nó mạnh miệng nốt hôm nay đi. Ba thùng Dạ U Thảo đã được người của chúng ta châm ngòi tại đầu gió hẻm núi rồi. Chỉ cần một khắc nữa thôi... toàn bộ Vực Đá Răng Cưa sẽ biến thành mồ chôn tập thể của lũ rác rưởi đó.\"\n\nArthur nghiến răng, cố xua đi cảm giác bất an vừa dấy lên trong lòng, gật đầu hung tợn:\n\n\"Lần này, ta muốn tận mắt nhìn thấy xương cốt của nó bị nghiền nát.\"\n\n***\n\nBước qua cánh cổng sắt của tiền đồn, thế giới thực tại dường như hoàn toàn biến mất sau lưng.\n\nRừng Sương Muối mở ra trước mắt họ như một vùng đất chết bị nguyền rủa.\n\nMặt đất phủ một lớp tuyết xốp màu xám đục lẫn tro khoáng dày tới bắp chân, phát ra những tiếng *xột xoạt* nặng nề theo từng bước chân. Những thân cây thông đen khổng lồ vươn lên giữa màn sương mù mặn chát, cành lá trơ trụi đóng băng trông như những cánh tay xương xẩu vặn vẹo của những linh hồn chết oan. Tầm nhìn xung quanh bị hạn chế nghiêm ngặt trong vòng chưa đầy mười lăm bước chân; quá khoảng cách đó, mọi thứ chỉ còn là một bức màn sương trắng nhờ nhờ, lạnh lẽo và đặc quánh.\n\nKhông gian tĩnh lặng nghẹt thở, chỉ có tiếng gió rít qua khe đá vôi và tiếng cành cây gãy dưới sức nặng băng tuyết.\n\nHơn ba mươi học viên viền xám đi sau lưng Kalvin bắt đầu run rẩy. Hơi lạnh ngấm qua lớp giày da mỏng khiến ngón chân họ tê dại, trong khi nỗi sợ hãi về ma thú cấp 5 vô hình trong màn sương khiến hơi thở của họ trở nên dồn dập, hổn hển.\n\n\"Kalvin... Chúng ta đang đi đâu thế này?\" Một học viên tên là Toby, thiếu niên gầy gò chuyên về ma pháp Phong cấp 1, đánh bạo bước lên hỏi, giọng run bần bật. \"Hẻm núi Vực Đá Răng Cưa nằm ở nhánh đường trũng phía dưới kia mà? Sao cậu lại dẫn chúng ta leo lên dốc đá dựng đứng này?\"\n\nKalvin dừng bước dưới bóng của một tảng đá hoa cương khổng lồ. Cậu quay lại nhìn toàn bộ nhóm học viên nghèo đang run rẩy vì đói và rét.\n\nCậu không giải thích dài dòng về âm mưu của nhà Vane, bởi sự hoảng loạn lúc này sẽ chỉ làm rối loạn đội hình. Cậu rút từ trong túi áo ra một chiếc còi đồng nhỏ cùng một xấp bùa định vị do chính tay cậu vẽ:\n\n\"Dưới đáy hẻm núi là vùng trũng tích tụ khí độc và là tử địa không có đường lui. Nếu các cậu muốn sống sót trở về lãnh học bổng mùa sau, hãy tuân thủ tuyệt đối ba mệnh lệnh của tôi.\"\n\nÁnh mắt sắc lẹm và phong thái trầm ổn của Kalvin như một chiếc mỏ neo vững chắc giữ lấy tâm lý đang lung lay của đám thiếu niên:\n\n\"Thứ nhất: Toàn bộ ba mươi người các cậu lập tức di chuyển lên mỏm đá Bàn Cờ cách đây hai trăm thước. Nơi đó có vách đá che chắn ba mặt, chỉ có một con đường độc đạo dẫn lên. Toby, cậu dẫn đầu nhóm, lập kết giới Phong ma pháp cơ bản để cảnh giới.\"\n\n\"Thứ hai: Rumy, phân phát Thanh U Tán cho mọi người.\"\n\nRumy lập tức bước lên, mở chiếc túi da thuộc lấy ra ba mươi túi vải nhỏ chứa bột thảo dược màu lam nhạt trao cho từng học viên:\n\n\"Mọi người bôi thứ bột này lên cổ áo và ủng da. Nó sẽ che giấu hoàn toàn mùi mồ hôi và hơi thở của con người, ma thú trong bán kính năm mươi bước sẽ không thể ngửi thấy các bạn.\"\n\nĐám học viên vội vã làm theo, ánh mắt nhìn Rumy tràn ngập sự cảm kích như nhìn thấy một vị cứu tinh. Khi lớp bột lam được thoa lên người, một làn hương thơm thanh khiết như cỏ non mùa xuân lan tỏa, lập tức xua tan cảm giác ngột ngạt, cay xè của sương muối trong khoang mũi họ.\n\n\"Thứ ba,\" Kalvin nhìn thẳng vào mắt từng người. \"Bất kể nghe thấy tiếng động gì dưới hẻm núi trong một canh giờ tới, tuyệt đối không được rời khỏi mỏm đá Bàn Cờ. Đội của tôi — tôi, Roy, Rumy và Finn — sẽ xử lý phần còn lại.\"\n\n\"Nhưng... còn các cậu thì sao?!\" Toby lo lắng hỏi. \"Bốn người các cậu định đi đâu?\"\n\n\"Chúng tôi đi săn,\" Roy Kane khẽ nhếch môi, nụ cười nửa miệng phóng khoáng lộ ra hàm răng trắng bóng. Cậu vỗ nhẹ lên chuôi Trọng Kiếm sau lưng: \"Lên đài quan sát đi, mấy nhóc. Xem kỵ sĩ viền xám đập tan cái bẫy của lũ quý tộc như thế nào.\"\n\nTrước phong thái tự tin áp đảo của bộ tứ, đám học viên viền xám không còn ai nghi ngờ. Dưới sự dẫn dắt của Toby, họ nhanh chóng phân tán, men theo vách đá dốc ngược tiến về phía mỏm Bàn Cờ an toàn.\n\nKhi bóng người cuối cùng khuất sau rặng thông tuyết, chỉ còn lại bốn người giữa màn sương muối lạnh giá.\n\nKalvin quay sang nhìn Finn: \"Vũ khí thế nào?\"\n\nFinn Thorne tháo chiếc bọc vải thô trên lưng xuống, đặt lên tảng đá phẳng. Ba khẩu hỏa thương ma đạo bằng thép đen tuyền lộ ra dưới ánh sáng xám mờ của buổi sớm đông, lạnh lùng và đen bóng như ba con rắn độc đang ngủ say. Bên cạnh là những hộp tiếp đạn chứa đầy đạn sắt đặc nén nhiệt ma lực.\n\n\"Hai khẩu nòng dài cho mày và tao, tầm bắn hiệu quả một trăm bước,\" Finn thì thầm, bàn tay thoăn thoắt kiểm tra chốt búa gõ và lò xo đẩy. \"Khẩu carbine nòng ngắn cho Roy, tầm bắn ba mươi bước, tốc độ nạp đạn nhanh gấp đôi. Tất cả đều đã ngâm dầu Băng Tinh của Rumy, bảo đảm bắn liên tục hai mươi phát không bị biến dạng nhiệt!\"\n\nKalvin đón lấy khẩu súng nòng dài của mình. Đôi bàn tay thon dài của cậu lướt qua khóa nòng bằng thép tôi, kéo mạnh chốt tiếp đạn ra sau.\n\n*Cạch... Khách!*\n\nÂm thanh kim loại ăn khớp vang lên giòn giã, khô khốc và sắc lẹm giữa không gian tĩnh mịch. Cậu tra hộp tiếp đạn năm viên vào khe súng, đẩy chốt khóa về vị trí sẵn sàng.\n\n\"Lên đỉnh đèo Vực Đá Răng Cưa,\" Kalvin ra lệnh, ánh mắt hướng về phía sườn dốc đá cheo leo phía trên hẻm núi cụt. \"Kẻ đốt lửa sắp bắt đầu rồi.\"\n\n***\n\nGió trên đỉnh đèo thổi mạnh hơn, cuốn theo những đám sương muối xoay tròn cuồng loạn như những chiếc vòi rồng nhỏ.\n\nBốn người ẩn mình sau một gờ đá bazan tự nhiên nhô ra trên vách núi cao hơn ba mươi thước, nhìn thẳng xuống lòng chảo hẹp của hẻm núi Vực Đá Răng Cưa bên dưới. Từ vị trí này, toàn bộ địa hình hẻm núi cụt thu trọn vào tầm mắt họ như một bàn cờ địa lý thu nhỏ.\n\nỞ phía đầu gió của hẻm núi, cách họ khoảng tám mươi bước chân, bóng ba gã đàn ông mặc áo giáp da của lính đánh thuê đang lui cui bên ba chiếc đỉnh đồng lớn đặt trên mặt tuyết.\n\nMột trong ba gã — kẻ có vết sẹo dài trên trán mang gia huy rắn biển của nhà Vane — đang dùng đá lửa châm ngòi vào lớp củi khô tẩm dầu đặt dưới đáy đỉnh.\n\nNgọn lửa bùng lên, liếm vào những bó cỏ khô màu tím thẫm chất đầy bên trong đỉnh đồng.\n\n*Xèo... Xèo...*\n\nNgay lập tức, một luồng khói màu tím nhạt, đặc quánh như nhung bốc lên ngùn ngụt từ ba chiếc đỉnh đồng, theo chiều gió bấc cuồn cuộn tràn thẳng vào lòng hẻm núi Vực Đá Răng Cưa. Cùng lúc đó, một mùi hương ngọt lịm kỳ quái — thứ mùi hương giống như mật ong pha lẫn xác thịt thối rữa — bắt đầu khuếch tán trong không khí với tốc độ chóng mặt.\n\n\"Dạ U Thảo...\" Rumy Charlotte khẽ thốt lên, lông mày thanh tú chau lại. \"Số lượng này đủ để kích động toàn bộ ma thú trong bán kính mười dặm của Rừng Sương Muối phát điên!\"\n\nCô nhanh chóng lấy từ trong túi ra bốn viên thuốc thảo dược màu lam ngọc, đưa cho mỗi người một viên: \"Ngậm viên này dưới lưỡi, nó sẽ ngăn không cho độc tố Dạ U Thảo làm rối loạn dòng chảy ma lực và Khí huyết.\"\n\nKalvin đón lấy viên thuốc ngậm vào miệng. Vị đắng thanh mát lập tức lan tỏa khắp cuống họng, làm tinh thần cậu trở nên tỉnh táo tuyệt đối.\n\nCậu nâng khẩu hỏa thương ma đạo lên, đặt nòng súng tựa vững chãi trên gờ đá bazan phủ tuyết, mắt ngắm dọc theo đường rãnh kim loại hướng thẳng về phía gã lính đánh thuê đầu đàn bên dưới.\n\nỞ phía xa, trên một tháp canh gỗ cao nằm ngoài rìa khu vực an toàn, hai bóng người mặc áo choàng viền vàng đang dùng kính viễn vọng ma đạo nhìn về phía hẻm núi. Đó chính là Arthur Palace và Julian Vane. Bọn chúng đứng đó, nhấp từng ngụm rượu vang nóng, chờ đợi cảnh tượng đàn ma thú xé xác nhóm học viên viền xám để hoàn tất bản báo cáo \"tai nạn thực địa đáng tiếc\".\n\nĐột nhiên, mặt đất dưới chân họ khẽ rung chuyển.\n\n*Rầm... Rầm... Rầm...*\n\nNhững rung chấn từ xa truyền lại qua các tầng đá bazan, ban đầu nhẹ như nhịp tim đập, nhưng chỉ vài giây sau đã biến thành một chuỗi âm thanh ầm ầm như sấm rền từ lòng đất. Tuyết trên các sườn núi xung quanh bắt đầu sụt lở, tạo thành những đợt sóng tuyết trắng xóa tràn xuống thung lũng.\n\n\"Tới rồi!\" Roy Kane thì thầm, bàn tay nắm chặt thanh Trọng Kiếm, ánh mắt bốc cháy ngọn lửa chiến đấu.\n\nTừ sâu trong màn sương muối dày đặc của khu vực cấm phía Bắc, những đôi mắt đỏ ngầu như than hồng rực sáng liên tiếp xuất hiện.\n\nMột tiếng gầm kinh thiên động địa vang lên, xé toạc bầu không khí tĩnh mịch của mùa đông:\n\n*GÀO... Ồ... Ồ...!*\n\nÂm thanh gầm rú mang theo uy áp khủng khiếp của ma lực cấp 5 khiến toàn bộ cây thông xung quanh rung lắc dữ dội, lớp băng tuyết trên cành cây vỡ vụn rơi lả tả như mưa rào.\n\nMột sinh vật khổng lồ phá tan màn sương tuyết lao ra.\n\nĐó là con Băng Cốt Ma Hùng trưởng thành — chúa tể săn mồi Rừng Sương Muối. Thân hình đồ sộ cao hơn bốn thước, toàn thân bọc giáp xương trắng đục tủa ra từ sống lưng như chông đá. Đôi mắt nó đỏ quạch vì tinh dầu Dạ U Thảo kích thích, nước dãi hàn khí nhỏ xuống làm đóng băng tuyết dưới chân.\n\nTheo sau con ma gấu khổng lồ là một đàn hơn hai mươi con Ma Báo Răng Kiếm cấp 3 và cấp 4, thân hình thon dài như những vệt bóng ma xám xịt, móng vuốt sắc nhọn cào nát mặt tuyết khi chúng điên cuồng lao về phía ba chiếc đỉnh đồng tỏa khói tím.\n\nBa gã lính đánh thuê của nhà Vane bên dưới thấy cảnh tượng đó liền hoảng hốt dập lửa để tìm đường tháo chạy. Tên cầm đầu hét lớn:\n\n\"Rút lui! Mau rút lui! Mẹ kiếp, tại sao lại có cả Băng Cốt Ma Hùng cấp 5 thế này?! Mau kích hoạt bùa truyền tống!\"\n\nHắn run rẩy thò tay vào túi áo ngực định lấy bùa cứu hộ.\n\nNhưng hắn không bao giờ có cơ hội chạm vào nó nữa.\n\nTrên gờ đá bazan cao ba mươi thước, ngón tay trỏ của Kalvin Palace siết nhẹ lẫy cò.\n\n*Xì xoẹt... ĐOÀNG!*\n\nMột tiếng sấm nén khô khốc, đanh thép nổ vang giữa hẻm núi.\n\nMột tia chớp lam thẫm rạch ngang màn sương muối mờ đục với tốc độ vượt xa tầm mắt con người.\n\nCách đó tám mươi bước chân, chiếc đỉnh đồng lớn nhất bỗng chốc nổ tung thành hàng trăm mảnh vụn kim loại. Viên đạn sắt đen nén nhiệt ba mươi bảy chu kỳ bắn xuyên qua thành đỉnh đồng dày hai phân, kích nổ toàn bộ ma lực nhiệt lượng tích tụ bên trong buồng đốt, tạo nên một quả cầu lửa khổng lồ hất văng cả ba tên lính đánh thuê xuống tuyết!\n\nToàn bộ tinh dầu Dạ U Thảo đang cháy dở bị sóng xung kích thổi ngược trở lại, phủ kín lên người ba tên lính đánh thuê và hắt thẳng về phía lối thoát duy nhất của hẻm núi — nơi con đường mòn dẫn ngược về phía tháp canh của Arthur Palace và Julian Vane!\n\n\"Cái gì thế?!\" Tên lính đánh thuê đầu đàn gầm lên kinh hãi khi thấy toàn thân mình bị nhuộm đỏ bởi dầu Dạ U Thảo bốc khói ngào ngạt.\n\nVà trước mắt hắn, con Băng Cốt Ma Hùng khổng lồ cùng đàn ma báo bỗng nhiên dừng bước.\n\nMùi hương ngọt lịm nồng nặc nhất lúc này... không còn ở trong hẻm núi cụt nữa.\n\nNó đang bốc lên ngùn ngụt từ chính thân xác của ba tên lính đánh thuê, và theo ngọn gió ngược tràn thẳng về phía tháp quan sát của giới quý tộc!\n\nĐôi mắt đỏ ngầu của con gấu khổng lồ từ từ chuyển hướng. Nó ngửa cổ lên trời gầm lên một tiếng cuồng nộ tột cùng, bốn chiếc chân hộ pháp bọc giáp xương dẫm nát mặt tuyết, dẫn đầu toàn bộ bầy ma thú hung hãn quay ngoắt một trăm tám mươi độ, điên cuồng lao thẳng về phía con đường dẫn lên tháp canh của Arthur Palace!\n\nTrên tháp quan sát, chiếc ly rượu vang trên tay Arthur Palace rơi xuống sàn gỗ vỡ tan tành. Khuôn mặt gã quý tộc trẻ tuổi cắt không còn một giọt máu, hàm răng run lên cầm cập khi nhìn thấy làn sóng ma thú hung tợn đang quay đầu lao thẳng về phía mình:\n\n\"Julian... Julian... Bọn chúng... Bọn chúng đang chạy về phía này! Mau... Mau gọi Cấm Vệ Quân! Cứu mạng!\"\n\nJulian Vane đứng chết lặng, chiếc kính viễn vọng rơi khỏi tay, đôi mắt xảo quyệt lúc này chỉ còn lại sự kinh hoàng tột độ.\n\nTrên gờ đá bazan phía trên hẻm núi, Kalvin Palace chậm rãi hạ nòng súng thép đen còn bốc khói mờ xuống.\n\nGió bấc thổi tung tà áo choàng gai xám của thiếu niên. Đôi mắt xám tro của cậu nhìn theo bóng lưng hoảng loạn của đám quý tộc đang giẫm đạp lên nhau tháo chạy giữa cơn bão tuyết, khóe môi khẽ nhếch lên một nụ cười sắc lạnh như lưỡi dao cạo:\n\n\"Chiếc bẫy đã đóng lại.\"\n\nCậu quay sang nhìn Roy, Rumy và Finn:\n\n\"Nạp đạn. Cuộc đi săn của chúng ta... bây giờ mới thực sự bắt đầu.\"\n"
     }
   ]
 };

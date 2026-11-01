@@ -55,3 +55,4 @@
 - Chương 24: Kích động Arthur gây rối trong tiệc Mùa đông nhưng thất bại.
 - Chương 27: Sai Giáo sư Varner đem lính gác phong tỏa Tầng Hầm Số Bảy hòng cướp lò phản ứng ma nhiệt của Finn Thorne.
 - Chương 28: Bị Đại úy Brandon và Cấm Vệ Quân rút lệnh bài của Công chúa Celine đuổi thẳng cổ; cay đắng lui bước và bắt đầu lên kế hoạch cho kỳ thi Rừng Sương Muối.
+- Chương 29 - 30: Cho người vận chuyển 3 thùng Dạ U Thảo để bẫy đội viền xám tại Vực Đá Răng Cưa; chứng kiến đỉnh đồng bị bắn nổ hắt ngược tinh dầu và bầy Băng Cốt Ma Hùng quay đầu lao về tháp canh.

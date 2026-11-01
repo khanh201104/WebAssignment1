@@ -76,3 +76,4 @@
 | Ch.16-24 | Đánh gãy kiếm Balthazar, hạ gục ma thú thực địa Rừng Sương Muối | Đạt Võ sĩ Tam tinh |
 | Ch.25-28 | Tiếp nhận Trọng Kiếm Sắt Đen 36 cân, cùng lập thề tiếp quản Manchester | Củng cố sức mạnh cận chiến đỉnh phong |
 | Ch.29 | Giúp Finn dũa thoi đẩy, thử cầm súng ma đạo, chứng kiến phát bắn xuyên giáp 50 bước | Bắt đầu huấn luyện xạ kích chiến thuật kết hợp cận chiến |
+| Ch.30 | Trang bị hỏa thương carbine nòng ngắn phối hợp Trọng Kiếm Sắt Đen; yểm hộ Kalvin trên gờ đá bazan Vực Đá Răng Cưa | Nắm vững kỹ thuật phối hợp kiếm - súng trên chiến trường |
