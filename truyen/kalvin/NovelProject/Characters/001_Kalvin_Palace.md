@@ -81,3 +81,4 @@
 | Ch.16-20 | Làm thủ thư Thư viện Ngầm, giải mã cổ ngữ, thắng khảo hạch Rừng Sương Muối | Nâng tầm ảnh hưởng thế hệ viền xám |
 | Ch.21-25 | Tham gia Dạ Tiệc Trăng Tuyết, thỏa thuận với Celine, cứu lò nung của Finn | Tiếp cận Tầng Hầm Số Bảy |
 | Ch.26-28 | Thu phục Finn Thorne, giải quyết nợ 210 đồng vàng, rèn Trọng Kiếm Sắt Đen, nhận bản đồ địa nhiệt Manchester | Nhận tài trợ 3.000 đồng vàng từ Cấm Vệ, chuẩn bị tiếp quản Manchester |
+| Ch.29 | Đột nhập Tháp Chuông Đen, giải mã tần số 37 chu kỳ Black Ore, phát hiện bẫy Dạ U Thảo của nhà Vane; bắn thử thành công súng ma đạo xuyên giáp | Hoàn thiện nguyên mẫu Hỏa Thương Ma Đạo đầu tiên; chuẩn bị phản kích bẫy Rừng Sương Muối |

@@ -66,3 +66,10 @@
 - Phân loại nhân vật: Nhân vật thứ chính (The Hand / The Engineer).
 - Chức năng trong cốt truyện: Cánh tay kỹ thuật, tạo ra bước ngoặt cách mạng công nghiệp ma đạo cho Manchester.
 - Chương xuất hiện lần đầu: Chương 25.
+
+## Bảng theo dõi qua từng chương
+| Chương | Hành vi then chốt | Biến động thuộc tính |
+|---|---|---|
+| Ch.25-26 | Chế tạo Mũi khoan chấn động, Kalvin cứu lò nung khỏi nổ, thề trung thành | Gia nhập nhóm Kalvin, thoát nợ |
+| Ch.27-28 | Rèn Trọng Kiếm Sắt Đen cho Roy, Tầng Hầm Số Bảy được Cấm Vệ bảo hộ | Bắt đầu nghiên cứu nòng súng ma đạo |
+| Ch.29 | Đúc nòng thép đen, ứng dụng tần số 37 chu kỳ giải quyết sốc nhiệt, hoàn thành súng ma đạo đầu tiên | Chứng kiến uy lực phá giáp 50 bước; nhận nhiệm vụ chế tạo thêm 2 khẩu và 200 đạn |

@@ -68,3 +68,11 @@
 - Chức năng trong cốt truyện: Lá chắn vật lý, mũi nhọn đột kích cận chiến, chỗ dựa sức mạnh cho bộ ba.
 - Dự kiến vòng cung nhân vật: Từ đứa trẻ săn thú nghèo $\to$ Kỵ sĩ trưởng Pháo đài Tro Tàn $\to$ Thống soái Quân đoàn Thiết giáp Phương Bắc.
 - Chương xuất hiện lần đầu: Chương 1.
+
+## Bảng theo dõi qua từng chương
+| Chương | Hành vi then chốt | Biến động thuộc tính |
+|---|---|---|
+| Ch.1-15 | Cùng Kalvin luyện Khí, bảo vệ Rumy, thi đỗ Phân viện Kỵ sĩ | Đạt Võ sĩ Nhị tinh |
+| Ch.16-24 | Đánh gãy kiếm Balthazar, hạ gục ma thú thực địa Rừng Sương Muối | Đạt Võ sĩ Tam tinh |
+| Ch.25-28 | Tiếp nhận Trọng Kiếm Sắt Đen 36 cân, cùng lập thề tiếp quản Manchester | Củng cố sức mạnh cận chiến đỉnh phong |
+| Ch.29 | Giúp Finn dũa thoi đẩy, thử cầm súng ma đạo, chứng kiến phát bắn xuyên giáp 50 bước | Bắt đầu huấn luyện xạ kích chiến thuật kết hợp cận chiến |

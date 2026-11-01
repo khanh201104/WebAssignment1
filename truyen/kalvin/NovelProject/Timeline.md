@@ -69,10 +69,11 @@
 | **Ch.26** | Trưa cùng ngày Ch.25 | Tầng Hầm Số 7 | Kalvin giải phẫu ứng suất ma lực nội tại, Finn thề trung thành; Roy và Rumy mang sắt đen và thảo dược tới hội tụ. | Kalvin, Finn, Roy, Rumy | Thành lập Bộ Tứ Tro Tàn |
 | **Ch.27** | 3 ngày sau Ch.26 (Sáng sớm) | Tầng Hầm Số 7 | Giáo sư Varner dẫn Julian đến tịch thu; Kalvin xuất trình Sắc lệnh Cấm Vệ & biên lai 210 vàng; Roy thử Trọng Kiếm Sắt Đen. | Kalvin, Roy, Rumy, Finn, Varner, Brandon | Xưởng rèn được bảo hộ vĩnh viễn |
 | **Ch.28** | 1 tuần sau Ch.27 (Nửa đêm) | Thư Phòng Bạch Ngọc & Phố Xám | Thử nghiệm thành công Mũi khoan chấn động; Celine báo tin âm mưu đày đi Manchester; Kalvin vạch kế hoạch chiếm mỏ Black Ore & địa nhiệt. | Kalvin, Celine, Roy, Rumy, Finn | Nhận chìa khóa Tháp Chuông Đen, hướng tới Manchester |
+| **Ch.29** | Sáng sớm hôm sau Ch.28 | Tháp Chuông Đen & Tầng Hầm Số 7 | Kalvin tìm thấy nhật ký Viễn Chinh Đệ Nhất (tần số 37 chu kỳ của Black Ore) và phát hiện bẫy Dạ U Thảo của nhà Vane; thử nghiệm thành công súng ma đạo xuyên giáp; Brandon báo tin kỳ thi Rừng Sương Muối. | Kalvin, Finn, Roy, Rumy, Brandon | Chế tạo thành công khẩu súng ma đạo đầu tiên; chuẩn bị phản kích bẫy Rừng Sương Muối |
 
 ---
 
 ## 4. CƠ CHẾ XÁC THỰC KÉP GIỮA TIMELINE VÀ THẺ NHÂN VẬT
 
 * **Nguyên tắc:** Mỗi khi viết chương mới, bắt buộc đối chiếu mốc năm lịch Roland với ngày sinh trong Thẻ nhân vật để tính tuổi chính xác tuyệt đối.
-* **Thời điểm hiện tại (Chương 28):** Tháng 12 năm 942 lịch Roland $\to$ Kalvin: 17 tuổi (sinh 15-11-925); Roy: 17 tuổi (sinh 08-08-925); Rumy: 15 tuổi (sinh 20-04-927); Finn: 17 tuổi (sinh 12-09-925); Celine: 18 tuổi (sinh 05-01-924). Tất cả đều khớp 100%.
+* **Thời điểm hiện tại (Chương 29):** Tháng 12 năm 942 lịch Roland $\to$ Kalvin: 17 tuổi (sinh 15-11-925); Roy: 17 tuổi (sinh 08-08-925); Rumy: 15 tuổi (sinh 20-04-927); Finn: 17 tuổi (sinh 12-09-925); Celine: 18 tuổi (sinh 05-01-924); Brandon: 30 tuổi (sinh 03-03-912). Tất cả đều khớp 100%.
