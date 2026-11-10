@@ -79,8 +79,120 @@
     lineHeightVal: document.getElementById('line-height-val'),
     themeButtons: document.querySelectorAll('.btn-theme'),
     fontButtons: document.querySelectorAll('.btn-font'),
-    widthButtons: document.querySelectorAll('.btn-width')
+    widthButtons: document.querySelectorAll('.btn-width'),
+    // UX additions
+    floatingDock: document.getElementById('floating-dock'),
+    headerProgress: document.getElementById('header-progress'),
+    metaThemeColor: document.getElementById('meta-theme-color'),
+    chapterEndCard: document.getElementById('chapter-end-card'),
+    chapterReadTime: document.getElementById('chapter-read-time'),
+    btnDrawerBookmarks: document.getElementById('btn-drawer-bookmarks'),
+    btnResetSettings: document.getElementById('btn-reset-settings')
   };
+
+  // ==========================================================================
+  // 0. UX Helpers: tiến độ đọc, thời gian đọc, lịch sử overlay
+  // ==========================================================================
+
+  const READING_WPM = 220; // Tốc độ đọc trung bình tiếng Việt (từ/phút)
+  const DEFAULT_PREFS = { theme: 'sepia', font: 'font-serif', fontSize: 18, lineHeight: 1.8, readerWidth: 780 };
+  const THEME_COLORS = { sepia: '#ede7d9', dark: '#131316', light: '#fafaf8' };
+  const isTouchDevice = window.matchMedia('(hover: none)').matches;
+  let appReady = false;
+
+  function getWordCount(chapter) {
+    return chapter.word_count || (chapter.content ? chapter.content.split(/\s+/).length : 0);
+  }
+
+  function getReadMinutes(words) {
+    return Math.max(1, Math.round(words / READING_WPM));
+  }
+
+  function getScrollRatio() {
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    if (docHeight <= 0) return 0;
+    return Math.min(1, Math.max(0, (window.scrollY || document.documentElement.scrollTop) / docHeight));
+  }
+
+  function scrollToRatio(ratio) {
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    window.scrollTo(0, Math.max(0, Math.round(docHeight * ratio)));
+  }
+
+  // Lưu vị trí đọc theo từng chương: { [chapterId]: { pos: 0..1, max: 0..1 } }
+  function getProgressMap() {
+    try {
+      return JSON.parse(localStorage.getItem('kalvin_progress')) || {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function saveChapterProgress() {
+    if (!appReady) return;
+    const ratio = getScrollRatio();
+    const map = getProgressMap();
+    const prev = map[state.currentChapterId] || { pos: 0, max: 0 };
+    map[state.currentChapterId] = {
+      pos: Math.round(ratio * 1000) / 1000,
+      max: Math.round(Math.max(prev.max || 0, ratio) * 1000) / 1000
+    };
+    try {
+      localStorage.setItem('kalvin_progress', JSON.stringify(map));
+    } catch (e) { /* quota exceeded - bỏ qua */ }
+  }
+
+  let saveProgressTimer = null;
+  function scheduleSaveProgress() {
+    clearTimeout(saveProgressTimer);
+    saveProgressTimer = setTimeout(saveChapterProgress, 400);
+  }
+
+  // Giữ nguyên vị trí đọc khi thay đổi cỡ chữ / giãn dòng / độ rộng
+  function keepReadingPosition(fn) {
+    if (!appReady) {
+      fn();
+      return;
+    }
+    const ratio = getScrollRatio();
+    fn();
+    requestAnimationFrame(() => scrollToRatio(ratio));
+  }
+
+  // Nút Back (Android/trình duyệt) sẽ đóng overlay thay vì rời trang
+  let overlayHistoryActive = false;
+
+  function anyOverlayOpen() {
+    return el.drawerMenu.classList.contains('active') ||
+      !el.infoModal.classList.contains('hidden') ||
+      !el.bookmarksModal.classList.contains('hidden') ||
+      !el.lightbox.classList.contains('hidden') ||
+      !el.settingsPanel.classList.contains('hidden');
+  }
+
+  function pushOverlayState() {
+    if (overlayHistoryActive) return;
+    overlayHistoryActive = true;
+    try {
+      history.pushState({ kalvinOverlay: true }, '');
+    } catch (e) { /* ignore */ }
+  }
+
+  function releaseOverlayState() {
+    if (!overlayHistoryActive || anyOverlayOpen()) return;
+    overlayHistoryActive = false;
+    if (history.state && history.state.kalvinOverlay) {
+      history.back();
+    }
+  }
+
+  function syncBodyScrollLock() {
+    const locked = el.drawerMenu.classList.contains('active') ||
+      !el.infoModal.classList.contains('hidden') ||
+      !el.bookmarksModal.classList.contains('hidden') ||
+      !el.lightbox.classList.contains('hidden');
+    document.body.style.overflow = locked ? 'hidden' : '';
+  }
 
   // ==========================================================================
   // 1. Initialization
@@ -189,16 +301,28 @@
       ? savedChapterId
       : (state.chapters[0] ? state.chapters[0].id : 1);
 
-    renderChapter(targetId, false);
+    renderChapter(targetId, false, true);
+    appReady = true;
+
+    // Nếu người dùng bấm nút "Mục lục" từ trang chủ Tủ Truyện (#chapter-list), tự động mở ngăn kéo Mục Lục
+    if (window.location.hash === '#chapter-list') {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+      openDrawer();
+    }
   }
 
   // ==========================================================================
   // 2. Chapter Rendering Logic (Chuẩn format hình mẫu 2)
   // ==========================================================================
 
-  function renderChapter(chapterId, smoothScroll = true) {
+  function renderChapter(chapterId, smoothScroll = true, restoreSavedScroll = false) {
     const chapter = state.chapters.find(c => c.id === chapterId);
     if (!chapter) return;
+
+    // Lưu lại tiến độ của chương trước trước khi chuyển chương
+    if (appReady && state.currentChapterId && state.currentChapterId !== chapterId) {
+      saveChapterProgress();
+    }
 
     state.currentChapterId = chapterId;
     localStorage.setItem('kalvin_last_read_chapter', chapterId);
@@ -209,35 +333,89 @@
     el.mainChapterTitle.textContent = `CHƯƠNG ${chapter.number}: ${chapter.title.toUpperCase()}`;
     document.title = `Chương ${chapter.number}: ${chapter.title} - ${state.novel ? state.novel.title : 'Biên Niên Sử Tro Tàn'}`;
 
-    const wordCount = chapter.word_count || (chapter.content ? chapter.content.split(/\s+/).length : 0);
-    el.chapterWordCount.textContent = `Độ dài: ${wordCount.toLocaleString('vi-VN')} từ`;
+    const wordCount = getWordCount(chapter);
+    const readMinutes = getReadMinutes(wordCount);
+    el.chapterWordCount.textContent = `${wordCount.toLocaleString('vi-VN')} từ`;
+    if (el.chapterReadTime) {
+      el.chapterReadTime.textContent = `~${readMinutes} phút đọc`;
+    }
     el.chapterArcName.textContent = chapter.arc || 'Chính Văn';
 
     // Render Clean Paragraphs
     renderFormattedContent(chapter);
 
+    // Render End-of-Chapter Next CTA Card
+    renderEndOfChapterCard(chapter);
+
     // Comments for this chapter
     renderComments(chapter.id);
 
-    // Update Nav buttons (Both bottom bar and right dock)
+    // Update Nav buttons & Bookmark active state
     updateNavButtons();
+    updateBookmarkButtonState();
     el.selectChapterJump.value = chapter.id;
 
-    // Highlight active in drawer
-    document.querySelectorAll('.drawer-item').forEach(item => {
-      item.classList.toggle('active', parseInt(item.dataset.id, 10) === chapterId);
-    });
+    // Update drawer list badges & active item
+    renderDrawerList(el.searchChapterInput ? el.searchChapterInput.value : '');
 
-    // Reset Progress & Scroll
-    if (el.appHeader) {
-      el.appHeader.classList.remove('header-hidden');
-    }
+    // Reset or Restore Progress & Scroll
+    if (el.appHeader) el.appHeader.classList.remove('header-hidden');
+    if (el.floatingDock) el.floatingDock.classList.remove('dock-hidden');
     lastScrollY = 0;
-    updateProgressBar();
-    if (smoothScroll) {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    const progressMap = getProgressMap();
+    const savedProg = progressMap[chapterId];
+    if (restoreSavedScroll && savedProg && savedProg.pos > 0.03 && savedProg.pos < 0.96) {
+      requestAnimationFrame(() => {
+        scrollToRatio(savedProg.pos);
+        lastScrollY = Math.max(0, window.scrollY || document.documentElement.scrollTop);
+        updateProgressBar();
+        showToast(`📖 Đã khôi phục vị trí đọc (${Math.round(savedProg.pos * 100)}%)`);
+      });
     } else {
-      window.scrollTo(0, 0);
+      if (smoothScroll) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        window.scrollTo(0, 0);
+      }
+      updateProgressBar();
+    }
+  }
+
+  function renderEndOfChapterCard(chapter) {
+    if (!el.chapterEndCard) return;
+    const currentIndex = state.chapters.findIndex(c => c.id === chapter.id);
+    const nextChap = state.chapters[currentIndex + 1];
+
+    if (nextChap) {
+      const nextWords = getWordCount(nextChap);
+      const nextMins = getReadMinutes(nextWords);
+      el.chapterEndCard.innerHTML = `
+        <div class="end-card-inner">
+          <span class="end-card-eyebrow">Hết Chương ${chapter.number} • Tiếp theo</span>
+          <h3 class="end-card-title">${escapeHtml(nextChap.full_title || ('Chương ' + nextChap.number + ': ' + nextChap.title))}</h3>
+          <p class="end-card-meta">${escapeHtml(nextChap.arc || 'Chính Văn')} • ${nextWords.toLocaleString('vi-VN')} từ (~${nextMins} phút đọc)</p>
+          <button type="button" class="btn-end-card-next" id="btn-end-card-next">
+            <span>Đọc tiếp Chương ${nextChap.number}</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </div>
+      `;
+      const btnNextCard = document.getElementById('btn-end-card-next');
+      if (btnNextCard) {
+        btnNextCard.addEventListener('click', goToNextChapter);
+      }
+    } else {
+      el.chapterEndCard.innerHTML = `
+        <div class="end-card-inner end-card-complete">
+          <span class="end-card-eyebrow">🎉 Bạn đã đọc tới chương mới nhất</span>
+          <h3 class="end-card-title">Hết Chương ${chapter.number}: ${escapeHtml(chapter.title)}</h3>
+          <p class="end-card-meta">Hãy để lại bình luận bên dưới hoặc lưu dấu trang để theo dõi chương tiếp theo!</p>
+        </div>
+      `;
     }
   }
 
@@ -366,6 +544,18 @@
   // 4. Bookmarks Feature (🔖)
   // ==========================================================================
 
+  function updateBookmarkButtonState() {
+    if (!el.dockBtnBookmark) return;
+    const bookmarks = getStoredBookmarks();
+    const isBookmarked = bookmarks.some(b => b.chapterId === state.currentChapterId);
+    el.dockBtnBookmark.classList.toggle('bookmarked', isBookmarked);
+    el.dockBtnBookmark.setAttribute('aria-pressed', isBookmarked ? 'true' : 'false');
+    const labelEl = el.dockBtnBookmark.querySelector('.dock-label');
+    if (labelEl) {
+      labelEl.textContent = isBookmarked ? 'Đã lưu' : 'Lưu';
+    }
+  }
+
   function toggleBookmarkCurrentChapter() {
     const currentChap = state.chapters.find(c => c.id === state.currentChapterId);
     if (!currentChap) return;
@@ -374,7 +564,10 @@
     const existingIndex = bookmarks.findIndex(b => b.chapterId === currentChap.id);
 
     if (existingIndex !== -1) {
-      // Open bookmarks modal if already bookmarked
+      // Nếu đã lưu chương này, cập nhật vị trí cuộn mới nhất và mở danh sách Dấu trang
+      bookmarks[existingIndex].scrollY = Math.round(window.scrollY || 0);
+      bookmarks[existingIndex].ratio = Math.round(getScrollRatio() * 100);
+      localStorage.setItem('kalvin_bookmarks', JSON.stringify(bookmarks));
       openBookmarksModal();
       return;
     }
@@ -383,12 +576,14 @@
       chapterId: currentChap.id,
       title: currentChap.full_title,
       time: new Date().toLocaleDateString('vi-VN') + ' ' + new Date().toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' }),
-      scrollY: window.scrollY
+      scrollY: Math.round(window.scrollY || 0),
+      ratio: Math.round(getScrollRatio() * 100)
     };
 
     bookmarks.unshift(newBookmark);
     localStorage.setItem('kalvin_bookmarks', JSON.stringify(bookmarks));
-    showToast(`🔖 Đã lưu dấu trang: Chương ${currentChap.number}!`);
+    updateBookmarkButtonState();
+    showToast(`🔖 Đã lưu dấu trang: Chương ${currentChap.number} (${newBookmark.ratio}%)`);
   }
 
   function getStoredBookmarks() {
@@ -403,13 +598,13 @@
   function openBookmarksModal() {
     const bookmarks = getStoredBookmarks();
     if (bookmarks.length === 0) {
-      el.bookmarksList.innerHTML = '<div style="text-align: center; color: var(--text-muted); padding: 20px;">Bạn chưa lưu dấu trang nào. Nhấn biểu tượng 🔖 trên thanh công cụ bên phải để lưu chương đang đọc.</div>';
+      el.bookmarksList.innerHTML = '<div style="text-align: center; color: var(--text-muted); padding: 20px;">Bạn chưa lưu dấu trang nào. Nhấn nút <strong>Lưu</strong> trên thanh công cụ dưới cùng để lưu vị trí đang đọc.</div>';
     } else {
       el.bookmarksList.innerHTML = bookmarks.map((b, idx) => `
         <div class="bookmark-item" data-chapter-id="${b.chapterId}" data-scroll="${b.scrollY || 0}">
           <div class="bookmark-info">
             <span class="bookmark-title">${escapeHtml(b.title)}</span>
-            <span class="bookmark-date">Đã lưu: ${b.time}</span>
+            <span class="bookmark-date">Đã lưu: ${b.time}${typeof b.ratio === 'number' ? ` • Vị trí ${b.ratio}%` : ''}</span>
           </div>
           <button class="btn-del-bookmark" data-index="${idx}" title="Xóa dấu trang">&times;</button>
         </div>
@@ -420,9 +615,9 @@
           if (e.target.classList.contains('btn-del-bookmark')) return;
           const chapId = parseInt(item.dataset.chapterId, 10);
           closeBookmarksModal();
-          renderChapter(chapId, false);
+          renderChapter(chapId, false, false);
           const scrollPos = parseInt(item.dataset.scroll, 10) || 0;
-          setTimeout(() => window.scrollTo({ top: scrollPos, behavior: 'smooth' }), 100);
+          setTimeout(() => window.scrollTo({ top: scrollPos, behavior: 'smooth' }), 80);
         });
       });
 
@@ -433,6 +628,7 @@
           const bms = getStoredBookmarks();
           bms.splice(idx, 1);
           localStorage.setItem('kalvin_bookmarks', JSON.stringify(bms));
+          updateBookmarkButtonState();
           openBookmarksModal();
           showToast('Đã xóa dấu trang.');
         });
@@ -440,12 +636,14 @@
     }
 
     el.bookmarksModal.classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
+    pushOverlayState();
+    syncBodyScrollLock();
   }
 
   function closeBookmarksModal() {
     el.bookmarksModal.classList.add('hidden');
-    document.body.style.overflow = '';
+    syncBodyScrollLock();
+    releaseOverlayState();
   }
 
   // ==========================================================================
@@ -532,6 +730,7 @@
       return;
     }
 
+    const progressMap = getProgressMap();
     let currentArc = null;
     const htmlParts = [];
 
@@ -544,15 +743,25 @@
 
       const isActive = ch.id === state.currentChapterId;
       const hasIllus = (ch.illustrations && ch.illustrations.length > 0) || (ch.elements && ch.elements.some(e => e.type === 'image'));
-      const wordCountK = Math.round(ch.word_count / 100) / 10;
+      const wordCountK = Math.round(getWordCount(ch) / 100) / 10;
+      const prog = progressMap[ch.id];
+      const isRead = prog && prog.max >= 0.9;
+      const inProgressPct = (!isRead && prog && prog.pos > 0.03) ? Math.round(prog.pos * 100) : 0;
+
+      let statusHtml = `<span class="drawer-item-badge">${wordCountK}k từ</span>`;
+      if (isRead) {
+        statusHtml = `<span class="drawer-item-badge drawer-badge-done" title="Đã đọc xong">✓ Đã đọc</span>`;
+      } else if (inProgressPct > 0) {
+        statusHtml = `<span class="drawer-item-badge drawer-badge-reading" title="Đang đọc dở">${inProgressPct}%</span>`;
+      }
 
       htmlParts.push(`
-        <div class="drawer-item ${isActive ? 'active' : ''}" data-id="${ch.id}">
+        <div class="drawer-item ${isActive ? 'active' : ''} ${isRead ? 'drawer-item-read' : ''}" data-id="${ch.id}">
           <div class="drawer-item-title">
             <span>${escapeHtml(ch.full_title)}</span>
             ${hasIllus ? '<span title="Có ảnh minh họa">🖼️</span>' : ''}
           </div>
-          <span class="drawer-item-badge">${wordCountK}k từ</span>
+          ${statusHtml}
         </div>
       `);
     });
@@ -575,37 +784,67 @@
   }
 
   function openDrawer() {
+    renderDrawerList(el.searchChapterInput ? el.searchChapterInput.value : '');
     el.drawerMenu.classList.add('active');
-    document.body.style.overflow = 'hidden';
-    el.searchChapterInput.focus();
+    pushOverlayState();
+    syncBodyScrollLock();
+
+    // Cuộn mục lục tới đúng chương đang đọc để người dùng không phải tìm trong 34+ chương
+    requestAnimationFrame(() => {
+      const activeItem = el.drawerList.querySelector('.drawer-item.active');
+      if (activeItem && typeof activeItem.scrollIntoView === 'function') {
+        activeItem.scrollIntoView({ block: 'center', behavior: 'instant' });
+      }
+      // Chỉ tự động focus ô tìm kiếm trên máy tính (tránh bật bàn phím ảo che mất nửa màn hình điện thoại)
+      if (!isTouchDevice && el.searchChapterInput) {
+        el.searchChapterInput.focus();
+      }
+    });
   }
 
   function closeDrawer() {
     el.drawerMenu.classList.remove('active');
-    document.body.style.overflow = '';
+    syncBodyScrollLock();
+    releaseOverlayState();
   }
 
   function toggleSettings() {
+    const willOpen = el.settingsPanel.classList.contains('hidden');
     el.settingsPanel.classList.toggle('hidden');
+    if (willOpen) {
+      pushOverlayState();
+    } else {
+      releaseOverlayState();
+    }
   }
 
   function openInfoModal() {
     el.infoModal.classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
+    pushOverlayState();
+    syncBodyScrollLock();
   }
 
   function closeInfoModal() {
     el.infoModal.classList.add('hidden');
-    document.body.style.overflow = '';
+    syncBodyScrollLock();
+    releaseOverlayState();
   }
 
   // ==========================================================================
   // 7. Lightbox, Progress & Preferences
   // ==========================================================================
 
-  // Scroll Direction Tracker for Auto-Hiding Header
+  // Scroll Direction Tracker for Auto-Hiding Header & Dock
   let lastScrollY = Math.max(0, window.scrollY || document.documentElement.scrollTop);
   const SCROLL_THRESHOLD = 8;
+
+  function setChromeHidden(hidden) {
+    if (el.appHeader) el.appHeader.classList.toggle('header-hidden', hidden);
+    if (el.floatingDock) el.floatingDock.classList.toggle('dock-hidden', hidden);
+    if (hidden && el.settingsPanel && !el.settingsPanel.classList.contains('hidden')) {
+      el.settingsPanel.classList.add('hidden');
+    }
+  }
 
   function updateProgressBar() {
     const currentScrollY = Math.max(0, window.scrollY || document.documentElement.scrollTop);
@@ -614,27 +853,31 @@
     if (el.progressBar) {
       el.progressBar.style.width = `${progress}%`;
     }
+    if (el.headerProgress) {
+      el.headerProgress.textContent = `${Math.round(progress)}%`;
+    }
+
+    scheduleSaveProgress();
 
     if (!el.appHeader) return;
 
-    // Luôn hiển thị header khi ở gần đỉnh trang (<= 50px)
-    if (currentScrollY <= 50) {
-      el.appHeader.classList.remove('header-hidden');
+    const nearTop = currentScrollY <= 50;
+    const nearBottom = docHeight > 0 && (docHeight - currentScrollY <= 120);
+
+    // Luôn hiển thị thanh công cụ khi ở đầu chương hoặc sát cuối chương
+    if (nearTop || nearBottom) {
+      setChromeHidden(false);
       lastScrollY = currentScrollY;
       return;
     }
 
-    // Cuộn xuống (Scroll Down) -> Ẩn header
+    // Cuộn xuống (Scroll Down) -> Ẩn cả Header và Bottom Dock để đọc toàn màn hình
     if (currentScrollY > lastScrollY + SCROLL_THRESHOLD && currentScrollY > 70) {
-      el.appHeader.classList.add('header-hidden');
-      // Đóng popup cài đặt nếu đang mở để tránh lơ lửng giữa màn hình
-      if (el.settingsPanel && !el.settingsPanel.classList.contains('hidden')) {
-        el.settingsPanel.classList.add('hidden');
-      }
-    } 
-    // Gạt lên (Scroll Up) -> Hiện header trở lại
+      setChromeHidden(true);
+    }
+    // Gạt lên (Scroll Up) -> Hiện Header và Bottom Dock trở lại
     else if (currentScrollY < lastScrollY - SCROLL_THRESHOLD) {
-      el.appHeader.classList.remove('header-hidden');
+      setChromeHidden(false);
     }
 
     lastScrollY = currentScrollY;
@@ -644,26 +887,30 @@
     el.lightboxImg.src = src;
     el.lightboxCaption.textContent = caption || '';
     el.lightbox.classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
+    pushOverlayState();
+    syncBodyScrollLock();
   }
 
   function closeLightbox() {
     el.lightbox.classList.add('hidden');
-    document.body.style.overflow = '';
+    syncBodyScrollLock();
+    releaseOverlayState();
   }
 
+  let toastTimer = null;
   function showToast(message) {
+    clearTimeout(toastTimer);
     el.toast.textContent = message;
     el.toast.classList.remove('hidden');
-    setTimeout(() => el.toast.classList.add('hidden'), 2500);
+    toastTimer = setTimeout(() => el.toast.classList.add('hidden'), 2600);
   }
 
   function loadPreferences() {
-    const savedTheme = localStorage.getItem('kalvin_theme') || 'sepia';
-    const savedFont = localStorage.getItem('kalvin_font') || 'font-serif';
-    const savedSize = parseInt(localStorage.getItem('kalvin_font_size'), 10) || 18;
-    const savedLineHeight = parseFloat(localStorage.getItem('kalvin_line_height')) || 1.8;
-    const savedWidth = parseInt(localStorage.getItem('kalvin_reader_width'), 10) || 780;
+    const savedTheme = localStorage.getItem('kalvin_theme') || DEFAULT_PREFS.theme;
+    const savedFont = localStorage.getItem('kalvin_font') || DEFAULT_PREFS.font;
+    const savedSize = parseInt(localStorage.getItem('kalvin_font_size'), 10) || DEFAULT_PREFS.fontSize;
+    const savedLineHeight = parseFloat(localStorage.getItem('kalvin_line_height')) || DEFAULT_PREFS.lineHeight;
+    const savedWidth = parseInt(localStorage.getItem('kalvin_reader_width'), 10) || DEFAULT_PREFS.readerWidth;
 
     applyTheme(savedTheme);
     applyFont(savedFont);
@@ -672,43 +919,67 @@
     applyReaderWidth(savedWidth);
   }
 
+  function resetPreferences() {
+    applyTheme(DEFAULT_PREFS.theme);
+    applyFont(DEFAULT_PREFS.font);
+    applyFontSize(DEFAULT_PREFS.fontSize);
+    applyLineHeight(DEFAULT_PREFS.lineHeight);
+    applyReaderWidth(DEFAULT_PREFS.readerWidth);
+    showToast('↺ Đã khôi phục cài đặt hiển thị mặc định');
+  }
+
   function applyTheme(theme) {
     state.theme = theme;
     el.body.classList.remove('theme-sepia', 'theme-dark', 'theme-light');
     el.body.classList.add(`theme-${theme}`);
     localStorage.setItem('kalvin_theme', theme);
     el.themeButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.theme === theme));
+    if (el.metaThemeColor && THEME_COLORS[theme]) {
+      el.metaThemeColor.setAttribute('content', THEME_COLORS[theme]);
+    }
   }
 
   function applyFont(font) {
-    state.font = font;
-    el.body.classList.remove('font-serif', 'font-sans');
-    el.body.classList.add(font);
-    localStorage.setItem('kalvin_font', font);
-    el.fontButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.font === font));
+    keepReadingPosition(() => {
+      state.font = font;
+      el.body.classList.remove('font-serif', 'font-sans');
+      el.body.classList.add(font);
+      localStorage.setItem('kalvin_font', font);
+      el.fontButtons.forEach(btn => btn.classList.toggle('active', btn.dataset.font === font));
+    });
   }
 
   function applyFontSize(size) {
-    state.fontSize = size;
-    document.documentElement.style.setProperty('--reader-font-size', `${size}px`);
-    el.fontSizeVal.textContent = `${size}px`;
-    el.fontSizeSlider.value = size;
-    localStorage.setItem('kalvin_font_size', size);
+    keepReadingPosition(() => {
+      state.fontSize = size;
+      document.documentElement.style.setProperty('--reader-font-size', `${size}px`);
+      el.fontSizeVal.textContent = `${size}px`;
+      el.fontSizeSlider.value = size;
+      localStorage.setItem('kalvin_font_size', size);
+    });
   }
 
   function applyLineHeight(lh) {
-    state.lineHeight = lh;
-    document.documentElement.style.setProperty('--reader-line-height', lh);
-    el.lineHeightVal.textContent = lh;
-    el.lineHeightSlider.value = lh;
-    localStorage.setItem('kalvin_line_height', lh);
+    keepReadingPosition(() => {
+      state.lineHeight = lh;
+      document.documentElement.style.setProperty('--reader-line-height', lh);
+      el.lineHeightVal.textContent = lh;
+      el.lineHeightSlider.value = lh;
+      localStorage.setItem('kalvin_line_height', lh);
+    });
   }
 
   function applyReaderWidth(w) {
-    state.readerWidth = w;
-    document.documentElement.style.setProperty('--max-content-width', `${w}px`);
-    localStorage.setItem('kalvin_reader_width', w);
-    el.widthButtons.forEach(btn => btn.classList.toggle('active', parseInt(btn.dataset.width, 10) === w));
+    keepReadingPosition(() => {
+      state.readerWidth = w;
+      document.documentElement.style.setProperty('--max-content-width', `${w}px`);
+      localStorage.setItem('kalvin_reader_width', w);
+      el.widthButtons.forEach(btn => btn.classList.toggle('active', parseInt(btn.dataset.width, 10) === w));
+      const widthLabel = document.getElementById('reader-width-val');
+      if (widthLabel) {
+        widthLabel.textContent = w <= 680 ? 'Gọn' : (w >= 900 ? 'Rộng' : 'Chuẩn');
+      }
+    });
   }
 
   // ==========================================================================
@@ -721,6 +992,13 @@
     el.btnCloseDrawer.addEventListener('click', closeDrawer);
     el.drawerOverlay.addEventListener('click', closeDrawer);
     el.searchChapterInput.addEventListener('input', (e) => renderDrawerList(e.target.value));
+
+    if (el.btnDrawerBookmarks) {
+      el.btnDrawerBookmarks.addEventListener('click', () => {
+        el.drawerMenu.classList.remove('active');
+        openBookmarksModal();
+      });
+    }
 
     if (el.btnToggleSettings) {
       el.btnToggleSettings.addEventListener('click', (e) => {
@@ -737,7 +1015,20 @@
       }
     });
 
-    // Right-Hand Floating Dock Buttons
+    // Chạm nhẹ vùng giữa màn hình để Bật/Tắt chế độ đọc toàn màn hình (Immersive Reader)
+    el.chapterContent.addEventListener('click', (e) => {
+      if (e.target.closest('a, button, .illustration-img-wrap, input, textarea')) return;
+      const sel = window.getSelection ? window.getSelection() : null;
+      if (sel && sel.toString().trim().length > 0) return;
+
+      const yRatio = e.clientY / window.innerHeight;
+      if (yRatio >= 0.25 && yRatio <= 0.75) {
+        const isHidden = el.appHeader && el.appHeader.classList.contains('header-hidden');
+        setChromeHidden(!isHidden);
+      }
+    });
+
+    // Right-Hand / Bottom Floating Dock Buttons
     el.dockBtnPrev.addEventListener('click', goToPrevChapter);
     el.dockBtnHome.addEventListener('click', openDrawer);
     el.dockBtnSettings.addEventListener('click', (e) => {
@@ -767,6 +1058,9 @@
     el.btnFontIncrease.addEventListener('click', () => applyFontSize(Math.min(28, state.fontSize + 1)));
     el.lineHeightSlider.addEventListener('input', (e) => applyLineHeight(parseFloat(e.target.value)));
     el.widthButtons.forEach(btn => btn.addEventListener('click', () => applyReaderWidth(parseInt(btn.dataset.width, 10))));
+    if (el.btnResetSettings) {
+      el.btnResetSettings.addEventListener('click', resetPreferences);
+    }
 
     // Bottom Navigation
     el.btnPrevChapter.addEventListener('click', goToPrevChapter);
@@ -776,9 +1070,10 @@
     // Scroll & Progress
     el.btnScrollTop.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
-      if (el.appHeader) el.appHeader.classList.remove('header-hidden');
+      setChromeHidden(false);
     });
     window.addEventListener('scroll', updateProgressBar, { passive: true });
+    window.addEventListener('beforeunload', saveChapterProgress);
 
     // Lightbox
     el.btnCloseLightbox.addEventListener('click', closeLightbox);
@@ -788,6 +1083,19 @@
 
     // Comments Form
     el.formComment.addEventListener('submit', handleCommentSubmit);
+
+    // Nút Back vật lý / cử chỉ vuốt cạnh trên điện thoại: đóng popup/mục lục thay vì thoát trang
+    window.addEventListener('popstate', () => {
+      if (anyOverlayOpen()) {
+        overlayHistoryActive = false;
+        el.drawerMenu.classList.remove('active');
+        el.infoModal.classList.add('hidden');
+        el.bookmarksModal.classList.add('hidden');
+        el.lightbox.classList.add('hidden');
+        el.settingsPanel.classList.add('hidden');
+        syncBodyScrollLock();
+      }
+    });
 
     // Keyboard Shortcuts
     document.addEventListener('keydown', (e) => {

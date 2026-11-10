@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" id="meta-theme-color" content="#ede7d9">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <title>Biên Niên Sử Tro Tàn: Kalvin Palace</title>
   
   <!-- Google Fonts: Literata, Inter, Merriweather -->
@@ -10,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
   
-  <link rel="stylesheet" href="css/style.css?v=20261101_1240">
+  <link rel="stylesheet" href="css/style.css?v=20261111_0300">
   <style>
     /* Critical Mobile Layout & Anti-Cache Fallbacks */
     html {
@@ -89,20 +92,33 @@
       -webkit-transform: translateZ(0) !important;
       transform: translateZ(0) !important;
     }
+    .floating-dock {
+      transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), background-color var(--transition-normal) !important;
+      will-change: transform;
+    }
+    .floating-dock.dock-hidden {
+      transform: translateY(110%) !important;
+      -webkit-transform: translateY(110%) !important;
+    }
     .dock-btn {
-      flex: 0 1 70px !important;
-      max-width: 72px !important;
-      height: 44px !important;
-      min-width: 36px !important;
+      flex: 1 1 0 !important;
+      max-width: 76px !important;
+      height: 52px !important;
+      min-width: 0 !important;
       display: flex !important;
+      flex-direction: column !important;
+      gap: 3px !important;
       align-items: center !important;
       justify-content: center !important;
       margin: 0 !important;
       padding: 0 !important;
     }
+    .reader-container {
+      padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)) !important;
+    }
     .settings-panel {
       position: fixed !important;
-      bottom: calc(56px + env(safe-area-inset-bottom, 0px)) !important;
+      bottom: calc(68px + env(safe-area-inset-bottom, 0px)) !important;
       left: 12px !important;
       right: 12px !important;
       margin: 0 auto !important;
@@ -113,7 +129,7 @@
     }
     .toast {
       position: fixed !important;
-      bottom: calc(60px + env(safe-area-inset-bottom, 0px)) !important;
+      bottom: calc(76px + env(safe-area-inset-bottom, 0px)) !important;
       left: 16px !important;
       right: 16px !important;
       margin: 0 auto !important;
@@ -145,6 +161,7 @@
     </div>
 
     <div class="header-right">
+      <span class="header-progress" id="header-progress" title="Tiến độ chương">0%</span>
       <button id="btn-open-publish" class="btn-publish" title="Đăng chương mới">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <line x1="12" y1="5" x2="12" y2="19"></line>
@@ -168,45 +185,57 @@
         <polygon points="11 19 2 12 11 5 11 19"></polygon>
         <polygon points="22 19 13 12 22 5 22 19"></polygon>
       </svg>
+      <span class="dock-label">Trước</span>
     </button>
 
     <!-- 2. Home / Table of Contents (🏠) -->
-    <button class="dock-btn" id="dock-btn-home" title="Trang chủ & Mục lục chương (🏠)" aria-label="Mục lục">
-      <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+    <button class="dock-btn" id="dock-btn-home" title="Mục lục chương" aria-label="Mục lục">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="8" y1="6" x2="21" y2="6"></line>
+        <line x1="8" y1="12" x2="21" y2="12"></line>
+        <line x1="8" y1="18" x2="21" y2="18"></line>
+        <circle cx="3.5" cy="6" r="1"></circle>
+        <circle cx="3.5" cy="12" r="1"></circle>
+        <circle cx="3.5" cy="18" r="1"></circle>
       </svg>
+      <span class="dock-label">Mục lục</span>
     </button>
 
     <!-- 3. Reading Settings (A) -->
-    <button class="dock-btn" id="dock-btn-settings" title="Tùy chỉnh đọc (A)" aria-label="Cài đặt đọc">
-      <span class="dock-letter-a">A</span>
+    <button class="dock-btn" id="dock-btn-settings" title="Tùy chỉnh hiển thị" aria-label="Cài đặt đọc">
+      <span class="dock-letter-a">Aa</span>
+      <span class="dock-label">Hiển thị</span>
     </button>
 
     <!-- 4. Novel Info (ℹ️) -->
-    <button class="dock-btn" id="dock-btn-info" title="Thông tin truyện (ℹ️)" aria-label="Thông tin truyện">
+    <button class="dock-btn" id="dock-btn-info" title="Thông tin truyện" aria-label="Thông tin truyện">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
       </svg>
+      <span class="dock-label">Giới thiệu</span>
     </button>
 
     <!-- 5. Bookmark (🔖) -->
-    <button class="dock-btn" id="dock-btn-bookmark" title="Đánh dấu trang (🔖)" aria-label="Đánh dấu trang">
+    <button class="dock-btn" id="dock-btn-bookmark" title="Đánh dấu trang" aria-label="Đánh dấu trang" aria-pressed="false">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
         <path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/>
       </svg>
+      <span class="dock-label">Lưu</span>
     </button>
 
     <!-- 6. Next Chapter (>>) -->
-    <button class="dock-btn" id="dock-btn-next" title="Chương tiếp theo (>>)" aria-label="Chương tiếp theo">
+    <button class="dock-btn" id="dock-btn-next" title="Chương tiếp theo" aria-label="Chương tiếp theo">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
         <polygon points="13 19 22 12 13 5 13 19"></polygon>
         <polygon points="2 19 11 12 2 5 2 19"></polygon>
       </svg>
+      <span class="dock-label">Sau</span>
     </button>
   </aside>
 
   <!-- Reading Customization Panel (Popup nổi lên trên thanh dock dưới cùng) -->
-  <div id="settings-panel" class="settings-panel hidden">
+  <div id="settings-panel" class="settings-panel hidden" role="dialog" aria-label="Tùy chỉnh hiển thị">
+    <div class="sheet-handle" aria-hidden="true"></div>
     <div class="settings-group">
       <label class="settings-label">Chế độ màu</label>
       <div class="theme-buttons">
@@ -244,7 +273,7 @@
       <input type="range" id="line-height-slider" min="1.4" max="2.4" step="0.1" value="1.8">
     </div>
 
-    <div class="settings-group">
+    <div class="settings-group settings-group-width">
       <div class="settings-slider-header">
         <label class="settings-label">Độ rộng trang</label>
         <span id="reader-width-val">Chuẩn</span>
@@ -255,6 +284,8 @@
         <button class="btn-width" data-width="920">Rộng</button>
       </div>
     </div>
+
+    <button type="button" id="btn-reset-settings" class="btn-reset-settings">↺ Khôi phục mặc định</button>
   </div>
 
   <!-- Table of Contents Drawer (Mục lục trượt) -->
@@ -266,6 +297,10 @@
           <h2 class="drawer-title">Mục Lục Chương</h2>
           <span class="drawer-meta" id="drawer-chapter-count">19 chương</span>
         </div>
+        <button id="btn-drawer-bookmarks" class="btn-drawer-bookmarks" title="Dấu trang đã lưu">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
+          <span>Dấu trang</span>
+        </button>
         <button id="btn-close-drawer" class="btn-icon" aria-label="Đóng mục lục">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -313,6 +348,8 @@
         <span class="meta-separator">-</span>
         <span id="chapter-word-count">Độ dài: 8,462 từ</span>
         <span class="meta-separator">-</span>
+        <span id="chapter-read-time">~40 phút đọc</span>
+        <span class="meta-separator">-</span>
         <span id="chapter-arc-name">Arc 1: Tuổi Thơ Nơi Nhà Palace</span>
       </div>
     </header>
@@ -322,6 +359,9 @@
       <!-- Paragraphs and inline images injected via JS -->
       <div class="loading-spinner">Đang tải nội dung chương...</div>
     </article>
+
+    <!-- End-of-chapter card (Đọc tiếp chương sau) -->
+    <section class="chapter-end-card" id="chapter-end-card" aria-live="polite"></section>
 
     <!-- Bottom Navigation Controls -->
     <nav class="chapter-nav-bottom" aria-label="Điều hướng chương">
@@ -512,7 +552,7 @@
 
   <!-- Scripts -->
   <script src="js/chapters-data.js?v=20261111_0220"></script>
-  <script src="js/app.js?v=20261111_0220"></script>
+  <script src="js/app.js?v=20261111_0300"></script>
   <script src="js/publish.js?v=20261101_1400"></script>
 </body>
 </html>
