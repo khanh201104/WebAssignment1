@@ -56,3 +56,4 @@
 - Chương 15: Cười khẩy khi Kalvin đỗ hệ nghiên cứu viền xám, không cấp một đồng lộ phí.
 - Chương 21 - 28: Hoang mang trước tin đồn Kalvin được Công chúa Celine để mắt, gửi thư yêu cầu Kalvin phải nộp báo cáo nghiên cứu về cho gia tộc nhưng bị phớt lờ hoàn toàn.
 - Chương 33: Nhận tin sét đánh Arthur gãy tay và sụp đổ tinh thần; vội vã gửi thư khẩn yêu cầu Thượng Viện tống khứ Kalvin ra vùng đất chết Manchester hòng dập tắt tai tiếng cho con trưởng và đoạn tuyệt quyền thừa kế của Kalvin.
+- Chương 34: Thế chấp 40% mỏ sắt phía Đông cho Ngân hàng Hoàng gia vay 8.000 vàng (lãi 12%/năm) để đút lót chạy tội cho Arthur; sai quản gia Gilder đem 50 vàng và Khế ước Đoạn tuyệt Quyền thừa kế xuống ép Kalvin ký nhưng bị Kalvin tương kế tựu kế miễn trừ nợ nần và đuổi cổ Gilder.

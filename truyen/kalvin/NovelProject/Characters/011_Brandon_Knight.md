@@ -55,3 +55,5 @@
 ### Nhật ký biến động
 - Chương 25: Đi cùng Công chúa Celine trong cuộc hội đàm bí mật với Kalvin tại Thư viện Ngầm.
 - Chương 28: Dẫn theo 10 Cấm Vệ Quân có mặt kịp thời tại Tầng Hầm Số Bảy, rút lệnh bài Hoàng gia xua đuổi Giáo sư Varner và đám lính gác của nhà Vane; chính thức thiết lập trạm gác 24/7 bảo vệ xưởng vũ khí.
+- Chương 29 - 33: Báo tin khẩn về kỳ khảo hạch Rừng Sương Muối; hộ tống Công chúa Celine vào rừng thu giữ tang vật và áp giải Varner, Julian, Arthur ra phiên điều trần Đại Sảnh Đường.
+- Chương 34: Cùng Đại tá Gerald tại Cục Quân Nhu chuẩn bị 15 xe ngựa bọc sắt, 60 ngựa Bắc cảnh và bốc xếp toàn bộ vật tư chiến lược cho đoàn lữ hành của Kalvin xuất phát đi Manchester.

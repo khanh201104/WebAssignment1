@@ -51,18 +51,18 @@
 - **Nghề nghiệp / Thân phận**: Nam tước Độc Lập Manchester / Thủ lĩnh Bộ Tứ Tro Tàn & Liên minh Viền Xám / Cựu học viên Thủ khoa Học viện Leicester.
 - **Tổ chức / Thế lực trực thuộc**: Lãnh địa Manchester (Ashen Hold) / Đồng minh chiến lược của Quân đoàn Cấm Vệ (Phe Công chúa Celine).
 - **Địa vị xã hội / Danh hiệu**: "Nam tước Độc Lập", "Thủ khoa toàn khóa Học viện Leicester", Lãnh chúa Ashen Hold.
-- **Tài sản đứng tên**: Quyền sử dụng vĩnh viễn Tầng Hầm Số Bảy; ngân sách 3.000 đồng vàng được Cấm Vệ Quân duyệt chi; chìa khóa Tầng Lưu Trữ Cơ Mật Tháp Chuông Đen; mẫu thử nghiệm Mũi khoan chấn động lõi kép; tài liệu địa chất cổ Ashen Hold.
+- **Tài sản đứng tên**: Lãnh địa Nam tước Độc lập Manchester (Ashen Hold); Ấn Tín Nam Tước bằng thép đen - đồng thau; Mật Lệnh Thông Hành Đặc Quyền miễn thuế của Công chúa Celine; đoàn lữ hành 15 xe ngựa bọc sắt, 60 ngựa thồ Bắc cảnh, 200 bao lúa mạch đen, 50 thùng muối mỏ, 5 tấn than cốc, 3 tấn phôi sắt, 200 đồng vàng tiền lẻ; toàn bộ máy móc lò cao tần Tầng Hầm Số Bảy; khăn tay hoa cúc kỷ vật của mẹ Elena.
 - **Năng lực / Kỹ năng**:
   - *Vi mô Ma Lực (Micro-Mana Control)*: Cấp độ vi mô tuyệt đối, điều khiển các phân tử năng lượng không cần niệm chú (Silent Casting).
   - *Thuật thức Cấu trúc & Giả kim*: Thành thạo thiết kế mạch rune 3 chiều, cân bằng ứng suất ma lực nội tại (Internal Mana Stress), hợp kim Sắt Đen - Đồng Thau.
   - *Tư duy Chiến lược & Quản trị*: Phân tích kinh tế, địa chất, địa nhiệt, logistics quân sự và cân bằng chính trị.
 - **Tình trạng hôn nhân & Con cái**: Độc thân.
 - **Mạng lưới quan hệ nhân vật**:
-  - Rumy Charlotte — Tình bạn tri kỷ / Người thân duy nhất — Hảo cảm 98/100 — Mỏ neo nhân tính giữ Kalvin khỏi ranh giới tàn độc.
-  - Roy Kane — Huynh đệ sinh tử / Kỵ sĩ tiên phong — Hảo cảm 95/100 — Tin tưởng tuyệt đối vào khả năng chiến đấu của Roy.
-  - Finn Thorne — Cánh tay kỹ thuật / Tổng công trình sư — Hảo cảm 88/100 — Đồng điệu về tầm nhìn công nghệ phục vụ sản xuất.
-  - Celine Leicester — Đồng minh chính trị chiến lược — Hảo cảm 72/100 — Tôn trọng lẫn nhau như hai kỳ thủ sòng phẳng.
-  - Roderick Palace — Cha ruột / Kẻ thù tư tưởng — Hảo cảm 0/100 — Cắt đứt quan hệ phụ tử.
+  - Rumy Charlotte — Tình bạn tri kỷ / Người thân duy nhất — Hảo cảm 99/100 — Mỏ neo nhân tính giữ Kalvin khỏi ranh giới tàn độc.
+  - Roy Kane — Huynh đệ sinh tử / Kỵ sĩ tiên phong — Hảo cảm 96/100 — Tin tưởng tuyệt đối vào khả năng chiến đấu của Roy.
+  - Finn Thorne — Cánh tay kỹ thuật / Tổng công trình sư — Hảo cảm 92/100 — Đồng điệu về tầm nhìn công nghệ phục vụ sản xuất.
+  - Celine Leicester — Đồng minh chính trị - quân sự chiến lược — Hảo cảm 78/100 — Ký kết Khế ước Tháp Chuông Đen, cộng sinh quyền lực Bắc - Nam.
+  - Roderick Palace — Cha ruột / Đã ký khế ước đoạn tuyệt — Hảo cảm 0/100 — Hoàn toàn cắt đứt quan hệ huyết thống và miễn trừ liên đới nợ nần.
   - Julian Vane / Arthur Palace — Kẻ thù đối địch — Hảo cảm -100/100 — Mục tiêu sẽ bị nghiền nát trong kỳ khảo hạch năm 3.
 
 ---
@@ -86,3 +86,4 @@
 | Ch.31 | Bắn mù mắt và xuyên yết hầu hạ gục Băng Cốt Ma Hùng cấp 5 cứu mạng Arthur; phối hợp cùng Bộ Tứ đập tan bầy ma thú; đối diện Celine trước xác chúa tể Rừng Sương Muối | Khẳng định uy lực vũ khí ma đạo trước mặt Cấm Vệ và Hội Đồng Khảo Hạch; hoàn toàn đè bẹp Arthur |
 | Ch.32 | Xuất trình mảnh đỉnh đồng bóc trần tội chứng bẫy dụ thú của nhà Vane; chứng kiến Ban Giám Khảo xác nhận Thủ khoa tuyệt đối; nhận lời cảnh báo của Celine và tuyên bố Ashen Hold là thành trì bất khả xâm phạm | Giành thắng lợi tuyệt đối kỳ khảo hạch; chính thức bước vào tư thế sẵn sàng tiếp quản lãnh địa Manchester |
 | Ch.33 | Trình diện mảnh vỡ gia huy Vane và sổ điều chuyển vật tư tại phiên điều trần Đại Sảnh Đường, phế truất Varner; chính thức nhận sắc phong Nam tước Độc Lập Manchester cùng quyền di dân 30 nhân sự; họp bàn tại Tầng Hầm Số Bảy chuẩn bị tiến về phương Bắc | Nhận tước vị Nam tước Độc Lập, bước vào quỹ đạo xây dựng thế lực tự chủ (Kingdom Building) |
+| Ch.34 | Ký khế ước đoạn tuyệt quyền thừa kế (kèm điều khoản miễn trừ nợ nần của nhà Palace) và đuổi cổ quản gia Gilder; quy đổi 5.400 vàng chiến lợi phẩm thành 15 xe vật tư chiến lược; hội đàm trên đỉnh Tháp Chuông Đen với Celine nhận Ấn Tín Nam Tước & Mật lệnh miễn thuế; tạm biệt Phố Xám và chỉ huy đoàn xe xuất phát đi Manchester | Cắt đứt hoàn toàn với nhà Palace; nắm giữ Ấn Tín thép đen và hậu cần lớn, chính thức lên đường mở màn kỷ nguyên Manchester |
