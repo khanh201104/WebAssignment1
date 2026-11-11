@@ -154,6 +154,8 @@ Nơi làn sương lam quét qua, mùi ngọt lịm cay nồng của Dạ U Thả
 
 Chúng bắt đầu cụp đuôi, gầm gừ rút lui vào rừng sâu.
 
+![Roy Kane vung Trọng Kiếm Sắt Đen chém đôi Ma Báo Răng Kiếm trong khi Rumy Charlotte dựng kết giới Thánh thuật thanh tẩy sương độc](assets/images/chuong_31_2.png)
+
 Chỉ còn lại con Băng Cốt Ma Hùng đang điên cuồng giãy giụa trong đau đớn tột cùng.
 
 Nhận ra nguồn cơn của mọi vết thương đến từ thiếu niên viền xám đang tiến lại gần, con ma gấu gầm lên tiếng gầm cuối cùng của kẻ sắp chết. Nó dồn toàn bộ ma lực băng giá còn lại trong cơ thể, những chiếc gai xương trên lưng phát ra ánh sáng xanh lam lạnh ngắt, tạo thành một cơn bão gai băng nhọn hoắt quét hình cánh quạt về phía Kalvin!

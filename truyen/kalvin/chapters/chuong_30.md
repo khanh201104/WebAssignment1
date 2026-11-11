@@ -98,6 +98,8 @@ Không gian tĩnh lặng nghẹt thở, chỉ có tiếng gió rít qua khe đá
 
 Hơn ba mươi học viên viền xám đi sau lưng Kalvin bắt đầu run rẩy. Hơi lạnh ngấm qua lớp giày da mỏng khiến ngón chân họ tê dại, trong khi nỗi sợ hãi về ma thú cấp 5 vô hình trong màn sương khiến hơi thở của họ trở nên dồn dập, hổn hển.
 
+![Đoàn khảo sát ba mươi học viên viền xám dưới sự dẫn dắt của Bộ Tứ Tro Tàn tiến vào Rừng Sương Muối](assets/images/chuong_30_1.png)
+
 "Kalvin... Chúng ta đang đi đâu thế này?" Một học viên tên là Toby, thiếu niên gầy gò chuyên về ma pháp Phong cấp 1, đánh bạo bước lên hỏi, giọng run bần bật. "Hẻm núi Vực Đá Răng Cưa nằm ở nhánh đường trũng phía dưới kia mà? Sao cậu lại dẫn chúng ta leo lên dốc đá dựng đứng này?"
 
 Kalvin dừng bước dưới bóng của một tảng đá hoa cương khổng lồ. Cậu quay lại nhìn toàn bộ nhóm học viên nghèo đang run rẩy vì đói và rét.
@@ -207,6 +209,8 @@ Một tiếng sấm nén khô khốc, đanh thép nổ vang giữa hẻm núi.
 Một tia chớp lam thẫm rạch ngang màn sương muối mờ đục với tốc độ vượt xa tầm mắt con người.
 
 Cách đó tám mươi bước chân, chiếc đỉnh đồng lớn nhất bỗng chốc nổ tung thành hàng trăm mảnh vụn kim loại. Viên đạn sắt đen nén nhiệt ba mươi bảy chu kỳ bắn xuyên qua thành đỉnh đồng dày hai phân, kích nổ toàn bộ ma lực nhiệt lượng tích tụ bên trong buồng đốt, tạo nên một quả cầu lửa khổng lồ hất văng cả ba tên lính đánh thuê xuống tuyết!
+
+![Kalvin Palace ngắm bắn nổ đỉnh đồng Dạ U Thảo trên gờ đá bazan, đảo ngược đàn ma thú về phía tháp quan sát quý tộc](assets/images/chuong_30_2.png)
 
 Toàn bộ tinh dầu Dạ U Thảo đang cháy dở bị sóng xung kích thổi ngược trở lại, phủ kín lên người ba tên lính đánh thuê và hắt thẳng về phía lối thoát duy nhất của hẻm núi — nơi con đường mòn dẫn ngược về phía tháp canh của Arthur Palace và Julian Vane!
 
