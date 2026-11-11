@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Tủ Truyện Chữ">
+  <rect width="32" height="32" rx="7" fill="#7c411c"/>
+  <g fill="none" stroke="#fffdf9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 9.5A1.5 1.5 0 0 1 8.5 8H13a2 2 0 0 1 2 2v13a1.5 1.5 0 0 0-1.5-1.5H9A2 2 0 0 0 7 23.5Z"/>
+    <path d="M25 9.5A1.5 1.5 0 0 0 23.5 8H19a2 2 0 0 0-2 2v13a1.5 1.5 0 0 1 1.5-1.5H23a2 2 0 0 1 2 1.5Z"/>
+  </g>
+</svg>
