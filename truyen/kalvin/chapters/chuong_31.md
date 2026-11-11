@@ -104,6 +104,8 @@ Arthur mở bừng mắt, nhìn thấy con quái vật đồ sộ đang loạng 
 
 Và từ trên sườn dốc đá phủ tuyết trắng xóa, bốn bóng người viền xám đang lao xuống như những bóng ma săn mồi giữa bão tuyết.
 
+![Kalvin Palace điềm tĩnh bắn súng ma đạo giải cứu Arthur trước móng vuốt Băng Cốt Ma Hùng](assets/images/chuong_31_1.png)
+
 ***
 
 "Đội hình chữ V! Finn giữ khoảng cách bốn mươi bước yểm trợ súng dài! Rumy triển khai Thanh U Tán khử mùi! Roy, cản cánh trái!"
